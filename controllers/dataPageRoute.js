@@ -9,7 +9,7 @@ let fetchError = require("../dataRoutes/fetchError.js");
 
 
 router.get("/", (req, res) => {
-
+/*
 	const url = "https://api.stlouisfed.org/fred/";
 	const criteria = "series/observations?series_id=SP500&";
 	const timePeriod = "observation_start=2019-09-20&";
@@ -18,7 +18,7 @@ router.get("/", (req, res) => {
 	const display = "&file_type=json";
 
 	let path = url + criteria + timePeriod + keyIntro + entrance + display;
-
+*/
 //	let path = "https://api.stlouisfed.org/fred/category/related?category_id=32073&api_key=" + entrance + "&file_type=json";
 //	let path = "https://api.stlouisfed.org/fred/series/observations?series_id=SP500&observation_start=2019-09-20&api_key=" + entrance + "&file_type=json";
 

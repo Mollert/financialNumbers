@@ -1,3 +1,4 @@
 node_modules/
+unUsed/
 .env
-image/unUsed/
+testIdeas.html

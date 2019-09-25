@@ -42,7 +42,7 @@ html, body {
 #introPallet {
 	width: 60vw;
 	height: 14rem;
-	font-family: OBO; 
+	font-family: OBO;
 	background: darkslateblue;
 	border-radius: 2rem;
 	border: 1rem solid aliceblue;
@@ -64,15 +64,24 @@ html, body {
 #spPallet {
 	width: 70vw;
 	height: 30rem;
+	font-family: Jac;	
 	margin-top: 4rem;
 	background: aliceblue;
 	border-radius: 2rem;
 	border: 1rem solid darkslateblue;
 }
 
+#spTitle {
+	font-size: 2.0rem;
+	text-align: center;
+	text-decoration: underline;
+	padding: 1.4rem 0;
+}
 
-
-
+#spCloses {
+	font-size: 1.4rem;
+	text-align: center;
+}
 
 
 
