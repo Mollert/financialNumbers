@@ -2,6 +2,10 @@
 
 const treasury10vs3 = [
 	{
+		date: 201909,
+		three: 0,
+		ten: 0
+	},{
 		date: 201908,
 		three: 1.99,
 		ten: 1.50

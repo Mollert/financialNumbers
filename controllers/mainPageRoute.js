@@ -5,9 +5,13 @@ const fetch = require("node-fetch");
 const router = express.Router();
 
 let fetchError = require("../dataRoutes/fetchError.js");
-let date = require("../dataRoutes/createDates.js");
 
+let date = require("../dataRoutes/createDates.js");
 let today = date.today;
+
+let spChartData = require("../dataRoutes/spChartData.js");
+
+let closes = [];
 
 const spHigh = {
 	value: 3025.86,	
@@ -44,11 +48,12 @@ router.get("/", (req, res) => {
 		latestClose.percentage = (latestClose.percentage * 100).toFixed(1);
 
 		for (let i = reply.observations.length - 1 ; i > (reply.observations.length - 7) ; i--) {
-			console.log(reply.observations[i].value);
+			closes.push(reply.observations[i].value);
 		}
 
+		let spPlacement = spChartData.prepareChartData(closes);
 
- 		res.render("mainPage", {today, spHigh, latestClose});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement});
 	}).catch(error => {
 		res.render("errorPage", {error});
 		console.error(error);

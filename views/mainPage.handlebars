@@ -10,30 +10,56 @@
 			<div class="endStrip"></div>
 		</div>
 
-		<div id="spPallet">
+		<div id="spPallet" class="displayPallet flexColumn">
 			<div id="spTitle">S&P 500</div>
-			<div id="spCloses">Record high of {{spHigh.value}} on {{spHigh.date}}.<br />
-				Most recent close: {{latestClose.value}}, {{latestClose.percentage}}% off the high.
+			<div class="spCloses">Record high of {{spHigh.value}} on {{spHigh.date}}.</div>
+			<div class="spCloses">Most recent close: {{latestClose.value}}, {{latestClose.percentage}}% off the high.</div>
+			<div id="barTitle">-- Last five closes --</div>
+			<div id="barChart" style="width: {{spPlacement.divWidth}}rem;">
+
+				<div id="barFiveValue" style="margin-left: {{spPlacement.barFiveValueLeft}}rem;">{{spPlacement.barFiveValue}}</div>
+
+				<div id="groupFive" class="barPositionOne" style="margin-left: {{spPlacement.barFiveLeft}}rem;">
+					<div id="beforeFive" class="barText before">{{spPlacement.barFiveBefore}}</div>
+					<div id="barFive" class="bars" style="width: {{spPlacement.barFiveWidth}}rem; background: {{spPlacement.barFiveBackground}}"></div>
+					<div id="afterFive" class="barText after">{{spPlacement.barFiveAfter}}</div>
+				</div>
+
+				<div id="groupFour" class="barPosition" style="margin-left: {{spPlacement.barFourLeft}}rem;">
+					<div id="beforeFour" class="barText before">{{spPlacement.barFourBefore}}</div>
+					<div id="barFour" class="bars" style="width: {{spPlacement.barFourWidth}}rem; background: {{spPlacement.barFourBackground}}"></div>
+					<div id="afterFour" class="barText after">{{spPlacement.barFourAfter}}</div>
+				</div>
+
+				<div id="groupThree" class="barPosition" style="margin-left: {{spPlacement.barThreeLeft}}rem;">
+					<div id="beforeThree" class="barText before">{{spPlacement.barThreeBefore}}</div>
+					<div id="barThree" class="bars" style="width: {{spPlacement.barThreeWidth}}rem; background: {{spPlacement.barThreeBackground}}"></div>
+					<div id="afterThree" class="barText after">{{spPlacement.barThreeAfter}}</div>
+				</div>
+
+				<div id="groupTwo" class="barPosition" style="margin-left: {{spPlacement.barTwoLeft}}rem;">
+					<div id="beforeTwo" class="barText before">{{spPlacement.barTwoBefore}}</div>
+					<div id="barTwo" class="bars" style="width: {{spPlacement.barTwoWidth}}rem; background: {{spPlacement.barTwoBackground}}"></div>
+					<div id="afterTwo" class="barText after">{{spPlacement.barTwoAfter}}</div>
+				</div>
+
+				<div id="groupOne" class="barPosition" style="margin-left: {{spPlacement.barOneLeft}}rem;">
+					<div id="beforeOne" class="barText before">{{spPlacement.barOneBefore}}</div>
+					<div id="barOne" class="bars" style="width: {{spPlacement.barOneWidth}}rem; background: {{spPlacement.barOneBackground}}"></div>
+					<div id="afterOne" class="barText after">{{spPlacement.barOneAfter}}</div>
+				</div>
+
+				<div id="barOneValue" style="margin-left: {{spPlacement.barOneValueLeft}}rem;">{{spPlacement.barOneValue}}</div>
+
 			</div>
-
-
+			<div id="spMoreData" class="flexRow">
+				<div id="spButtonTitle">There is more data with just a click.</div>
+				<form id="spButtonHolder" action="/spData" method="GET">
+					<button type="submit" id="spButton">S&P Data</button>
+				</form>
+			</div>
 		</div>
+		<div id="earningsPallet" class="displayPallet flexColumn">
+			<div id="spTitle">S&P Earnings</div>
+		</div>		
 	</div>
-
-
-
-
-
-
-
-
-
-
-	<form id="buttonHolder" action="/apiData" method="GET">
-		<button type="submit" id="getData">Get<br />the<br />Data</button>
-	</form>
-
-	<script src="/javascript/mainPage.js"></script>
-
-
-

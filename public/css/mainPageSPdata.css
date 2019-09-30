@@ -1,0 +1,83 @@
+
+#spPallet {
+	height: 46rem;
+}
+
+#spTitle {
+	font-size: 2.0rem;
+	text-decoration: underline;
+	padding: 1.4rem 0;
+}
+
+.spCloses {
+	font-size: 1.4rem;
+
+}
+
+#barTitle {
+	font-size: 1.2rem;
+}
+
+#barChart {
+	height: 14rem;
+}
+
+#barFiveValue {
+	font-size: 1rem;
+	margin-top: 0.4rem;
+}
+
+.barPositionOne {
+	display: flex;
+}
+
+.barPosition {
+	display: flex;
+	margin-top: 0.4rem;
+}
+
+.barText {
+	height: 1.8rem;
+	width: 4.6rem;
+	display: flex;
+	align-items: center;
+}
+
+.before {
+	justify-content: flex-end;
+	padding-right: 0.4rem;
+}
+
+.bars {
+	height: 1.8rem;
+}
+
+.after {
+	padding-left: 0.4rem;
+}
+
+#barOneValue {
+	font-size: 1rem;
+}
+
+#spMoreData {
+	align-self: flex-end;
+	font-size: 1.2rem;
+}
+
+#spButtonHolder {
+	margin: 0 2rem 0 1rem;
+}
+
+#spButton {
+	font-size: 1.0rem;
+	font-weight: bold;
+	padding: 0.4rem 0.8rem;
+	background-color: chocolate;
+}
+
+
+
+#earningsPallet {
+	height: 18rem;	
+}

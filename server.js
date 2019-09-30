@@ -22,11 +22,11 @@ app.set("view engine", "handlebars");
 app.set("views", path.join(__dirname ,"views"));
 
 const mainPage = require("./controllers/mainPageRoute.js");
-const dataPage = require("./controllers/dataPageRoute.js");
+const spDataPage = require("./controllers/spDataPageRoute.js");
 const errorPage = require("./controllers/errorPageRoute.js");
 
 app.use("/", mainPage);
-app.use("/apiData", dataPage);
+app.use("/spData", spDataPage);
 app.use("/error", errorPage);
 
 app.listen(port, () => console.log(`Tuned In and Turned On to port ${port}`));

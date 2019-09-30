@@ -61,49 +61,11 @@ html, body {
 	font-size: 2.6rem;
 }
 
-#spPallet {
+.displayPallet {
 	width: 70vw;
-	height: 30rem;
 	font-family: Jac;	
 	margin-top: 4rem;
 	background: aliceblue;
 	border-radius: 2rem;
 	border: 1rem solid darkslateblue;
-}
-
-#spTitle {
-	font-size: 2.0rem;
-	text-align: center;
-	text-decoration: underline;
-	padding: 1.4rem 0;
-}
-
-#spCloses {
-	font-size: 1.4rem;
-	text-align: center;
-}
-
-
-
-
-
-
-
-
-
-#buttonHolder {
-	display: flex;
-	justify-content: center;
-	margin: 2rem 0 0 0;		
-}
-
-#getData {
-	width: 10rem;
-	height: 10rem;
-	font-size: 1.8rem;
-	font-weight: bold;
-	background-color: cornflowerblue;
-	color: black;
-	border-radius: 50%;
-	border: 0.4rem solid black;
 }

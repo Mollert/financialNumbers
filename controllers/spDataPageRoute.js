@@ -37,7 +37,7 @@ router.get("/", (req, res) => {
 		console.error(error);
 	})
 */
- 	res.render("dataPage");
+ 	res.render("spDataPage");
  });
 
 
