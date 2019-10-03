@@ -9,7 +9,7 @@ html, body {
 
 #backdrop {
 	width: 100vw;
-	height: 70rem;
+	height: 100rem;
 	background: linear-gradient( rgba(65,105,225,0.8),
 		rgba(65,105,225,0.8)),
 	    url("/image/backdropData.png");
@@ -68,4 +68,10 @@ html, body {
 	background: aliceblue;
 	border-radius: 2rem;
 	border: 1rem solid darkslateblue;
+}
+
+.palletTitle {
+	font-size: 2.0rem;
+	text-decoration: underline;
+	padding: 1.4rem 0;
 }

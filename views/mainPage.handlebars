@@ -11,7 +11,7 @@
 		</div>
 
 		<div id="spPallet" class="displayPallet flexColumn">
-			<div id="spTitle">S&P 500</div>
+			<div class="palletTitle">S&P 500</div>
 			<div class="spCloses">Record high of {{spHigh.value}} on {{spHigh.date}}.</div>
 			<div class="spCloses">Most recent close: {{latestClose.value}}, {{latestClose.percentage}}% off the high.</div>
 			<div id="barTitle">-- Last five closes --</div>
@@ -60,6 +60,28 @@
 			</div>
 		</div>
 		<div id="earningsPallet" class="displayPallet flexColumn">
-			<div id="spTitle">S&P Earnings</div>
-		</div>		
+			<div class="palletTitle">S&P Earning</div>
+			<div class="latestEarnings">For the most recent quarter ending in {{spEarnings.recentDate}}.</div>	
+			<div class="latestEarnings">The S&P earnings where {{spEarnings.recentEarnings}}, a P/E of {{spEarnings.recentPE}}.</div>		
+			<div class="latestEarnings">That's a P/E of {{spEarnings.recentTTM}} for the trailing twelve months (TTM).</div>
+			<div id="compareTitle">Compare that with these TTM.</div>
+			<div class="flexRow">
+				<div class="comparisons flexColumn">
+					<div class="priorNumber">{{spEarnings.oneYearTTM}}</div>
+					<div class="priorTitle">One year ago</div>
+				</div>
+				<div class="comparisons flexColumn">
+					<div class="priorNumber">{{spEarnings.twoYearTTM}}</div>
+					<div class="priorTitle">Two years ago</div>
+				</div>
+				<div class="comparisons flexColumn">
+					<div class="priorNumber">{{spEarnings.fiveYearTTM}}</div>
+					<div class="priorTitle">Five years ago</div>
+				</div>
+				<div class="comparisons flexColumn">
+					<div class="priorNumber">{{spEarnings.allYearTTM}}</div>
+					<div class="priorTitle">Since 2000</div>
+				</div>
+			</div>
+		</div>	
 	</div>

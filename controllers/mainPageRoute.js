@@ -10,8 +10,9 @@ let date = require("../dataRoutes/createDates.js");
 let today = date.today;
 
 let spChartData = require("../dataRoutes/spChartData.js");
-
 let closes = [];
+
+let spEarnings = require("../dataRoutes/earningsData.js");
 
 const spHigh = {
 	value: 3025.86,	
@@ -53,7 +54,7 @@ router.get("/", (req, res) => {
 
 		let spPlacement = spChartData.prepareChartData(closes);
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings});
 	}).catch(error => {
 		res.render("errorPage", {error});
 		console.error(error);

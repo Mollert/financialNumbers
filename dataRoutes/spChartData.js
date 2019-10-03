@@ -1,15 +1,6 @@
 
 //let closes = ["2966.6", "2991.78", "2992.07", "3006.79", "3006.73", "3005.7"];
 
-let gaps = [];
-let gapsPos = [];
-let gapTally = 0;
-
-let overallSpan = 0;
-
-let posSide = 0;
-let negSide = 0;
-
 let spPlacement = {
 	divWidth: 0,
 	barFiveValueLeft: 0,
@@ -53,6 +44,14 @@ const whichBackground = (sign) => {
 
 
 const prepareChartData = (values) => {
+	let gaps = [];
+	let gapsPos = [];
+	let gapTally = 0;
+
+	let overallSpan = 0;
+
+	let posSide = 0;
+	let negSide = 0;
 // Creating the difference between the closes.  Turn into a 2 place decimal number
 	for ( let i = 5 ; i > 0 ; i--) {
 		let transfer = values[i - 1] - values[i];
