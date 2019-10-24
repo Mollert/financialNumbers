@@ -96,4 +96,60 @@
 
 .priorTitle {
 	font-size: 1.2rem;
-}	
+}
+
+
+/*Yield Curve Pallet*/
+#inversionPallet {
+	height: 35rem;
+}
+		
+#invertInfo {
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 0 4rem ;
+}
+
+#qHeader {
+	font-size: 1.4rem;
+	padding: 0.8rem 0 0.2rem 0 ;
+}
+
+.aQuarter {
+	width: 10rem;
+	height: 5rem;	
+}
+
+/*Unemployment Pallet*/
+#employPallet {
+	height: 16rem;
+}
+
+#currentRate {
+	font-size: 1.4rem;
+}
+
+#rateGapTitle {
+	font-size: 1.6rem;
+	padding: 0.4rem 0;
+}
+
+.gapInfo {
+	font-size: 1.2rem;
+}
+
+#currentGap {
+	font-size: 1.4rem;
+	padding: 0.4rem 0 0 0;
+}
+
+
+/*CPI Pallet*/
+#cpiPallet {
+	height: 12rem;
+}
+
+#cpiCurrent {
+	font-size: 1.4rem;	
+	padding: 0 0 0.4rem 0;
+}

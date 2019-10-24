@@ -9,7 +9,7 @@
 			</div>
 			<div class="endStrip"></div>
 		</div>
-
+<!-- S&P Data -->
 		<div id="spPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">S&P 500</div>
 			<div class="spCloses">Record high of {{spHigh.value}} on {{spHigh.date}}.</div>
@@ -59,6 +59,7 @@
 				</form>
 			</div>
 		</div>
+<!-- Earnings Data -->		
 		<div id="earningsPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">S&P Earning</div>
 			<div class="latestEarnings">For the most recent quarter ending in {{spEarnings.recentDate}}.</div>	
@@ -83,5 +84,63 @@
 					<div class="priorTitle">Since 2000</div>
 				</div>
 			</div>
-		</div>	
+		</div>
+<!-- Yield Curve Data -->
+		<div id="inversionPallet" class="displayPallet flexColumn">
+			<div class="palletTitle">What, an inverted yield curve.</div>
+			<div id="invertInfo">In this group of quarters the 3 month Treasury Bills interest rate traded higher than the 10 year Note for a full quarter.  Also listed is the GDP of the prior quarter, the quarter of the inversion and two quarters after.  Then once the inversion happened, how many months until we experienced a recession.</div>
+			{{#each inversions}}
+				<div id="qHeader">-{{quarter}} quarter {{year}}-</div>
+				<div class="flexRow">
+					<div class="aQuarter flexColumn">
+						<div class="priorTitle">Prior</div>
+						<div class="priorTitle">Quarter</div>
+						<div class="priorNumber">{{gdpOnePrior}}%</div>
+					</div>
+					<div class="aQuarter flexColumn">
+						<div class="priorTitle">Inverted</div>
+						<div class="priorTitle">Quarter</div>
+						<div class="priorNumber">{{gdpInversion}}%</div>
+					</div>
+					<div class="aQuarter flexColumn">
+						<div class="priorTitle">Following</div>
+						<div class="priorTitle">Quarters</div>
+						<div class="priorNumber">{{gdpTwoAfter}}%</div>
+					</div>
+					<div class="aQuarter flexColumn">
+						<div class="priorTitle">Recession</div>
+						<div class="priorTitle">Arrived in</div>					
+						<div class="priorNumber">{{recession}}</div>
+					</div>								
+				</div>
+			{{/each}}
+		</div>
+<!-- Unemployment Data -->
+		<div id="employPallet" class="displayPallet flexColumn">
+			<div class="palletTitle">State of Employment</div>
+			<div id="currentRate">As of the first of the month, the unemployment rate is {{jobData.theRate}}%.</div>
+			<div id="rateGapTitle">Rate gap explaination</div>
+			<div class="gapInfo">A gap of 0.3 from previous year low point, signals a possible recession.</div>
+			<div class="gapInfo">If it gets to 0.5 then a downturn probably has already began.</div>
+			<div id="currentGap">The current rate gap is {{jobData.theGap}}</div>			
+		</div>
+<!-- CPI Data -->
+		<div id="cpiPallet" class="displayPallet flexColumn">
+			<div class="palletTitle">Consumer Price Index</div>
+			<div id="cpiCurrent">The CPI for the last 12 momnths was {{cpiYearly.thisOne}}%.</div>
+			<div class="flexRow">
+				<div class="comparisons flexColumn">
+					<div class="priorNumber">{{cpiYearly.oneAgo}}%</div>
+					<div class="priorTitle">for year 2018</div>
+				</div>
+				<div class="comparisons flexColumn">
+					<div class="priorNumber">{{cpiYearly.twoAgo}}%</div>
+					<div class="priorTitle">for year 2017</div>
+				</div>
+				<div class="comparisons flexColumn">
+					<div class="priorNumber">{{cpiYearly.threeAgo}}%</div>
+					<div class="priorTitle">for year 2016</div>
+				</div>
+			</div>
+		</div>
 	</div>
