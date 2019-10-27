@@ -13,13 +13,16 @@ let spChartData = require("../dataRoutes/spChartData.js");
 let closes = [];
 // For S&P Earnings
 let spEarnings = require("../dataRoutes/earningsData.js");
+// For Fed Funds Rate
+let fedFundsData = require("../dataRoutes/fedFundsRateData.js");
 // For Yield Curve
 let inversions = require("../dataRoutes/yieldCurveData.js");
+// For CPI
+let cpiArray = require("../dataNumbers/cpi.js");
 // For Employment
 let unemployment = require("../dataNumbers/unemployment.js");
 let theRateGap = require("../dataRoutes/unemploymentData.js");
-// For CPI
-let cpiArray = require("../dataNumbers/cpi.js");
+
 
 const spHigh = {
 	value: 3025.86,	
@@ -61,13 +64,10 @@ router.get("/", (req, res) => {
 
 // For the S&P Earnings Pallet
 		let spPlacement = spChartData.prepareChartData(closes);
+// For Fed Funds Rate Pallet
+//		console.log(fedFundsData);
 // For Yield Curve Pallet
 //		console.log(inversions);
-// For Employment Pallet
-		let jobData = {
-			theRate: unemployment[0].rate,
-			theGap: theRateGap
-		}
 // For CPI Pallet
 		let cpiYearly = {
 			thisOne: cpiArray[0].last12Months,
@@ -75,8 +75,13 @@ router.get("/", (req, res) => {
 			twoAgo: cpiArray[21].last12Months,
 			threeAgo: cpiArray[33].last12Months
 		}
+// For Employment Pallet
+		let jobData = {
+			theRate: unemployment[0].rate,
+			theGap: theRateGap
+		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, inversions, jobData, cpiYearly});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, fedFundsData, inversions, cpiYearly, jobData});
 
 	}).catch(error => {
 		res.render("errorPage", {error});

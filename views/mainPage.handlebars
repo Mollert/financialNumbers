@@ -85,6 +85,14 @@
 				</div>
 			</div>
 		</div>
+<!-- Fed Funds Rate Change -->
+		<div id="ffrPallet" class="displayPallet flexColumn">
+			<div class="palletTitle">Federal Funds Rate Movement</div>
+			<div class="presentRate">On {{fedFundsData.moveDate}} the Federal Funds Rate was {{fedFundsData.directionRecent}}</div>
+			<div class="presentRate">by {{fedFundsData.rateRecent}} points to {{fedFundsData.rateRecent}}.</div>
+			<div class="previousRate">It was last {{fedFundsData.directionLast}} {{fedFundsData.formattedLast}} ago by {{fedFundsData.amountLast}} points.</div>
+			<div class="previousRate">And at {{fedFundsData.formattedPrior}} prior from there it was {{fedFundsData.directionPrior}} by {{fedFundsData.amountPrior}} points.</div>			
+		</div>
 <!-- Yield Curve Data -->
 		<div id="inversionPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">What, an inverted yield curve.</div>
@@ -115,15 +123,6 @@
 				</div>
 			{{/each}}
 		</div>
-<!-- Unemployment Data -->
-		<div id="employPallet" class="displayPallet flexColumn">
-			<div class="palletTitle">State of Employment</div>
-			<div id="currentRate">As of the first of the month, the unemployment rate is {{jobData.theRate}}%.</div>
-			<div id="rateGapTitle">Rate gap explaination</div>
-			<div class="gapInfo">A gap of 0.3 from previous year low point, signals a possible recession.</div>
-			<div class="gapInfo">If it gets to 0.5 then a downturn probably has already began.</div>
-			<div id="currentGap">The current rate gap is {{jobData.theGap}}</div>			
-		</div>
 <!-- CPI Data -->
 		<div id="cpiPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">Consumer Price Index</div>
@@ -142,5 +141,14 @@
 					<div class="priorTitle">for year 2016</div>
 				</div>
 			</div>
+		</div>
+<!-- Unemployment Data -->
+		<div id="employPallet" class="displayPallet flexColumn">
+			<div class="palletTitle">State of Employment</div>
+			<div id="currentRate">As of the first of the month, the unemployment rate is {{jobData.theRate}}%.</div>
+			<div id="rateGapTitle">Rate gap explaination</div>
+			<div class="gapInfo">A gap of 0.3 from previous year low point, signals a possible recession.</div>
+			<div class="gapInfo">If it gets to 0.5 then a downturn probably has already began.</div>
+			<div id="currentGap">The current rate gap is {{jobData.theGap}}</div>			
 		</div>
 	</div>

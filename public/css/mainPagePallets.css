@@ -99,6 +99,21 @@
 }
 
 
+/*Fed Funds Rate Pallet*/
+#ffrPallet {
+	height: 15rem;
+}
+
+.presentRate {
+	font-size: 1.4rem;
+}
+
+.previousRate {
+	font-size: 1.2rem;
+	padding: 1rem 0 0 0;
+}
+
+
 /*Yield Curve Pallet*/
 #inversionPallet {
 	height: 35rem;
@@ -119,6 +134,18 @@
 	width: 10rem;
 	height: 5rem;	
 }
+
+
+/*CPI Pallet*/
+#cpiPallet {
+	height: 12rem;
+}
+
+#cpiCurrent {
+	font-size: 1.4rem;	
+	padding: 0 0 0.4rem 0;
+}
+
 
 /*Unemployment Pallet*/
 #employPallet {
@@ -141,15 +168,4 @@
 #currentGap {
 	font-size: 1.4rem;
 	padding: 0.4rem 0 0 0;
-}
-
-
-/*CPI Pallet*/
-#cpiPallet {
-	height: 12rem;
-}
-
-#cpiCurrent {
-	font-size: 1.4rem;	
-	padding: 0 0 0.4rem 0;
 }
