@@ -63,7 +63,7 @@
 		<div id="earningsPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">S&P Earning</div>
 			<div class="latestEarnings">For the most recent quarter ending in {{spEarnings.recentDate}}.</div>	
-			<div class="latestEarnings">The S&P earnings where {{spEarnings.recentEarnings}}, a P/E of {{spEarnings.recentPE}}.</div>		
+			<div class="latestEarnings">The S&P earnings were {{spEarnings.recentEarnings}}, a P/E of {{spEarnings.recentPE}}.</div>		
 			<div class="latestEarnings">That's a P/E of {{spEarnings.recentTTM}} for the trailing twelve months (TTM).</div>
 			<div id="compareTitle">Compare that with these TTM.</div>
 			<div class="flexRow">
@@ -95,7 +95,7 @@
 		</div>
 <!-- Yield Curve Data -->
 		<div id="inversionPallet" class="displayPallet flexColumn">
-			<div class="palletTitle">What, an inverted yield curve.</div>
+			<div class="palletTitle">What! An inverted yield curve.</div>
 			<div id="invertInfo">In this group of quarters the 3 month Treasury Bills interest rate traded higher than the 10 year Note for a full quarter.  Also listed is the GDP of the prior quarter, the quarter of the inversion and two quarters after.  Then once the inversion happened, how many months until we experienced a recession.</div>
 			{{#each inversions}}
 				<div id="qHeader">-{{quarter}} quarter {{year}}-</div>
@@ -148,7 +148,7 @@
 			<div id="currentRate">As of the first of the month, the unemployment rate is {{jobData.theRate}}%.</div>
 			<div id="rateGapTitle">Rate gap explaination</div>
 			<div class="gapInfo">A gap of 0.3 from previous year low point, signals a possible recession.</div>
-			<div class="gapInfo">If it gets to 0.5 then a downturn probably has already began.</div>
+			<div class="gapInfo">If it gets to 0.5 then a downturn probably has already begun.</div>
 			<div id="currentGap">The current rate gap is {{jobData.theGap}}</div>			
 		</div>
 	</div>
