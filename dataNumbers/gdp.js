@@ -1,6 +1,12 @@
 
 const gdp = [
 	{
+		date: 201909,
+		year: 2019,
+		quarter: "3rd",
+		gdpCompile: 118.000,
+		gdp: 1.9
+	},{
 		date: 201906,
 		year: 2019,
 		quarter: "2nd",
@@ -502,6 +508,8 @@ const gdp = [
 ];
 
 // date is at the end of the month
+
+// https://apps.bea.gov/iTable/index_nipa.cfm
 
 
 module.exports = gdp;
