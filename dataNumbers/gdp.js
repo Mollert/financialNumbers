@@ -504,6 +504,102 @@ const gdp = [
 		quarter: "4th",
 		gdpCompile: 75.860,
 		gdp: 6.6
+	},{
+		date: 199809,
+		year: 1998,
+		quarter: "3rd",
+		gdpCompile: 74.653,
+		gdp: 5.1
+	},{
+		date: 199806,
+		year: 1998,
+		quarter: "2nd",
+		gdpCompile: 73.730,
+		gdp: 3.8
+	},{
+		date: 199803,
+		year: 1998,
+		quarter: "1st",
+		gdpCompile: 73.054,
+		gdp: 4.1
+	},{
+		date: 199712,
+		year: 1997,
+		quarter: "4th",
+		gdpCompile: 72.331,
+		gdp: 3.5
+	},{
+		date: 199709,
+		year: 1997,
+		quarter: "3rd",
+		gdpCompile: 71.715,
+		gdp: 5.1
+	},{
+		date: 199706,
+		year: 1997,
+		quarter: "2nd",
+		gdpCompile: 70.829,
+		gdp: 6.8
+	},{
+		date: 199703,
+		year: 1997,
+		quarter: "1st",
+		gdpCompile: 69.671,
+		gdp: 2.6
+	},{
+		date: 199612,
+		year: 1996,
+		quarter: "4th",
+		gdpCompile: 69.224,
+		gdp: 4.2
+	},{
+		date: 199609,
+		year: 1996,
+		quarter: "3rd",
+		gdpCompile: 68.513,
+		gdp: 3.6
+	},{
+		date: 199606,
+		year: 1996,
+		quarter: "2nd",
+		gdpCompile: 67.903,
+		gdp: 6.8
+	},{
+		date: 199603,
+		year: 1996,
+		quarter: "1st",
+		gdpCompile: 66.789,
+		gdp: 3.0
+	},{
+		date: 199512,
+		year: 1995,
+		quarter: "4th",
+		gdpCompile: 66.293,
+		gdp: 2.7
+	},{
+		date: 199509,
+		year: 1995,
+		quarter: "3rd",
+		gdpCompile: 65.846,
+		gdp: 3.5
+	},{
+		date: 199506,
+		year: 1995,
+		quarter: "2nd",
+		gdpCompile: 65.290,
+		gdp: 1.2
+	},{
+		date: 199503,
+		year: 1995,
+		quarter: "1st",
+		gdpCompile: 65.096,
+		gdp: 1.4
+	},{
+		date: 199412,
+		year: 1994,
+		quarter: "4th",
+		gdpCompile: 64.866,
+		gdp: 4.7
 	}
 ];
 

@@ -366,6 +366,168 @@ const fedFundsRate = [
 		direction: "lowered",
 		amount: 0.25,
 		newRate: 5.25
+	},{
+		date1: 199703,
+		date2: "March 25th, 1997",
+		direction: "raised",
+		amount: 0.25,
+		newRate: 5.50
+	},{
+		date1: 199601,
+		date2: "January 31st, 1996",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 5.25
+	},{
+		date1: 199512,
+		date2: "December 19th, 1995",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 5.50
+	},{
+		date1: 199507,
+		date2: "July 6th, 1995",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 5.75
+	},{
+		date1: 199502,
+		date2: "February 1st, 1995",
+		direction: "raised",
+		amount: 0.50,
+		newRate: 6.00
+	},{
+		date1: 199411,
+		date2: "November 15th, 1994",
+		direction: "raised",
+		amount: 0.75,
+		newRate: 5.50
+	},{
+		date1: 199408,
+		date2: "August 16th, 1994",
+		direction: "raised",
+		amount: 0.50,
+		newRate: 4.75
+	},{
+		date1: 199405,
+		date2: "May 17th, 1994",
+		direction: "raised",
+		amount: 0.50,
+		newRate: 4.25
+	},{
+		date1: 199404,
+		date2: "April 18th, 1994",
+		direction: "raised",
+		amount: 0.25,
+		newRate: 3.75
+	},{
+		date1: 199403,
+		date2: "March 22nd, 1994",
+		direction: "raised",
+		amount: 0.25,
+		newRate: 3.50
+	},{
+		date1: 199402,
+		date2: "February 4th, 1994",
+		direction: "raised",
+		amount: 0.25,
+		newRate: 3.25
+	},{
+		date1: 199209,
+		date2: "September 4th, 1992",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 3.00
+	},{
+		date1: 199207,
+		date2: "July 2nd, 1992",
+		direction: "lowered",
+		amount: 0.50,
+		newRate: 3.25
+	},{
+		date1: 199204,
+		date2: "April 9th, 1992",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 3.75
+	},{
+		date1: 199112,
+		date2: "December 20th, 1991",
+		direction: "lowered",
+		amount: 0.75,
+		newRate: 4.00
+	},{
+		date1: 199111,
+		date2: "November 6th, 1991",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 4.75
+	},{
+		date1: 199110,
+		date2: "October 31st, 1991",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 5.00
+	},{
+		date1: 199109,
+		date2: "September 13th, 1991",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 5.25
+	},{
+		date1: 199108,
+		date2: "August 6th, 1991",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 5.50
+	},{
+		date1: 199104,
+		date2: "April 30th, 1991",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 5.75
+	},{
+		date1: 199103,
+		date2: "March 8th, 1991",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 6.00
+	},{
+		date1: 199102,
+		date2: "February 1st, 1991",
+		direction: "lowered",
+		amount: 0.50,
+		newRate: 6.25
+	},{
+		date1: 199101,
+		date2: "January 9th, 1991",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 6.75
+	},{
+		date1: 199012,
+		date2: "December 18th, 1990",
+		direction: "lowered",
+		amount: 0.50,
+		newRate: 7.00
+	},{
+		date1: 199011,
+		date2: "November 13th, 1990",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 7.50
+	},{
+		date1: 199010,
+		date2: "October 29th, 1990",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 7.75
+	},{
+		date1: 199007,
+		date2: "July 13th, 1990",
+		direction: "lowered",
+		amount: 0.25,
+		newRate: 8.00
 	}
 ];
 

@@ -717,9 +717,441 @@ const spPrice = [
 	},{
 		date: 199912,
 		price: 1469.25
+	},{
+		date: 199911,
+		price: 1388.91
+	},{
+		date: 199910,
+		price: 1362.93
+	},{
+		date: 199909,
+		price: 1282.71
+	},{
+		date: 199908,
+		price: 1320.41
+	},{
+		date: 199907,
+		price: 1328.72
+	},{
+		date: 199906,
+		price: 1372.71
+	},{
+		date: 199905,
+		price: 1301.84
+	},{
+		date: 199904,
+		price: 1335.18
+	},{
+		date: 199903,
+		price: 1286.37
+	},{
+		date: 199902,
+		price: 1238.33
+	},{
+		date: 199901,
+		price: 1279.64
+	},{
+		date: 199812,
+		price: 1229.23
+	},{
+		date: 199811,
+		price: 1163.63
+	},{
+		date: 199810,
+		price: 1098.67
+	},{
+		date: 199809,
+		price: 1017.01
+	},{
+		date: 199808,
+		price: 957.28
+	},{
+		date: 199807,
+		price: 1120.67
+	},{
+		date: 199806,
+		price: 1133.84
+	},{
+		date: 199805,
+		price: 1090.82
+	},{
+		date: 199804,
+		price: 1111.75
+	},{
+		date: 199803,
+		price: 1101.75
+	},{
+		date: 199802,
+		price: 1049.34
+	},{
+		date: 199801,
+		price: 980.28
+	},{
+		date: 199712,
+		price: 970.43
+	},{
+		date: 199711,
+		price: 955.40
+	},{
+		date: 199710,
+		price: 914.62
+	},{
+		date: 199709,
+		price: 947.28
+	},{
+		date: 199708,
+		price: 899.47
+	},{
+		date: 199707,
+		price: 954.31
+	},{
+		date: 199706,
+		price: 885.14
+	},{
+		date: 199705,
+		price: 848.28
+	},{
+		date: 199704,
+		price: 801.34
+	},{
+		date: 199703,
+		price: 757.12
+	},{
+		date: 199702,
+		price: 790.82
+	},{
+		date: 199701,
+		price: 786.16
+	},{
+		date: 199612,
+		price: 740.74
+	},{
+		date: 199611,
+		price: 757.02
+	},{
+		date: 199610,
+		price: 705.27
+	},{
+		date: 199609,
+		price: 687.33
+	},{
+		date: 199608,
+		price: 651.99
+	},{
+		date: 199607,
+		price: 639.95
+	},{
+		date: 199606,
+		price: 670.63
+	},{
+		date: 199605,
+		price: 669.12
+	},{
+		date: 199604,
+		price: 654.17
+	},{
+		date: 199603,
+		price: 645.50
+	},{
+		date: 199602,
+		price: 640.43
+	},{
+		date: 199601,
+		price: 636.02
+	},{		
+		date: 199512,
+		price: 615.93
+	},{
+		date: 199511,
+		price: 605.37
+	},{
+		date: 199510,
+		price: 581.50
+	},{
+		date: 199509,
+		price: 584.41
+	},{
+		date: 199508,
+		price: 561.88
+	},{
+		date: 199507,
+		price: 562.06
+	},{
+		date: 199506,
+		price: 544.75
+	},{
+		date: 199505,
+		price: 533.40
+	},{
+		date: 199504,
+		price: 514.71
+	},{
+		date: 199503,
+		price: 500.71
+	},{
+		date: 199502,
+		price: 487.39
+	},{
+		date: 199501,
+		price: 470.42
+	},{
+		date: 199412,
+		price: 459.27
+	},{
+		date: 199411,
+		price: 453.69
+	},{
+		date: 199410,
+		price: 472.35
+	},{
+		date: 199409,
+		price: 462.71
+	},{
+		date: 199408,
+		price: 475.49
+	},{
+		date: 199407,
+		price: 458.26
+	},{
+		date: 199406,
+		price: 444.27
+	},{
+		date: 199405,
+		price: 456.50
+	},{
+		date: 199404,
+		price: 450.91
+	},{
+		date: 199403,
+		price: 445.77
+	},{
+		date: 199402,
+		price: 467.14
+	},{
+		date: 199401,
+		price: 481.61
+	},{
+		date: 199312,
+		price: 466.45
+	},{
+		date: 199311,
+		price: 461.79
+	},{
+		date: 199310,
+		price: 467.83
+	},{
+		date: 199309,
+		price: 458.93
+	},{
+		date: 199308,
+		price: 463.56
+	},{
+		date: 199307,
+		price: 448.13
+	},{
+		date: 199306,
+		price: 450.53
+	},{
+		date: 199305,
+		price: 450.19
+	},{
+		date: 199304,
+		price: 440.19
+	},{
+		date: 199303,
+		price: 451.67
+	},{
+		date: 199302,
+		price: 443.38
+	},{
+		date: 199301,
+		price: 438.78
+	},{
+		date: 199212,
+		price: 435.71
+	},{
+		date: 199211,
+		price: 431.35
+	},{
+		date: 199210,
+		price: 418.68
+	},{
+		date: 199209,
+		price: 417.80
+	},{
+		date: 199208,
+		price: 414.03
+	},{
+		date: 199207,
+		price: 424.21
+	},{
+		date: 199206,
+		price: 408.14
+	},{
+		date: 199205,
+		price: 415.35
+	},{
+		date: 199204,
+		price: 414.95
+	},{
+		date: 199203,
+		price: 403.69
+	},{
+		date: 199202,
+		price: 412.70
+	},{
+		date: 199201,
+		price: 408.78
+	},{
+		date: 199112,
+		price: 417.09
+	},{
+		date: 199111,
+		price: 375.22
+	},{
+		date: 199110,
+		price: 392.45
+	},{
+		date: 199109,
+		price: 387.86
+	},{
+		date: 199108,
+		price: 395.43
+	},{
+		date: 199107,
+		price: 387.81
+	},{
+		date: 199106,
+		price: 371.16
+	},{
+		date: 199105,
+		price: 389.83
+	},{
+		date: 199104,
+		price: 375.34
+	},{
+		date: 199103,
+		price: 375.22
+	},{
+		date: 199102,
+		price: 367.07
+	},{
+		date: 199101,
+		price: 343.93
+	},{
+		date: 199012,
+		price: 330.22
+	},{
+		date: 199011,
+		price: 322.22
+	},{
+		date: 199010,
+		price: 304.00
+	},{
+		date: 199009,
+		price: 306.05
+	},{
+		date: 199008,
+		price: 322.56
+	},{
+		date: 199007,
+		price: 356.15
+	},{
+		date: 199006,
+		price: 358.02
+	},{
+		date: 199005,
+		price: 361.23
+	},{
+		date: 199004,
+		price: 330.80
+	},{
+		date: 199003,
+		price: 339.94
+	},{
+		date: 199002,
+		price: 331.89
+	},{
+		date: 199001,
+		price: 329.08
+	},{
+		date: 198912,
+		price: 353.40
+	},{
+		date: 198911,
+		price: 345.99
+	},{
+		date: 198910,
+		price: 340.36
+	},{
+		date: 198909,
+		price: 349.15
+	},{
+		date: 198908,
+		price: 351.45
+	},{
+		date: 198907,
+		price: 346.08
+	},{
+		date: 198906,
+		price: 317.98
+	},{
+		date: 198905,
+		price: 320.52
+	},{
+		date: 198904,
+		price: 309.64
+	},{
+		date: 198903,
+		price: 294.87
+	},{
+		date: 198902,
+		price: 288.86
+	},{
+		date: 198901,
+		price: 297.47
+	},{
+		date: 198812,
+		price: 277.72
+	},{
+		date: 198811,
+		price: 273.70
+	},{
+		date: 198810,
+		price: 278.97
+	},{
+		date: 198809,
+		price: 271.91
+	},{
+		date: 198808,
+		price: 261.52
+	},{
+		date: 198807,
+		price: 272.02
+	},{
+		date: 198806,
+		price: 273.50
+	},{
+		date: 198805,
+		price: 262.16
+	},{
+		date: 198804,
+		price: 261.33
+	},{
+		date: 198803,
+		price: 258.89
+	},{
+		date: 198802,
+		price: 267.82
+	},{
+		date: 198801,
+		price: 257.07
 	}
 ];
 
 // date is at the end of the month
+
+// https://www.investing.com/indices/us-spx-500-historical-data
+
 
 //module.exports = spPrice;

@@ -1746,6 +1746,8 @@ const cpi = [
 	}
 ];
 
+// https://data.bls.gov/cgi-bin/surveymost?cu
+
 // This data is not seasonally adjusted
 // Monthly CPI is seasonally adjusted
 // Last 12 months rate is not seasonally adjusted

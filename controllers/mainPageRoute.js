@@ -25,8 +25,8 @@ let theRateGap = require("../dataRoutes/unemploymentData.js");
 
 
 const spHigh = {
-	value: 3066.91,	
-	date: "Friday, November 1st 2019"
+	value: 3093.08,	
+	date: "Friday, November 8th 2019"
 }
 let latestClose = {
 	value: "",
