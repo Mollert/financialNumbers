@@ -91,35 +91,24 @@
 			<div class="presentRate">On {{fedFundsData.moveDate}} the Federal Funds Rate was {{fedFundsData.directionRecent}}</div>
 			<div class="presentRate">by {{fedFundsData.amountRecent}} points to {{fedFundsData.rateRecent}}.</div>
 			<div class="previousRate">It was last {{fedFundsData.directionLast}} {{fedFundsData.formattedLast}} ago by {{fedFundsData.amountLast}} points.</div>
-			<div class="previousRate">And at {{fedFundsData.formattedPrior}} prior from there it was {{fedFundsData.directionPrior}} by {{fedFundsData.amountPrior}} points.</div>			
+			<div class="previousRate">And then {{fedFundsData.formattedPrior}} prior from there it was {{fedFundsData.directionPrior}} by {{fedFundsData.amountPrior}} points.</div>			
 		</div>
 <!-- Yield Curve Data -->
-		<div id="inversionPallet" class="displayPallet flexColumn">
+		<div id="inversionPallet" class="displayPallet">
 			<div class="palletTitle">What! An inverted yield curve.</div>
-			<div id="invertInfo">In this group of quarters the 3 month Treasury Bills interest rate traded higher than the 10 year Note for a full quarter.  Also listed is the GDP of the prior quarter, the quarter of the inversion and two quarters after.  Then once the inversion happened, how many months until we experienced a recession.</div>
+			<div id="invertInfo">In this group of quarters the 3 month Treasury Bills interest rate traded higher than the 10 year Note for a full quarter.  For each occasion the S&P return and GDP are listed for the years prior and after the inversion.  Also listed is how long before we experienced a recession.</div>
+			<div id="chartTitle">S&P yearly returns | GDP per year</div>
+			<div class="flexRow pushEnd">
+				<div class="commanYear quarterYear flexColumn">3rd quarter 2000</div>
+				<div class="commanYear quarterYear flexColumn">3rd quarter 2006</div>
+				<div class="commanYear quarterYear flexColumn">2nd quarter 2019</div>
+			</div>			
 			{{#each inversions}}
-				<div id="qHeader">-{{quarter}} quarter {{year}}-</div>
-				<div class="flexRow">
-					<div class="aQuarter flexColumn">
-						<div class="priorTitle">Prior</div>
-						<div class="priorTitle">Quarter</div>
-						<div class="priorNumber">{{gdpOnePrior}}%</div>
-					</div>
-					<div class="aQuarter flexColumn">
-						<div class="priorTitle">Inverted</div>
-						<div class="priorTitle">Quarter</div>
-						<div class="priorNumber">{{gdpInversion}}%</div>
-					</div>
-					<div class="aQuarter flexColumn">
-						<div class="priorTitle">Following</div>
-						<div class="priorTitle">Quarters</div>
-						<div class="priorNumber">{{gdpTwoAfter}}%</div>
-					</div>
-					<div class="aQuarter flexColumn">
-						<div class="priorTitle">Recession</div>
-						<div class="priorTitle">Arrived in</div>					
-						<div class="priorNumber">{{recession}}</div>
-					</div>								
+				<div class="flexRow pushEnd">
+					<div class="commanYear year flexRow">{{timePeriod}}</div>
+					<div class="commanYear yearData flexRow">{{sp00}}{{gdp00}}</div>
+					<div class="commanYear yearData flexRow">{{sp06}}{{gdp06}}</div>
+					<div class="commanYear yearData flexRow">{{sp19}}{{gdp19}}</div>
 				</div>
 			{{/each}}
 		</div>

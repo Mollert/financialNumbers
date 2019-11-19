@@ -600,6 +600,240 @@ const gdp = [
 		quarter: "4th",
 		gdpCompile: 64.866,
 		gdp: 4.7
+	},{
+		date: 199409,
+		year: 1994,
+		quarter: "3rd",
+		gdpCompile: 64.131,
+		gdp: 2.4
+	},{
+		date: 199406,
+		year: 1994,
+		quarter: "2nd",
+		gdpCompile: 63.759,
+		gdp: 5.5
+	},{
+		date: 199403,
+		year: 1994,
+		quarter: "1st",
+		gdpCompile: 62.906,
+		gdp: 3.9
+	},{
+		date: 199312,
+		year: 1993,
+		quarter: "4th",
+		gdpCompile: 62.302,
+		gdp: 5.6
+	},{
+		date: 199309,
+		year: 1993,
+		quarter: "3rd",
+		gdpCompile: 61.466,
+		gdp: 1.9
+	},{
+		date: 199306,
+		year: 1993,
+		quarter: "2nd",
+		gdpCompile: 61.174,
+		gdp: 2.3
+	},{
+		date: 199303,
+		year: 1993,
+		quarter: "1st",
+		gdpCompile: 60.820,
+		gdp: 0.7
+	},{
+		date: 199212,
+		year: 1992,
+		quarter: "4th",
+		gdpCompile: 60.718,
+		gdp: 4.2
+	},{
+		date: 199209,
+		year: 1992,
+		quarter: "3rd",
+		gdpCompile: 60.091,
+		gdp: 4.0
+	},{
+		date: 199206,
+		year: 1992,
+		quarter: "2nd",
+		gdpCompile: 59.503,
+		gdp: 4.4
+	},{
+		date: 199203,
+		year: 1992,
+		quarter: "1st",
+		gdpCompile: 58.865,
+		gdp: 4.9
+	},{
+		date: 199112,
+		year: 1991,
+		quarter: "4th",
+		gdpCompile: 58.169,
+		gdp: 1.4
+	},{
+		date: 199109,
+		year: 1991,
+		quarter: "3rd",
+		gdpCompile: 27.967,
+		gdp: 2.0
+	},{
+		date: 199106,
+		year: 1991,
+		quarter: "2nd",
+		gdpCompile: 57.675,
+		gdp: 3.2
+	},{
+		date: 199103,
+		year: 1991,
+		quarter: "1st",
+		gdpCompile: 57.229,
+		gdp: -1.9
+	},{
+		date: 199012,
+		year: 1990,
+		quarter: "4th",
+		gdpCompile: 57.498,
+		gdp: -3.6
+	},{
+		date: 199009,
+		year: 1990,
+		quarter: "3rd",
+		gdpCompile: 58.026,
+		gdp: 0.3
+	},{
+		date: 199006,
+		year: 1990,
+		quarter: "2nd",
+		gdpCompile: 57.988,
+		gdp: 1.5
+	},{
+		date: 199003,
+		year: 1990,
+		quarter: "1st",
+		gdpCompile: 57.778,
+		gdp: 4.4
+	},{
+		date: 198912,
+		year: 1989,
+		quarter: "4th",
+		gdpCompile: 57.153,
+		gdp: 0.8
+	},{
+		date: 198909,
+		year: 1989,
+		quarter: "3rd",
+		gdpCompile: 57.041,
+		gdp: 3.0
+	},{
+		date: 198906,
+		year: 1989,
+		quarter: "2nd",
+		gdpCompile: 56.625,
+		gdp: 3.1
+	},{
+		date: 198903,
+		year: 1989,
+		quarter: "1st",
+		gdpCompile: 56.193,
+		gdp: 4.1
+	},{
+		date: 198812,
+		year: 1988,
+		quarter: "4th",
+		gdpCompile: 55.627,
+		gdp: 5.1
+	},{
+		date: 198809,
+		year: 1988,
+		quarter: "3rd",
+		gdpCompile: 54.896,
+		gdp: 2.4
+	},{
+		date: 198806,
+		year: 1988,
+		quarter: "2nd",
+		gdpCompile: 54.576,
+		gdp: 5.4
+	},{
+		date: 198803,
+		year: 1988,
+		quarter: "1st",
+		gdpCompile: 53.868,
+		gdp: 2.1
+	},{
+		date: 198712,
+		year: 1987,
+		quarter: "4th",
+		gdpCompile: 53.591,
+		gdp: 7.0
+	},{
+		date: 198709,
+		year: 1987,
+		quarter: "3rd",
+		gdpCompile: 52.686,
+		gdp: 3.5
+	},{
+		date: 198706,
+		year: 1987,
+		quarter: "2nd",
+		gdpCompile: 52.233,
+		gdp: 4.4
+	},{
+		date: 198703,
+		year: 1987,
+		quarter: "1st",
+		gdpCompile: 51.676,
+		gdp: 3.0
+	},{
+		date: 198612,
+		year: 1986,
+		quarter: "4th",
+		gdpCompile: 51.294,
+		gdp: 2.2
+	},{
+		date: 198609,
+		year: 1986,
+		quarter: "3rd",
+		gdpCompile: 51.020,
+		gdp: 3.9
+	},{
+		date: 198606,
+		year: 1986,
+		quarter: "2nd",
+		gdpCompile: 50.536,
+		gdp: 1.8
+	},{
+		date: 198603,
+		year: 1986,
+		quarter: "1st",
+		gdpCompile: 50.309,
+		gdp: 3.8
+	},{
+		date: 198512,
+		year: 1985,
+		quarter: "4th",
+		gdpCompile: 49.844,
+		gdp: 3.0
+	},{
+		date: 198509,
+		year: 1985,
+		quarter: "3rd",
+		gdpCompile: 49.476,
+		gdp: 6.2
+	},{
+		date: 198506,
+		year: 1985,
+		quarter: "2nd",
+		gdpCompile: 48.732,
+		gdp: 3.6
+	},{
+		date: 198503,
+		year: 1985,
+		quarter: "1st",
+		gdpCompile: 48.307,
+		gdp: 3.9
 	}
 ];
 

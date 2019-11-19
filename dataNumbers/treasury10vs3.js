@@ -1913,6 +1913,480 @@ const treasury10vs3 = [
 		ten: 6.45,
 		spread: 1.12
 	}
+/*	},{
+		date: 199911,
+		year: 1999,
+		month: 11,
+		quarter: "4th",
+		three: 5.30,
+		ten: ,
+		spread: 
+	},{
+		date: 199910,
+		year: 1999,
+		month: 10,
+		quarter: "4th",
+		three: 5.12,
+		ten: ,
+		spread: 
+	},{
+		date: 199909,
+		year: 1999,
+		month: 9,
+		quarter: "3rd",
+		three: 4.88,
+		ten: ,
+		spread: 
+	},{
+		date: 199908,
+		year: 1999,
+		month: 8,
+		quarter: "3rd",
+		three: 4.98,
+		ten: ,
+		spread: 
+	},{
+		date: 199907,
+		year: 1999,
+		month: 7,
+		quarter: "3rd",
+		three: 4.75,
+		ten: ,
+		spread: 
+	},{
+		date: 199906,
+		year: 1999,
+		month: 6,
+		quarter: "2nd",
+		three: 4.78,
+		ten: ,
+		spread: 
+	},{
+		date: 199905,
+		year: 1999,
+		month: 5,
+		quarter: "2nd",
+		three: 4.66,
+		ten: ,
+		spread: 
+	},{
+		date: 199904,
+		year: 1999,
+		month: 4,
+		quarter: "2nd",
+		three: 4.55,
+		ten: ,
+		spread: 
+	},{
+		date: 199903,
+		year: 1999,
+		month: 3,
+		quarter: "1st",
+		three: 4.49,
+		ten: ,
+		spread: 
+	},{
+		date: 199902,
+		year: 1999,
+		month: 2,
+		quarter: "1st",
+		three: 4.66,
+		ten: ,
+		spread: 
+	},{
+		date: 199901,
+		year: 1999,
+		month: 1,
+		quarter: "1st",
+		three: 4.48,
+		ten: ,
+		spread: 
+	},{
+		date: 199812,
+		year: 1998,
+		month: 12,
+		quarter: "4th",
+		three: 4.48,
+		ten: ,
+		spread: 
+	},{
+		date: 199811,
+		year: 1998,
+		month: 11,
+		quarter: "4th",
+		three: 4.57,
+		ten: ,
+		spread: 
+	},{
+		date: 199810,
+		year: 1998,
+		month: 10,
+		quarter: "4th",
+		three: 4.33,
+		ten: ,
+		spread: 
+	},{
+		date: 199809,
+		year: 1998,
+		month: 9,
+		quarter: "3rd",
+		three: 4.37,
+		ten: ,
+		spread: 
+	},{
+		date: 199808,
+		year: 1998,
+		month: 8,
+		quarter: "3rd",
+		three: 4.96,
+		ten: ,
+		spread: 
+	},{
+		date: 199807,
+		year: 1998,
+		month: 7,
+		quarter: "3rd",
+		three: 5.10,
+		ten: ,
+		spread: 
+	},{
+		date: 199806,
+		year: 1998,
+		month: 6,
+		quarter: "2nd",
+		three: 5.10,
+		ten: ,
+		spread: 
+	},{
+		date: 199805,
+		year: 1998,
+		month: 5,
+		quarter: "2nd",
+		three: 5.03,
+		ten: ,
+		spread: 
+	},{
+		date: 199804,
+		year: 1998,
+		month: 4,
+		quarter: "2nd",
+		three: 5.00,
+		ten: ,
+		spread: 
+	},{
+		date: 199803,
+		year: 1998,
+		month: 3,
+		quarter: "1st",
+		three: 5.16,
+		ten: ,
+		spread: 
+	},{
+		date: 199802,
+		year: 1998,
+		month: 2,
+		quarter: "1st",
+		three: 5.32,
+		ten: ,
+		spread: 
+	},{
+		date: 199801,
+		year: 1998,
+		month: 1,
+		quarter: "1st",
+		three: 5.19,
+		ten: ,
+		spread: 
+	},{
+		date: 199712,
+		year: 1997,
+		month: 12,
+		quarter: "4th",
+		three: 5.36,
+		ten: ,
+		spread: 
+	},{
+		date: 199711,
+		year: 1997,
+		month: 11,
+		quarter: "4th",
+		three: 5.22,
+		ten: ,
+		spread: 
+	},{
+		date: 199710,
+		year: 1997,
+		month: 10,
+		quarter: "4th",
+		three: 5.21,
+		ten: ,
+		spread: 
+	},{
+		date: 199709,
+		year: 1997,
+		month: 9,
+		quarter: "3rd",
+		three: 5.06,
+		ten: ,
+		spread: 
+	},{
+		date: 199708,
+		year: 1997,
+		month: 8,
+		quarter: "3rd",
+		three: 5.24,
+		ten: ,
+		spread: 
+	},{
+		date: 199707,
+		year: 1997,
+		month: 7,
+		quarter: "3rd",
+		three: 5.25,
+		ten: ,
+		spread: 
+	},{
+		date: 199706,
+		year: 1997,
+		month: 6,
+		quarter: "2nd",
+		three: 5.25,
+		ten: ,
+		spread: 
+	},{
+		date: 199705,
+		year: 1997,
+		month: 5,
+		quarter: "2nd",
+		three: 4.96,
+		ten: ,
+		spread: 
+	},{
+		date: 199704,
+		year: 1997,
+		month: 4,
+		quarter: "2nd",
+		three: 5.28,
+		ten: ,
+		spread: 
+	},{
+		date: 199703,
+		year: 1997,
+		month: 3,
+		quarter: "1st",
+		three: 5.35,
+		ten: ,
+		spread: 
+	},{
+		date: 1997,
+		year: 1997,
+		month: 2,
+		quarter: "1st",
+		three: 5.22,
+		ten: ,
+		spread: 
+	},{
+		date: 199701,
+		year: 1997,
+		month: 1,
+		quarter: "1st",
+		three: 5.15,
+		ten: ,
+		spread: 
+	},{
+		date: 199612,
+		year: 1996,
+		month: 12,
+		quarter: "4th",
+		three: 5.21,
+		ten: ,
+		spread: 
+	},{
+		date: 199611,
+		year: 1996,
+		month: 11,
+		quarter: "4th",
+		three: 5.13,
+		ten: ,
+		spread: 
+	},{
+		date: 199610,
+		year: 1996,
+		month: 10,
+		quarter: "4th",
+		three: 5.17,
+		ten: ,
+		spread: 
+	},{
+		date: 199609,
+		year: 1996,
+		month: 9,
+		quarter: "3rd",
+		three: 5.14,
+		ten: ,
+		spread: 
+	},{
+		date: 199608,
+		year: 1996,
+		month: 8,
+		quarter: "3rd",
+		three: 5.29,
+		ten: ,
+		spread: 
+	},{
+		date: 199607,
+		year: 1996,
+		month: 7,
+		quarter: "3rd",
+		three: 5.32,
+		ten: ,
+		spread: 
+	},{
+		date: 199606,
+		year: 1996,
+		month: 6,
+		quarter: "2nd",
+		three: 5.18,
+		ten: ,
+		spread: 
+	},{
+		date: 199605,
+		year: 1996,
+		month: 5,
+		quarter: "2nd",
+		three: 5.18,
+		ten: ,
+		spread: 
+	},{
+		date: 199604,
+		year: 1996,
+		month: 4,
+		quarter: "2nd",
+		three: 5.14,
+		ten: ,
+		spread: 
+	},{
+		date: 199603,
+		year: 1996,
+		month: 3,
+		quarter: "1st",
+		three: 5.13,
+		ten: ,
+		spread: 
+	},{
+		date: 199602,
+		year: 1996,
+		month: 2,
+		quarter: "1st",
+		three: 5.02,
+		ten: ,
+		spread: 
+	},{
+		date: 199601,
+		year: 1996,
+		month: 1,
+		quarter: "1st",
+		three: 5.05,
+		ten: ,
+		spread: 
+	},{
+		date: 199512,
+		year: 1995,
+		month: 12,
+		quarter: "4th",
+		three: 5.10,
+		ten: ,
+		spread: 
+	},{
+		date: 199511,
+		year: 1995,
+		month: 11,
+		quarter: "4th",
+		three: 5.48,
+		ten: ,
+		spread: 
+	},{
+		date: 199510,
+		year: 1995,
+		month: 10,
+		quarter: "4th",
+		three: 5.48,
+		ten: ,
+		spread: 
+	},{
+		date: 199509,
+		year: 1995,
+		month: 9,
+		quarter: "3rd",
+		three: 5.40,
+		ten: ,
+		spread: 
+	},{
+		date: 199508,
+		year: 1995,
+		month: 8,
+		quarter: "3rd",
+		three: 5.45,
+		ten: ,
+		spread: 
+	},{
+		date: 199507,
+		year: 1995,
+		month: 7,
+		quarter: "3rd",
+		three: 5.60,
+		ten: ,
+		spread: 
+	},{
+		date: 199506,
+		year: 1995,
+		month: 6,
+		quarter: "2nd",
+		three: 5.60,
+		ten: ,
+		spread: 
+	},{
+		date: 199505,
+		year: 1995,
+		month: 5,
+		quarter: "2nd",
+		three: 5.81,
+		ten: ,
+		spread: 
+	},{
+		date: 199504,
+		year: 1995,
+		month: 4,
+		quarter: "2nd",
+		three: 5.87,
+		ten: ,
+		spread: 
+	},{
+		date: 199503,
+		year: 1995,
+		month: 3,
+		quarter: "1st",
+		three: 5.88,
+		ten: ,
+		spread: 
+	},{
+		date: 199502,
+		year: 1995,
+		month: 2,
+		quarter: "1st",
+		three: 5.94,
+		ten: ,
+		spread: 
+	},{
+		date: 199501,
+		year: 1995,
+		month: 1,
+		quarter: "1st",
+		three: 6.00,
+		ten: ,
+		spread: 
+	}
+*/
 ];
 
 // date is at the end of the month

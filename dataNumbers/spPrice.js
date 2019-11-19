@@ -1146,6 +1146,114 @@ const spPrice = [
 	},{
 		date: 198801,
 		price: 257.07
+	},{
+		date: 198712,
+		price: 247.08
+	},{
+		date: 198711,
+		price: 230.30
+	},{
+		date: 198710,
+		price: 251.79
+	},{
+		date: 198709,
+		price: 321.83
+	},{
+		date: 198708,
+		price: 329.80
+	},{
+		date: 198707,
+		price: 318.66
+	},{
+		date: 198706,
+		price: 304.00
+	},{
+		date: 198705,
+		price: 290.10
+	},{
+		date: 198704,
+		price: 288.36
+	},{
+		date: 198703,
+		price: 291.70
+	},{
+		date: 198702,
+		price: 284.20
+	},{
+		date: 198701,
+		price: 274.08
+	},{
+		date: 198612,
+		price: 242.17
+	},{
+		date: 198611,
+		price: 249.22
+	},{
+		date: 198610,
+		price: 243.98
+	},{
+		date: 198609,
+		price: 231.32
+	},{
+		date: 198608,
+		price: 252.93
+	},{
+		date: 198607,
+		price: 236.12
+	},{
+		date: 198606,
+		price: 250.84
+	},{
+		date: 198605,
+		price: 247.35
+	},{
+		date: 198604,
+		price: 235.52
+	},{
+		date: 198603,
+		price: 238.90
+	},{
+		date: 198602,
+		price: 226.92
+	},{
+		date: 198601,
+		price: 211.78
+	},{
+		date: 198512,
+		price: 211.28
+	},{
+		date: 198511,
+		price: 202.17
+	},{
+		date: 198510,
+		price: 189.82
+	},{
+		date: 198509,
+		price: 182.08
+	},{
+		date: 198508,
+		price: 188.63
+	},{
+		date: 198507,
+		price: 190.92
+	},{
+		date: 198506,
+		price: 191.85
+	},{
+		date: 198505,
+		price: 189.55
+	},{
+		date: 198504,
+		price: 179.83
+	},{
+		date: 198503,
+		price: 180.66
+	},{
+		date: 198502,
+		price: 181.18
+	},{
+		date: 198501,
+		price: 179.93
 	}
 ];
 
@@ -1154,4 +1262,4 @@ const spPrice = [
 // https://www.investing.com/indices/us-spx-500-historical-data
 
 
-//module.exports = spPrice;
+module.exports = spPrice;

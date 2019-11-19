@@ -720,8 +720,184 @@ const unemployment = [
 	},{
 		date: 199911,
 		rate: 4.1
+	},{
+		date: 199910,
+		rate: 4.1
+	},{
+		date: 199909,
+		rate: 4.2
+	},{
+		date: 199908,
+		rate: 4.2
+	},{
+		date: 199907,
+		rate: 4.3
+	},{
+		date: 199906,
+		rate: 4.3
+	},{
+		date: 199905,
+		rate: 4.2
+	},{
+		date: 199904,
+		rate: 4.3
+	},{
+		date: 199903,
+		rate: 4.2
+	},{
+		date: 199902,
+		rate: 4.4
+	},{
+		date: 199901,
+		rate: 4.3
+	},{
+		date: 199812,
+		rate: 4.4
+	},{
+		date: 199811,
+		rate: 4.4
+	},{
+		date: 199810,
+		rate: 4.5
+	},{
+		date: 199809,
+		rate: 4.6
+	},{
+		date: 199808,
+		rate: 4.5
+	},{
+		date: 199807,
+		rate: 4.5
+	},{
+		date: 199806,
+		rate: 4.5
+	},{
+		date: 199805,
+		rate: 4.4
+	},{
+		date: 199804,
+		rate: 4.3
+	},{
+		date: 199803,
+		rate: 4.7
+	},{
+		date: 199802,
+		rate: 4.6
+	},{
+		date: 199801,
+		rate: 4.6
+	},{
+		date: 199712,
+		rate: 4.7
+	},{
+		date: 199711,
+		rate: 4.6
+	},{
+		date: 199710,
+		rate: 4.7
+	},{
+		date: 199709,
+		rate: 4.9
+	},{
+		date: 199708,
+		rate: 4.8
+	},{
+		date: 199707,
+		rate: 4.9
+	},{
+		date: 199706,
+		rate: 5.0
+	},{
+		date: 199705,
+		rate: 4.9
+	},{
+		date: 199704,
+		rate: 5.1
+	},{
+		date: 199703,
+		rate: 5.2
+	},{
+		date: 199702,
+		rate: 5.2
+	},{
+		date: 199701,
+		rate: 5.3
+	},{
+		date: 199612,
+		rate: 5.4
+	},{
+		date: 199611,
+		rate: 5.4
+	},{
+		date: 199610,
+		rate: 5.2
+	},{
+		date: 199609,
+		rate: 5.2
+	},{
+		date: 199608,
+		rate: 5.1
+	},{
+		date: 199607,
+		rate: 5.5
+	},{
+		date: 199606,
+		rate: 5.3
+	},{
+		date: 199605,
+		rate: 5.6
+	},{
+		date: 199604,
+		rate: 5.6
+	},{
+		date: 199603,
+		rate: 5.5
+	},{
+		date: 199602,
+		rate: 5.5
+	},{
+		date: 199601,
+		rate: 5.6
+	},{
+		date: 199512,
+		rate: 5.6
+	},{
+		date: 199511,
+		rate: 5.6
+	},{
+		date: 199510,
+		rate: 5.5
+	},{
+		date: 199509,
+		rate: 5.6
+	},{
+		date: 199508,
+		rate: 5.7
+	},{
+		date: 199507,
+		rate: 5.7
+	},{
+		date: 199506,
+		rate: 5.6
+	},{
+		date: 199505,
+		rate: 5.6
+	},{
+		date: 199504,
+		rate: 5.8
+	},{
+		date: 199503,
+		rate: 5.4
+	},{
+		date: 199502,
+		rate: 5.4
+	},{
+		date: 199501,
+		rate: 5.6
 	}
 ];
 
+
+// FRED unemplyment rate (UNRATE)
 
 module.exports = unemployment;

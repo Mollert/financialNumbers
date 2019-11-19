@@ -116,23 +116,42 @@
 
 /*Yield Curve Pallet*/
 #inversionPallet {
-	height: 35rem;
+	height: 32rem;
+	text-align: center;
 }
 		
 #invertInfo {
 	font-size: 1.2rem;
-	text-align: center;
-	padding: 0 4rem ;
+	padding: 0 4rem;
 }
 
-#qHeader {
+#chartTitle {
 	font-size: 1.4rem;
-	padding: 0.8rem 0 0.2rem 0 ;
+	padding: 0.8rem 0;
 }
 
-.aQuarter {
-	width: 10rem;
-	height: 5rem;	
+.pushEnd {
+	justify-content: flex-end;
+	padding-right: 4rem;
+}
+
+.commanYear {
+	font-size: 1.2rem;
+	width: 14rem;
+	height: 2rem;
+}
+
+.quarterYear {
+	align-items: center;
+	justify-content: center;
+}
+
+.year {
+	justify-content: flex-end;
+}
+
+.yearData {
+	justify-content: center;
 }
 
 

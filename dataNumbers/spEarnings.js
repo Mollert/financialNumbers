@@ -553,6 +553,314 @@ const spEarnings = [
 		trailing: 48.17,
 		price: 1469.25,
 		pe: 30.50
+	},{
+		date1: 199909,
+		date2: "September 30th, 1999",
+		earnings: 11.93,
+		trailing: 43.96,
+		price: 1282.71,
+		pe: 29.18
+	},{
+		date1: 199906,
+		date2: "June 30th, 1999",
+		earnings: 12.51,
+		trailing: 41.02,
+		price: 1372.71,
+		pe: 33.46
+	},{
+		date1: 199903,
+		date2: "March 31st, 1999",
+		earnings: 10.96,
+		trailing: 38.38,
+		price: 1286.37,
+		pe: 33.52
+	},{
+		date1: 199812,
+		date2: "December 31st, 1998",
+		earnings: 8.56,
+		trailing: 37.71,
+		price: 1229.23,
+		pe: 32.60
+	},{
+		date1: 199809,
+		date2: "September 30th, 1998",
+		earnings: 8.99,
+		trailing: 38.09,
+		price: 1017.01,
+		pe: 26.70
+	},{
+		date1: 199806,
+		date2: "June 30th, 1998",
+		earnings: 9.87,
+		trailing: 38.97,
+		price: 1133.84,
+		pe: 29.10
+	},{
+		date1: 199803,
+		date2: "March 31st, 1998",
+		earnings: 10.29,
+		trailing: 39.54,
+		price: 1101.75,
+		pe: 27.86
+	},{
+		date1: 199712,
+		date2: "December 31st, 1997",
+		earnings: 8.94,
+		trailing: 39.72,
+		price: 970.43,
+		pe: 24.43
+	},{
+		date1: 199709,
+		date2: "September 30th, 1997",
+		earnings: 9.87,
+		trailing: 40.64,
+		price: 947.28,
+		pe: 23.31
+	},{
+		date1: 199706,
+		date2: "June 30th, 1997",
+		earnings: 10.44,
+		trailing: 40.55,
+		price: 885.14,
+		pe: 21.83
+	},{
+		date1: 199703,
+		date2: "March 31st, 1997",
+		earnings: 10.47,
+		trailing: 40.24,
+		price: 757.12,
+		pe: 18.82
+	},{
+		date1: 199612,
+		date2: "December 31st, 1996",
+		earnings: 9.86,
+		trailing: 38.73,
+		price: 740.74,
+		pe: 19.13
+	},{
+		date1: 199609,
+		date2: "September 30th, 1996",
+		earnings: 9.78,
+		trailing: 36.00,
+		price: 687.33,
+		pe: 19.09
+	},{
+		date1: 199606,
+		date2: "June 30th, 1996",
+		earnings: 10.13,
+		trailing: 34.91,
+		price: 670.63,
+		pe: 19.21
+	},{
+		date1: 199603,
+		date2: "March 31st, 1996",
+		earnings: 8.96,
+		trailing: 34.04,
+		price: 645.50,
+		pe: 18.96
+	},{
+		date1: 199512,
+		date2: "December 31st, 1995",
+		earnings: 7.13,
+		trailing: 33.96,
+		price: 615.93,
+		pe: 18.14
+	},{
+		date1: 199509,
+		date2: "September 30th, 1995",
+		earnings: 8.69,
+		trailing: 35.18,
+		price: 584.41,
+		pe: 18.61
+	},{
+		date1: 199506,
+		date2: "June 30th, 1995",
+		earnings: 9.26,
+		trailing: 34.43,
+		price: 544.75,
+		pe: 15.82
+	},{
+		date1: 199503,
+		date2: "March 31st, 1995",
+		earnings: 8.88,
+		trailing: 32.55,
+		price: 500.71,
+		pe: 15.38
+	},{
+		date1: 199412,
+		date2: "December 31st, 1994",
+		earnings: 8.35,
+		trailing: 30.60,
+		price: 459.27,
+		pe: 15.01
+	},{
+		date1: 199409,
+		date2: "September 30th, 1994",
+		earnings: 7.94,
+		trailing: 27.33,
+		price: 462.71,
+		pe: 16.93
+	},{
+		date1: 199406,
+		date2: "June 30th, 1994",
+		earnings: 7.38,
+		trailing: 25.20,
+		price: 444.27,
+		pe: 17.63
+	},{
+		date1: 199403,
+		date2: "March 31st, 1994",
+		earnings: 6.93,
+		trailing: 22.71,
+		price: 445.77,
+		pe: 19.63
+	},{
+		date1: 199312,
+		date2: "December 31st, 1993",
+		earnings: 5.08,
+		trailing: 21.89,
+		price: 466.45,
+		pe: 21.31
+	},{
+		date1: 199309,
+		date2: "September 30th, 1993",
+		earnings: 5.81,
+		trailing: 20.41,
+		price: 458.93,
+		pe: 22.49
+	},{
+		date1: 199306,
+		date2: "June 30th, 1993",
+		earnings: 4.89,
+		trailing: 19.33,
+		price: 450.53,
+		pe: 23.31
+	},{
+		date1: 199303,
+		date2: "March 31st, 1993",
+		earnings: 6.11,
+		trailing: 19.84,
+		price: 451.67,
+		pe: 22.77
+	},{
+		date1: 199212,
+		date2: "December 31st, 1992",
+		earnings: 3.60,
+		trailing: 19.09,
+		price: 435.71,
+		pe: 22.82
+	},{
+		date1: 199209,
+		date2: "September 30th, 1992",
+		earnings: 4.73,
+		trailing: 18.04,
+		price: 417.80,
+		pe: 23.16
+	},{
+		date1: 199206,
+		date2: "June 30th, 1992",
+		earnings: 5.40,
+		trailing: 17.05,
+		price: 408.14,
+		pe: 23.94
+	},{
+		date1: 199203,
+		date2: "March 31st, 1992",
+		earnings: 5.36,
+		trailing: 16.19,
+		price: 403.69,
+		pe: 24.93
+	},{
+		date1: 199112,
+		date2: "December 31st, 1991",
+		earnings: 2.55,
+		trailing: 15.97,
+		price: 417.09,
+		pe: 26.12
+	},{
+		date1: 199109,
+		date2: "September 30th, 1991",
+		earnings: 3.74,
+		trailing: 17.82,
+		price: 387.86,
+		pe: 21.77
+	},{
+		date1: 199106,
+		date2: "June 30th, 1991",
+		earnings: 4.54,
+		trailing: 19.41,
+		price: 371.16,
+		pe: 19.12
+	},{
+		date1: 199103,
+		date2: "March 31st, 1991",
+		earnings: 5.14,
+		trailing: 20.94,
+		price: 375.22,
+		pe: 17.92
+	},{
+		date1: 199012,
+		date2: "December 31st, 1990",
+		earnings: 4.40,
+		trailing: 21.34,
+		price: 330.22,
+		pe: 15.47
+	},{
+		date1: 199009,
+		date2: "September 30th, 1990",
+		earnings: 5.33,
+		trailing: 21.74,
+		price: 306.05,
+		pe: 14.08
+	},{
+		date1: 199006,
+		date2: "June 30th, 1990",
+		earnings: 6.07,
+		trailing: 21.26,
+		price: 358.02,
+		pe: 16.84
+	},{
+		date1: 199003,
+		date2: "March 31st, 1990",
+		earnings: 5.54,
+		trailing: 21.67,
+		price: 339.94,
+		pe: 15.69
+	},{
+		date1: 198912,
+		date2: "December 31st, 1989",
+		earnings: 4.80,
+		trailing: 22.87,
+		price: 353.40,
+		pe: 15.45
+	},{
+		date1: 198909,
+		date2: "September 30th, 1989",
+		earnings: 4.85,
+		trailing: 23.69,
+		price: 349.15,
+		pe: 14.74
+	},{
+		date1: 198906,
+		date2: "June 30th, 1989",
+		earnings: 6.48,
+		trailing: 25.22,
+		price: 317.98,
+		pe: 12.61
+	},{
+		date1: 198903,
+		date2: "March 31st, 1989",
+		earnings: 6.74,
+		trailing: 24.96,
+		price: 294.87,
+		pe: 11.81
+	},{
+		date1: 198812,
+		date2: "December 31st, 1988",
+		earnings: 5.62,
+		trailing: 23.75,
+		price: 277.72,
+		pe: 11.69
 	}
 ];
 
