@@ -1,8 +1,20 @@
 
 //let cpi = require("../dataNumbers/cpi.js");
+
+/*
+// Generate last month percentage
+for (let i = 0 ; i < 6 ; i++) {
+
+	let theLastMonthsCpi = ((cpi[i].cpi - cpi[i+1].cpi) / cpi[i].cpi) * 100;
+	theLastMonthsCpi = theLastMonthsCpi.toFixed(3);
+
+	console.log(cpi[i].date1 + " had a CPI of " + theLastMonthsCpi);
+}
+*/
+
 /*
 // Generate last 12 months percentage
-for (let j = 220 ; j < 226 ; j++) {
+for (let j = 0 ; j < 6 ; j++) {
 
 	let lastMonthCpi = 0;
 	let previousMonthCpi = 0;
@@ -23,7 +35,7 @@ for (let j = 220 ; j < 226 ; j++) {
 
 	console.log(cpi[j].date1 + " is the date and the CPI is " + theMonthCpi);
 }
-console.log(cpi[248].date1);
+console.log(cpi[249].date1);
 */
 
 /*
@@ -54,4 +66,4 @@ theCpi = theCpi.toFixed(2);
 console.log(theCpi);
 */
 
-//module.exports = ;
+//module.exports = cpiData;

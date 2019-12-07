@@ -71,9 +71,9 @@ router.get("/", (req, res) => {
 // For CPI Pallet
 		let cpiYearly = {
 			thisOne: cpiArray[0].last12Months,
-			oneAgo: cpiArray[9].last12Months,
-			twoAgo: cpiArray[21].last12Months,
-			threeAgo: cpiArray[33].last12Months
+			oneAgo: cpiArray[10].last12Months,
+			twoAgo: cpiArray[22].last12Months,
+			threeAgo: cpiArray[34].last12Months
 		}
 // For Employment Pallet
 		let jobData = {

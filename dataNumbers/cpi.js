@@ -1,6 +1,13 @@
 
 const cpi = [
 	{
+		date1: 201910,
+		date2: 2019,
+		cpi: 257.346,
+		year: 0,
+		last12Months: 1.80,
+		lastMonth: 0.228
+	},{
 		date1: 201909,
 		date2: 2019,
 		cpi: 256.759,
@@ -1751,7 +1758,7 @@ const cpi = [
 // This data is not seasonally adjusted
 // Monthly CPI is seasonally adjusted
 // Last 12 months rate is not seasonally adjusted
-// FRED is seasonally adjusted data
+// FRED is seasonally adjusted data (CPIAUCSL)
 
 
 module.exports = cpi;
