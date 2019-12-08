@@ -21,7 +21,7 @@ let inversions = require("../dataRoutes/yieldCurveData.js");
 let cpiArray = require("../dataNumbers/cpi.js");
 // For Employment
 let unemployment = require("../dataNumbers/unemployment.js");
-let theRateGap = require("../dataRoutes/unemploymentData.js");
+let unemployData = require("../dataRoutes/unemploymentData.js");
 
 
 const spHigh = {
@@ -70,15 +70,17 @@ router.get("/", (req, res) => {
 //		console.log(inversions);
 // For CPI Pallet
 		let cpiYearly = {
-			thisOne: cpiArray[0].last12Months,
-			oneAgo: cpiArray[10].last12Months,
-			twoAgo: cpiArray[22].last12Months,
-			threeAgo: cpiArray[34].last12Months
+			thisOne: cpiArray[0].last12Months.toFixed(2),
+			oneAgo: cpiArray[10].last12Months.toFixed(2),
+			twoAgo: cpiArray[22].last12Months.toFixed(2),
+			threeAgo: cpiArray[34].last12Months.toFixed(2)
 		}
+
 // For Employment Pallet
 		let jobData = {
 			theRate: unemployment[0].rate,
-			theGap: theRateGap
+			theAverage: unemployData.currentAverage,
+			theGap: unemployData.rateGap
 		}
 
  		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, fedFundsData, inversions, cpiYearly, jobData});

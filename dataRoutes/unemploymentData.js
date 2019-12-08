@@ -15,6 +15,8 @@ rateGap = (currentAverage - monthlyLow).toFixed(1);
 if (rateGap < 0) {
 	rateGap = (rateGap * -1).toFixed(1);
 }
+
+currentAverage = currentAverage.toFixed(2);
 //console.log(rateGap);
 
 
@@ -52,4 +54,4 @@ for (let i = 0 ; i < (unemployment.length - 14) ; i++) {
 // 200305 to 200310
 // 200711 to 201005
 
-module.exports = rateGap;
+module.exports = { currentAverage, rateGap };

@@ -135,8 +135,10 @@
 		<div id="employPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">State of Employment</div>
 			<div id="currentRate">As of the first of the month, the unemployment rate is {{jobData.theRate}}%.</div>
+			<div id="averageRate">{{jobData.theAverage}}% is the 3 month rate average.</div>			
 			<div id="rateGapTitle">Rate gap explaination</div>
-			<div class="gapInfo">A gap of 0.3 from previous year low point, signals a possible recession.</div>
+			<div class="gapInfo">A gap of 0.3 from here to the previous 12 months low point,</div>
+			<div class="gapInfo">signals a possible recession.</div>
 			<div class="gapInfo">If it gets to 0.5 then a downturn probably has already begun.</div>
 			<div id="currentGap">The current rate gap is {{jobData.theGap}}</div>			
 		</div>

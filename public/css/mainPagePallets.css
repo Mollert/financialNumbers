@@ -168,11 +168,15 @@
 
 /*Unemployment Pallet*/
 #employPallet {
-	height: 16rem;
+	height: 19rem;
 }
 
 #currentRate {
 	font-size: 1.4rem;
+}
+
+#averageRate {
+	font-size: 1.2rem;
 }
 
 #rateGapTitle {
