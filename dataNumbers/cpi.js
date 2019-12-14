@@ -1,11 +1,18 @@
 
 const cpi = [
 	{
+		date1: 201911,
+		date2: 2019,
+		cpi: 257.208,
+		year: 0,
+		last12Months: 1.78,
+		lastMonth: -0.054
+	},{
 		date1: 201910,
 		date2: 2019,
 		cpi: 257.346,
 		year: 0,
-		last12Months: 1.80,
+		last12Months: 1.79,
 		lastMonth: 0.228
 	},{
 		date1: 201909,
@@ -34,7 +41,7 @@ const cpi = [
 		cpi: 256.143,
 		year: 0,
 		last12Months: 2.07,
-		lastMonth: 0.20
+		lastMonth: 0.200
 	},{
 		date1: 201905,
 		date2: 2019,
