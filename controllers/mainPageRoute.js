@@ -24,9 +24,12 @@ let unemployment = require("../dataNumbers/unemployment.js");
 let unemployData = require("../dataRoutes/unemploymentData.js");
 
 
+//let confidenceData = require("../dataRoutes/confidenceData.js");
+//console.log(confidenceData);
+
 const spHigh = {
-	value: 3168.80,	
-	date: "Friday, December 13th 2019"
+	value: 3192.52,
+	date: "Tuesday, December 17th 2019"
 }
 let latestClose = {
 	value: "",
