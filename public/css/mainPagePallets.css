@@ -99,6 +99,24 @@
 }
 
 
+/*Confidence Index Pallet*/
+#confidencePallet {
+	height: 19rem;
+}
+
+.resultInfo {
+	font-size: 1.4rem;
+}
+
+.space {
+	padding: 0.6rem 0;
+}
+
+.finalWarning {
+	font-size: 1.2rem;
+}
+
+
 /*Fed Funds Rate Pallet*/
 #ffrPallet {
 	height: 15rem;
@@ -110,7 +128,7 @@
 
 .previousRate {
 	font-size: 1.2rem;
-	padding: 1rem 0 0 0;
+	padding: 0.6rem 0 0 0;
 }
 
 

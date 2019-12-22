@@ -85,13 +85,23 @@
 				</div>
 			</div>
 		</div>
+<!-- Consumer Confidence Index -->
+		<div id="confidencePallet" class="displayPallet flexColumn">
+			<div class="palletTitle">Consumer Confidence Index</div>
+			<div class="resultInfo">The Conference Board Consumer Confidence Index</div>
+			<div class="resultInfo">{{confidenceData.lastMonth}}</div>
+			<div class="resultInfo">for the month of {{confidenceData.month}}.</div>
+			<div class="resultInfo space">It {{confidenceData.has}}{{confidenceData.lastMonth}} for the last {{confidenceData.times}} month{{confidenceData.multiple}}.</div>
+			<div class="finalWarning">Year over year, there as been a {{confidenceData.changePercent}}% {{confidenceData.lastYear}} in that number.</div>
+			<div class="finalWarning">A drop of 15% or more usually signals a recession.</div>
+		</div>
 <!-- Fed Funds Rate Change -->
 		<div id="ffrPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">Federal Funds Rate Movement</div>
 			<div class="presentRate">On {{fedFundsData.moveDate}} the Federal Funds Rate was {{fedFundsData.directionRecent}}</div>
 			<div class="presentRate">by {{fedFundsData.amountRecent}} points to {{fedFundsData.rateRecent}}.</div>
 			<div class="previousRate">It was last {{fedFundsData.directionLast}} {{fedFundsData.formattedLast}} ago by {{fedFundsData.amountLast}} points.</div>
-			<div class="previousRate">And then {{fedFundsData.formattedPrior}} prior from there it was {{fedFundsData.directionPrior}} by {{fedFundsData.amountPrior}} points.</div>			
+			<div class="previousRate">And then {{fedFundsData.formattedPrior}} prior from there it was {{fedFundsData.directionPrior}} by {{fedFundsData.amountPrior}} points.</div>
 		</div>
 <!-- Yield Curve Data -->
 		<div id="inversionPallet" class="displayPallet">

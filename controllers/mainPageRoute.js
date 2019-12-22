@@ -13,6 +13,8 @@ let spChartData = require("../dataRoutes/spChartData.js");
 let closes = [];
 // For S&P Earnings
 let spEarnings = require("../dataRoutes/earningsData.js");
+// For Consumer Confidence Index
+let confidenceData = require("../dataRoutes/confidenceData.js");
 // For Fed Funds Rate
 let fedFundsData = require("../dataRoutes/fedFundsRateData.js");
 // For Yield Curve
@@ -24,12 +26,9 @@ let unemployment = require("../dataNumbers/unemployment.js");
 let unemployData = require("../dataRoutes/unemploymentData.js");
 
 
-//let confidenceData = require("../dataRoutes/confidenceData.js");
-//console.log(confidenceData);
-
 const spHigh = {
-	value: 3192.52,
-	date: "Tuesday, December 17th 2019"
+	value: 3221.22,
+	date: "Friday, December 20th 2019"
 }
 let latestClose = {
 	value: "",
@@ -67,6 +66,8 @@ router.get("/", (req, res) => {
 
 // For the S&P Earnings Pallet
 		let spPlacement = spChartData.prepareChartData(closes);
+// For Confidence Pallet
+//		console.log(confidenceData);
 // For Fed Funds Rate Pallet
 //		console.log(fedFundsData);
 // For Yield Curve Pallet
@@ -86,7 +87,7 @@ router.get("/", (req, res) => {
 			theGap: unemployData.rateGap
 		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, fedFundsData, inversions, cpiYearly, jobData});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, confidenceData, fedFundsData, inversions, cpiYearly, jobData});
 
 	}).catch(error => {
 		res.render("errorPage", {error});

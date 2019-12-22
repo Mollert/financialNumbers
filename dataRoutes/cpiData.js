@@ -36,7 +36,7 @@ for (let j = 0 ; j < 6 ; j++) {
 	console.log(cpi[j].date1 + " is the date and the CPI is " + theMonthCpi);
 }
 console.log(cpi[249].date1);
-*/
+
 
 /*
 // Generate yearly CPI percentage
