@@ -27,8 +27,8 @@ let unemployData = require("../dataRoutes/unemploymentData.js");
 
 
 const spHigh = {
-	value: 3221.22,
-	date: "Friday, December 20th 2019"
+	value: 3224.01,
+	date: "Monday, December 23th 2019"
 }
 let latestClose = {
 	value: "",
