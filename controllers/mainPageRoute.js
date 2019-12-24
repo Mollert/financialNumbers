@@ -38,7 +38,7 @@ let latestClose = {
 const url = "https://api.stlouisfed.org/fred/";
 const criteria = "series/observations?series_id=SP500&";
 const timePeriod = "observation_start=" + date.dateStart;
-const entrance = "&api_key="/* + process.env.fredKey*/;
+const entrance = "&api_key=" + process.env.fredKey;
 const display = "&file_type=json";
 const path = url + criteria + timePeriod + entrance + display;
 
