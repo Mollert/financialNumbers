@@ -1,6 +1,14 @@
 
 const treasury10vs3 = [
 	{
+		date: 201912,
+		year: 2020,
+		month: 12,
+		quarter: "4th",
+		three: 1.55,
+		ten: 1.86,
+		spread: 0.31
+	},{
 		date: 201911,
 		year: 2019,
 		month: 11,
@@ -8,8 +16,7 @@ const treasury10vs3 = [
 		three: 1.59,
 		ten: 1.81,
 		spread: 0.22
-	},
-	{
+	},{
 		date: 201910,
 		year: 2019,
 		month: 10,
@@ -3353,12 +3360,20 @@ const treasury10vs3 = [
 		three: 8.33,
 		ten: 11.38,
 		spread: 3.05
+	},{
+		date: 198412,
+		year: 1984,
+		month: 12,
+		quarter: "4th",
+		three: 8.12,
+		ten: 11.50,
+		spread: 3.38
 	}
 ];
 
 // date is at the end of the month
 
-// FRED 3 month treasury constant maturity rate (DGS3MO)
+// FRED 3 month treasury constant maturity rate (DGS3MO); monthly, end of period
 // FRED 10-year treasury constant maturity rate (GS10)
 
 module.exports = treasury10vs3;
