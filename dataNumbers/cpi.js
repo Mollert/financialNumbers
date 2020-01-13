@@ -1677,72 +1677,72 @@ const cpi = [
 		date1: 199912,
 		date2: 1999,
 		cpi: 168.3,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 2.19,
 		lastMonth: 0
 	},{
 		date1: 199911,
 		date2: 1999,
 		cpi: 168.3,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 2.10,
 		lastMonth: 0.059
 	},{
 		date1: 199910,
 		date2: 1999,
 		cpi: 168.2,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 2.01,
-		lastMonth: 0.179
+		lastMonth: 0.178
 	},{
 		date1: 199909,
 		date2: 1999,
 		cpi: 167.9,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.92,
-		lastMonth: 0.479
+		lastMonth: 0.476
 	},{
 		date1: 199908,
 		date2: 1999,
 		cpi: 167.1,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.82,
-		lastMonth: 0.240
+		lastMonth: 0.239
 	},{
 		date1: 199907,
 		date2: 1999,
 		cpi: 166.7,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.77,
-		lastMonth: 0.301
+		lastMonth: 0.300
 	},{
 		date1: 199906,
 		date2: 1999,
 		cpi: 166.2,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.73,
 		lastMonth: 0
 	},{
 		date1: 199905,
 		date2: 1999,
 		cpi: 166.2,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.71,
 		lastMonth: 0
 	},{
 		date1: 199904,
 		date2: 1999,
 		cpi: 166.2,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.67,
-		lastMonth: 0.727
+		lastMonth: 0.722
 	},{
 		date1: 199903,
 		date2: 1999,
 		cpi: 165.0,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.60,
-		lastMonth: 0.304
+		lastMonth: 0.303
 	},{
 		date1: 199902,
 		date2: 1999,
@@ -1754,9 +1754,1192 @@ const cpi = [
 		date1: 199901,
 		date2: 1999,
 		cpi: 164.3,
-		year: 2.21,
+		year: 2.19,
 		last12Months: 1.56,
+		lastMonth: 0.243
+	},{
+		date1: 199812,
+		date2: 1998,
+		cpi: 163.9,
+		year: 1.55,
+		last12Months: 1.55,
+		lastMonth: -0.061
+	},{
+		date1: 199811,
+		date2: 1998,
+		cpi: 164.0,
+		year: 1.55,
+		last12Months: 1.56,
+		lastMonth: 0
+	},{
+		date1: 199810,
+		date2: 1998,
+		cpi: 164.0,
+		year: 1.55,
+		last12Months: 1.58,
 		lastMonth: 0.244
+	},{
+		date1: 199809,
+		date2: 1998,
+		cpi: 163.6,
+		year: 1.55,
+		last12Months: 1.63,
+		lastMonth: 0.122
+	},{
+		date1: 199808,
+		date2: 1998,
+		cpi: 163.4,
+		year: 1.55,
+		last12Months: 1.69,
+		lastMonth: 0.122
+	},{
+		date1: 199807,
+		date2: 1998,
+		cpi: 163.2,
+		year: 1.55,
+		last12Months: 1.74,
+		lastMonth: 0.123
+	},{
+		date1: 199806,
+		date2: 1998,
+		cpi: 163.0,
+		year: 1.55,
+		last12Months: 1.78,
+		lastMonth: 0.123
+	},{
+		date1: 199805,
+		date2: 1998,
+		cpi: 162.8,
+		year: 1.55,
+		last12Months: 1.83,
+		lastMonth: 0.184
+	},{
+		date1: 199804,
+		date2: 1998,
+		cpi: 162.5,
+		year: 1.55,
+		last12Months: 1.88,
+		lastMonth: 0.185
+	},{
+		date1: 199803,
+		date2: 1998,
+		cpi: 162.2,
+		year: 1.55,
+		last12Months: 1.97,
+		lastMonth: 0.185
+	},{
+		date1: 199802,
+		date2: 1998,
+		cpi: 161.9,
+		year: 1.55,
+		last12Months: 2.08,
+		lastMonth: 0.185
+	},{
+		date1: 199801,
+		date2: 1998,
+		cpi: 161.6,
+		year: 1.55,
+		last12Months: 2.22,
+		lastMonth: 0.186
+	},{
+		date1: 199712,
+		date2: 1997,
+		cpi: 161.3,
+		year: 2.34,
+		last12Months: 2.34,
+		lastMonth: -0.124
+	},{
+		date1: 199711,
+		date2: 1997,
+		cpi: 161.5,
+		year: 2.34,
+		last12Months: 2.47,
+		lastMonth: -0.062
+	},{
+		date1: 199710,
+		date2: 1997,
+		cpi: 161.6,
+		year: 2.34,
+		last12Months: 2.59,
+		lastMonth: 0.248
+	},{
+		date1: 199709,
+		date2: 1997,
+		cpi: 161.2,
+		year: 2.34,
+		last12Months: 2.67,
+		lastMonth: 0.248
+	},{
+		date1: 199708,
+		date2: 1997,
+		cpi: 160.8,
+		year: 2.34,
+		last12Months: 2.74,
+		lastMonth: 0.187
+	},{
+		date1: 199707,
+		date2: 1997,
+		cpi: 160.5,
+		year: 2.34,
+		last12Months: 2.79,
+		lastMonth: 0.125
+	},{
+		date1: 199706,
+		date2: 1997,
+		cpi: 160.3,
+		year: 2.34,
+		last12Months: 2.85,
+		lastMonth: 0.125
+	},{
+		date1: 199705,
+		date2: 1997,
+		cpi: 160.1,
+		year: 2.34,
+		last12Months: 2.89,
+		lastMonth: -0.062
+	},{
+		date1: 199704,
+		date2: 1997,
+		cpi: 160.2,
+		year: 2.34,
+		last12Months: 2.95,
+		lastMonth: 0.125
+	},{
+		date1: 199703,
+		date2: 1997,
+		cpi: 160.0,
+		year: 2.34,
+		last12Months: 2.98,
+		lastMonth: 0.250
+	},{
+		date1: 199702,
+		date2: 1997,
+		cpi: 159.6,
+		year: 2.34,
+		last12Months: 2.99,
+		lastMonth: 0.313
+	},{
+		date1: 199701,
+		date2: 1997,
+		cpi: 159.1,
+		year: 2.34,
+		last12Months: 2.96,
+		lastMonth: 0.314
+	},{
+		date1: 199612,
+		date2: 1996,
+		cpi: 158.6,
+		year: 2.93,
+		last12Months: 2.93,
+		lastMonth: 0
+	},{
+		date1: 199611,
+		date2: 1996,
+		cpi: 158.6,
+		year: 2.93,
+		last12Months: 2.87,
+		lastMonth: 0.189
+	},{
+		date1: 199610,
+		date2: 1996,
+		cpi: 158.3,
+		year: 2.93,
+		last12Months: 2.81,
+		lastMonth: 0.316
+	},{
+		date1: 199609,
+		date2: 1996,
+		cpi: 157.8,
+		year: 2.93,
+		last12Months: 2.80,
+		lastMonth: 0.317
+	},{
+		date1: 199608,
+		date2: 1996,
+		cpi: 157.3,
+		year: 2.93,
+		last12Months: 2.76,
+		lastMonth: 0.191
+	},{
+		date1: 199607,
+		date2: 1996,
+		cpi: 157.0,
+		year: 2.93,
+		last12Months: 2.74,
+		lastMonth: 0.191
+	},{
+		date1: 199606,
+		date2: 1996,
+		cpi: 156.7,
+		year: 2.93,
+		last12Months: 2.72,
+		lastMonth: 0.064
+	},{
+		date1: 199605,
+		date2: 1996,
+		cpi: 156.6,
+		year: 2.93,
+		last12Months: 2.74,
+		lastMonth: 0.192
+	},{
+		date1: 199604,
+		date2: 1996,
+		cpi: 156.3,
+		year: 2.93,
+		last12Months: 2.77,
+		lastMonth: 0.384
+	},{
+		date1: 199603,
+		date2: 1996,
+		cpi: 155.7,
+		year: 2.93,
+		last12Months: 2.78,
+		lastMonth: 0.514
+	},{
+		date1: 199602,
+		date2: 1996,
+		cpi: 154.9,
+		year: 2.93,
+		last12Months: 2.78,
+		lastMonth: 0.323
+	},{
+		date1: 199601,
+		date2: 1996,
+		cpi: 154.4,
+		year: 2.93,
+		last12Months: 2.80,
+		lastMonth: 0.583
+	},{
+		date1: 199512,
+		date2: 1995,
+		cpi: 153.5,
+		year: 2.81,
+		last12Months: 2.81,
+		lastMonth: -0.065
+	},{
+		date1: 199511,
+		date2: 1995,
+		cpi: 153.6,
+		year: 2.81,
+		last12Months: 2.82,
+		lastMonth: -0.065
+	},{
+		date1: 199510,
+		date2: 1995,
+		cpi: 153.7,
+		year: 2.81,
+		last12Months: 2.82,
+		lastMonth: 0.325
+	},{
+		date1: 199509,
+		date2: 1995,
+		cpi: 153.2,
+		year: 2.81,
+		last12Months: 2.81,
+		lastMonth: 0.196
+	},{
+		date1: 199508,
+		date2: 1995,
+		cpi: 152.9,
+		year: 2.81,
+		last12Months: 2.84,
+		lastMonth: 0.262
+	},{
+		date1: 199507,
+		date2: 1995,
+		cpi: 152.5,
+		year: 2.81,
+		last12Months: 2.87,
+		lastMonth: 0
+	},{
+		date1: 199506,
+		date2: 1995,
+		cpi: 152.5,
+		year: 2.81,
+		last12Months: 2.87,
+		lastMonth: 0.197
+	},{
+		date1: 199505,
+		date2: 1995,
+		cpi: 152.2,
+		year: 2.81,
+		last12Months: 2.82,
+		lastMonth: 0.197
+	},{
+		date1: 199504,
+		date2: 1995,
+		cpi: 151.9,
+		year: 2.81,
+		last12Months: 2.75,
+		lastMonth: 0.329
+	},{
+		date1: 199503,
+		date2: 1995,
+		cpi: 151.4,
+		year: 2.81,
+		last12Months: 2.69,
+		lastMonth: 0.330
+	},{
+		date1: 199502,
+		date2: 1995,
+		cpi: 150.9,
+		year: 2.81,
+		last12Months: 2.66,
+		lastMonth: 0.398
+	},{
+		date1: 199501,
+		date2: 1995,
+		cpi: 150.3,
+		year: 2.81,
+		last12Months: 2.63,
+		lastMonth: 0.399
+	},{
+		date1: 199412,
+		date2: 1994,
+		cpi: 149.7,
+		year: 2.61,
+		last12Months: 2.61,
+		lastMonth: 0
+	},{
+		date1: 199411,
+		date2: 1994,
+		cpi: 149.7,
+		year: 2.61,
+		last12Months: 2.61,
+		lastMonth: 0.134
+	},{
+		date1: 199410,
+		date2: 1994,
+		cpi: 149.5,
+		year: 2.61,
+		last12Months: 2.61,
+		lastMonth: 0.067
+	},{
+		date1: 199409,
+		date2: 1994,
+		cpi: 149.4,
+		year: 2.61,
+		last12Months: 2.63,
+		lastMonth: 0.268
+	},{
+		date1: 199408,
+		date2: 1994,
+		cpi: 149.0,
+		year: 2.61,
+		last12Months: 2.60,
+		lastMonth: 0.403
+	},{
+		date1: 199407,
+		date2: 1994,
+		cpi: 148.4,
+		year: 2.61,
+		last12Months: 2.59,
+		lastMonth: 0.270
+	},{
+		date1: 199406,
+		date2: 1994,
+		cpi: 148.0,
+		year: 2.61,
+		last12Months: 2.59,
+		lastMonth: 0.338
+	},{
+		date1: 199405,
+		date2: 1994,
+		cpi: 147.5,
+		year: 2.61,
+		last12Months: 2.63,
+		lastMonth: 0.068
+	},{
+		date1: 199404,
+		date2: 1994,
+		cpi: 147.4,
+		year: 2.61,
+		last12Months: 2.71,
+		lastMonth: 0.136
+	},{
+		date1: 199403,
+		date2: 1994,
+		cpi: 147.2,
+		year: 2.61,
+		last12Months: 2.78,
+		lastMonth: 0.340
+	},{
+		date1: 199402,
+		date2: 1994,
+		cpi: 146.7,
+		year: 2.61,
+		last12Months: 2.83,
+		lastMonth: 0.341
+	},{
+		date1: 199401,
+		date2: 1994,
+		cpi: 146.2,
+		year: 2.61,
+		last12Months: 2.89,
+		lastMonth: 0.274
+	},{
+		date1: 199312,
+		date2: 1993,
+		cpi: 145.8,
+		year: 2.95,
+		last12Months: 2.95,
+		lastMonth: 0
+	},{
+		date1: 199311,
+		date2: 1993,
+		cpi: 145.8,
+		year: 2.95,
+		last12Months: 2.96,
+		lastMonth: 0.069
+	},{
+		date1: 199310,
+		date2: 1993,
+		cpi: 145.7,
+		year: 2.95,
+		last12Months: 3.00,
+		lastMonth: 0.412
+	},{
+		date1: 199309,
+		date2: 1993,
+		cpi: 145.1,
+		year: 2.95,
+		last12Months: 3.03,
+		lastMonth: 0.207
+	},{
+		date1: 199308,
+		date2: 1993,
+		cpi: 144.8,
+		year:2.95,
+		last12Months: 3.06,
+		lastMonth: 0.276
+	},{
+		date1: 199307,
+		date2: 1993,
+		cpi: 144.4,
+		year: 2.95,
+		last12Months: 3.09,
+		lastMonth: 0
+	},{
+		date1: 199306,
+		date2: 1993,
+		cpi: 144.4,
+		year: 2.95,
+		last12Months: 3.12,
+		lastMonth: 0.139
+	},{
+		date1: 199305,
+		date2: 1993,
+		cpi: 144.2,
+		year: 2.95,
+		last12Months: 3.13,
+		lastMonth: 0.139
+	},{
+		date1: 199304,
+		date2: 1993,
+		cpi: 144.0,
+		year: 2.95,
+		last12Months: 3.11,
+		lastMonth: 0.278
+	},{
+		date1: 199303,
+		date2: 1993,
+		cpi: 143.6,
+		year: 2.95,
+		last12Months: 3.11,
+		lastMonth: 0.348
+	},{
+		date1: 199302,
+		date2: 1993,
+		cpi: 143.1,
+		year: 2.95,
+		last12Months: 3.12,
+		lastMonth: 0.349
+	},{
+		date1: 199301,
+		date2: 1993,
+		cpi: 142.6,
+		year: 2.95,
+		last12Months: 3.08,
+		lastMonth: 0.491
+	},{
+		date1: 199212,
+		date2: 1992,
+		cpi: 141.9,
+		year: 3.03,
+		last12Months: 3.03,
+		lastMonth: -0.070
+	},{
+		date1: 199211,
+		date2: 1992,
+		cpi: 142.0,
+		year: 3.03,
+		last12Months: 3.04,
+		lastMonth: 0.141
+	},{
+		date1: 199210,
+		date2: 1992,
+		cpi: 141.8,
+		year: 3.03,
+		last12Months: 3.04,
+		lastMonth: 0.353
+	},{
+		date1: 199209,
+		date2: 1992,
+		cpi: 141.3,
+		year: 3.03,
+		last12Months: 3.01,
+		lastMonth: 0.283
+	},{
+		date1: 199208,
+		date2: 1992,
+		cpi: 140.9,
+		year: 3.03,
+		last12Months: 3.05,
+		lastMonth: 0.284
+	},{
+		date1: 199207,
+		date2: 1992,
+		cpi: 140.5,
+		year: 3.03,
+		last12Months: 3.10,
+		lastMonth: 0.214
+	},{
+		date1: 199206,
+		date2: 1992,
+		cpi: 140.2,
+		year: 3.03,
+		last12Months: 3.20,
+		lastMonth: 0.357
+	},{
+		date1: 199205,
+		date2: 1992,
+		cpi: 139.7,
+		year: 3.03,
+		last12Months: 3.34,
+		lastMonth: 0.143
+	},{
+		date1: 199204,
+		date2: 1992,
+		cpi: 139.5,
+		year: 3.03,
+		last12Months: 3.49,
+		lastMonth: 0.143
+	},{
+		date1: 199203,
+		date2: 1992,
+		cpi: 139.3,
+		year: 3.03,
+		last12Months: 3.63,
+		lastMonth: 0.503
+	},{
+		date1: 199202,
+		date2: 1992,
+		cpi: 138.6,
+		year: 3.03,
+		last12Months: 3.77,
+		lastMonth: 0.361
+	},{
+		date1: 199201,
+		date2: 1992,
+		cpi: 138.1,
+		year: 3.03,
+		last12Months: 3.98,
+		lastMonth: 0.145
+	},{
+		date1: 199112,
+		date2: 1991,
+		cpi: 137.9,
+		year: 4.23,
+		last12Months: 4.23,
+		lastMonth: 0.073
+	},{
+		date1: 199111,
+		date2: 1991,
+		cpi: 137.8,
+		year: 4.23,
+		last12Months: 4.49,
+		lastMonth: 0.290
+	},{
+		date1: 199110,
+		date2: 1991,
+		cpi: 137.4,
+		year: 4.23,
+		last12Months: 4.76,
+		lastMonth: 0.146
+	},{
+		date1: 199109,
+		date2: 1991,
+		cpi: 137.2,
+		year: 4.23,
+		last12Months: 5.04,
+		lastMonth: 0.437
+	},{
+		date1: 199108,
+		date2: 1991,
+		cpi: 136.6,
+		year: 4.23,
+		last12Months: 5.28,
+		lastMonth: 0.293
+	},{
+		date1: 199107,
+		date2: 1991,
+		cpi: 136.2,
+		year: 4.23,
+		last12Months: 5.43,
+		lastMonth: 0.147
+	},{
+		date1: 199106,
+		date2: 1991,
+		cpi: 136.0,
+		year: 4.23,
+		last12Months: 5.47,
+		lastMonth: 0.294
+	},{
+		date1: 199105,
+		date2: 1991,
+		cpi: 135.6,
+		year: 4.23,
+		last12Months: 5.47,
+		lastMonth: 0.295
+	},{
+		date1: 199104,
+		date2: 1991,
+		cpi: 135.2,
+		year: 4.23,
+		last12Months: 5.42,
+		lastMonth: 0.148
+	},{
+		date1: 199103,
+		date2: 1991,
+		cpi: 135.0,
+		year: 4.23,
+		last12Months: 5.41,
+		lastMonth: 0.148
+	},{
+		date1: 199102,
+		date2: 1991,
+		cpi: 134.8,
+		year: 4.23,
+		last12Months: 5.44,
+		lastMonth: 0.148
+	},{
+		date1: 199101,
+		date2: 1991,
+		cpi: 134.6,
+		year: 4.23,
+		last12Months: 5.44,
+		lastMonth: 0.594
+	},{
+		date1: 199012,
+		date2: 1990,
+		cpi: 133.8,
+		year: 5.40,
+		last12Months: 5.40,
+		lastMonth: 0
+	},{
+		date1: 199011,
+		date2: 1990,
+		cpi: 133.8,
+		year: 5.40,
+		last12Months: 5.28,
+		lastMonth: 0.224
+	},{
+		date1: 199010,
+		date2: 1990,
+		cpi: 133.5,
+		year: 5.40,
+		last12Months: 5.14,
+		lastMonth: 0.599
+	},{
+		date1: 199009,
+		date2: 1990,
+		cpi: 132.7,
+		year: 5.40,
+		last12Months: 4.99,
+		lastMonth: 0.829
+	},{
+		date1: 199008,
+		date2: 1990,
+		cpi: 131.6,
+		year: 5.40,
+		last12Months: 4.84,
+		lastMonth: 0.912
+	},{
+		date1: 199007,
+		date2: 1990,
+		cpi: 130.4,
+		year: 5.40,
+		last12Months: 4.76,
+		lastMonth: 0.383
+	},{
+		date1: 199006,
+		date2: 1990,
+		cpi: 129.9,
+		year: 5.40,
+		last12Months: 4.77,
+		lastMonth: 0.539
+	},{
+		date1: 199005,
+		date2: 1990,
+		cpi: 129.2,
+		year: 5.40,
+		last12Months: 4.81,
+		lastMonth: 0.232
+	},{
+		date1: 199004,
+		date2: 1990,
+		cpi: 128.9,
+		year: 5.40,
+		last12Months: 4.90,
+		lastMonth: 0.155
+	},{
+		date1: 199003,
+		date2: 1990,
+		cpi: 128.7,
+		year: 5.40,
+		last12Months: 4.93,
+		lastMonth: 0.544
+	},{
+		date1: 199002,
+		date2: 1990,
+		cpi: 128.0,
+		year: 5.40,
+		last12Months: 4.91,
+		lastMonth: 0.469
+	},{
+		date1: 199001,
+		date2: 1990,
+		cpi: 127.4,
+		year: 5.40,
+		last12Months: 4.87,
+		lastMonth: 1.020
+	},{
+		date1: 198912,
+		date2: 1989,
+		cpi: 126.1,
+		year: 4.83,
+		last12Months: 4.83,
+		lastMonth: 0.159
+	},{
+		date1: 198911,
+		date2: 1989,
+		cpi: 125.9,
+		year: 4.83,
+		last12Months: 4.81,
+		lastMonth: 0.238
+	},{
+		date1: 198910,
+		date2: 1989,
+		cpi: 125.6,
+		year: 4.83,
+		last12Months: 4.78,
+		lastMonth: 0.478
+	},{
+		date1: 198909,
+		date2: 1989,
+		cpi: 125.0,
+		year: 4.83,
+		last12Months: 4.76,
+		lastMonth: 0.320
+	},{
+		date1: 198908,
+		date2: 1989,
+		cpi: 124.6,
+		year: 4.83,
+		last12Months: 4.74,
+		lastMonth: 0.161
+	},{
+		date1: 198907,
+		date2: 1989,
+		cpi: 124.4,
+		year: 4.83,
+		last12Months: 4.69,
+		lastMonth: 0.241
+	},{
+		date1: 198906,
+		date2: 1989,
+		cpi: 124.1,
+		year: 4.83,
+		last12Months: 4.62,
+		lastMonth: 0.242
+	},{
+		date1: 198905,
+		date2: 1989,
+		cpi: 123.8,
+		year: 4.83,
+		last12Months: 4.52,
+		lastMonth: 0.565
+	},{
+		date1: 198904,
+		date2: 1989,
+		cpi: 123.1,
+		year: 4.83,
+		last12Months: 4.39,
+		lastMonth: 0.650
+	},{
+		date1: 198903,
+		date2: 1989,
+		cpi: 122.3,
+		year: 4.83,
+		last12Months: 4.29,
+		lastMonth: 0.572
+	},{
+		date1: 198902,
+		date2: 1989,
+		cpi: 121.6,
+		year: 4.83,
+		last12Months: 4.20,
+		lastMonth: 0.411
+	},{
+		date1: 198901,
+		date2: 1989,
+		cpi: 121.1,
+		year: 4.83,
+		last12Months: 4.13,
+		lastMonth: 0.495
+	},{
+		date1: 198812,
+		date2: 1988,
+		cpi: 120.5,
+		year: 4.08,
+		last12Months: 4.08,
+		lastMonth: 0.166
+	},{
+		date1: 198811,
+		date2: 1988,
+		cpi: 120.3,
+		year: 4.08,
+		last12Months: 4.08,
+		lastMonth: 0.083
+	},{
+		date1: 198810,
+		date2: 1988,
+		cpi: 120.2,
+		year: 4.08,
+		last12Months: 4.10,
+		lastMonth: 0.333
+	},{
+		date1: 198809,
+		date2: 1988,
+		cpi: 119.8,
+		year: 4.08,
+		last12Months: 4.12,
+		lastMonth: 0.668
+	},{
+		date1: 198808,
+		date2: 1988,
+		cpi: 119.0,
+		year: 4.08,
+		last12Months: 4.14,
+		lastMonth: 0.420
+	},{
+		date1: 198807,
+		date2: 1988,
+		cpi: 118.5,
+		year: 4.08,
+		last12Months: 4.16,
+		lastMonth: 0.422
+	},{
+		date1: 198806,
+		date2: 1988,
+		cpi: 118.0,
+		year: 4.08,
+		last12Months: 4.14,
+		lastMonth: 0.424
+	},{
+		date1: 198805,
+		date2: 1988,
+		cpi: 117.5,
+		year: 4.08,
+		last12Months: 4.12,
+		lastMonth: 0.340
+	},{
+		date1: 198804,
+		date2: 1988,
+		cpi: 117.1,
+		year: 4.08,
+		last12Months: 4.12,
+		lastMonth: 0.512
+	},{
+		date1: 198803,
+		date2: 1988,
+		cpi: 116.5,
+		year: 4.08,
+		last12Months: 4.11,
+		lastMonth: 0.429
+	},{
+		date1: 198802,
+		date2: 1988,
+		cpi: 116.0,
+		year: 4.08,
+		last12Months: 4.03,
+		lastMonth: 0.259
+	},{
+		date1: 198801,
+		date2: 1988,
+		cpi: 115.7,
+		year: 4.08,
+		last12Months: 3.88,
+		lastMonth: 0.259
+	},{
+		date1: 198712,
+		date2: 1987,
+		cpi: 115.4,
+		year: 3.66,
+		last12Months: 3.66,
+		lastMonth: 0
+	},{
+		date1: 198711,
+		date2: 1987,
+		cpi: 115.4,
+		year: 3.66,
+		last12Months: 3.39,
+		lastMonth: 0.087
+	},{
+		date1: 198710,
+		date2: 1987,
+		cpi: 115.3,
+		year: 3.66,
+		last12Months: 3.12,
+		lastMonth: 0.260
+	},{
+		date1: 198709,
+		date2: 1987,
+		cpi: 115.0,
+		year: 3.66,
+		last12Months: 2.86,
+		lastMonth: 0.522
+	},{
+		date1: 198708,
+		date2: 1987,
+		cpi: 114.4,
+		year: 3.66,
+		last12Months: 2.64,
+		lastMonth: 0.524
+	},{
+		date1: 198707,
+		date2: 1987,
+		cpi: 113.8,
+		year: 3.66,
+		last12Months: 2.42,
+		lastMonth: 0.264
+	},{
+		date1: 198706,
+		date2: 1987,
+		cpi: 113.5,
+		year: 3.66,
+		last12Months: 2.22,
+		lastMonth: 0.352
+	},{
+		date1: 198705,
+		date2: 1987,
+		cpi: 113.1,
+		year: 3.66,
+		last12Months: 2.06,
+		lastMonth: 0.354
+	},{
+		date1: 198704,
+		date2: 1987,
+		cpi: 112.7,
+		year: 3.66,
+		last12Months: 1.87,
+		lastMonth: 0.532
+	},{
+		date1: 198703,
+		date2: 1987,
+		cpi: 112.1,
+		year: 3.66,
+		last12Months: 1.68,
+		lastMonth: 0.446
+	},{
+		date1: 198702,
+		date2: 1987,
+		cpi: 111.6,
+		year: 3.66,
+		last12Months: 1.62,
+		lastMonth: 0.358
+	},{
+		date1: 198701,
+		date2: 1987,
+		cpi: 111.2,
+		year: 3.66,
+		last12Months: 1.70,
+		lastMonth: 0.629
+	},{
+		date1: 198612,
+		date2: 1986,
+		cpi: 110.5,
+		year: 1.90,
+		last12Months: 1.90,
+		lastMonth: 0.090
+	},{
+		date1: 198611,
+		date2: 1986,
+		cpi: 110.4,
+		year: 1.90,
+		last12Months: 1.12,
+		lastMonth: 0.091
+	},{
+		date1: 198610,
+		date2: 1986,
+		cpi: 110.3,
+		year: 1.90,
+		last12Months: 2.31,
+		lastMonth: 0.091
+	},{
+		date1: 198609,
+		date2: 1986,
+		cpi: 110.2,
+		year: 1.90,
+		last12Months: 2.45,
+		lastMonth: 0.454
+	},{
+		date1: 198608,
+		date2: 1986,
+		cpi: 109.7,
+		year: 1.90,
+		last12Months: 2.57,
+		lastMonth: 0.182
+	},{
+		date1: 198607,
+		date2: 1986,
+		cpi: 109.5,
+		year: 1.90,
+		last12Months: 2.72,
+		lastMonth: 0
+	},{
+		date1: 198606,
+		date2: 1986,
+		cpi: 109.5,
+		year: 1.90,
+		last12Months: 2.88,
+		lastMonth: 0.548
+	},{
+		date1: 198605,
+		date2: 1986,
+		cpi: 108.9,
+		year: 1.90,
+		last12Months: 3.05,
+		lastMonth: 0.275
+	},{
+		date1: 198604,
+		date2: 1986,
+		cpi: 108.6,
+		year: 1.90,
+		last12Months: 3.24,
+		lastMonth: -0.184
+	},{
+		date1: 198603,
+		date2: 1986,
+		cpi: 108.8,
+		year: 1.90,
+		last12Months: 3.42,
+		lastMonth: -0.460
+	},{
+		date1: 198602,
+		date2: 1986,
+		cpi: 109.3,
+		year: 1.90,
+		last12Months: 3.54,
+		lastMonth: -0.274
+	},{
+		date1: 198601,
+		date2: 1986,
+		cpi: 109.6,
+		year: 1.90,
+		last12Months: 3.58,
+		lastMonth: 0.274
+	},{
+		date1: 198512,
+		date2: 1985,
+		cpi: 109.3,
+		year: 3.55,
+		last12Months: 3.55,
+		lastMonth: 0.274
+	},{
+		date1: 198511,
+		date2: 1985,
+		cpi: 109.0,
+		year: 3.55,
+		last12Months: 3.56,
+		lastMonth: 0.275
+	},{
+		date1: 198510,
+		date2: 1985,
+		cpi: 108.7,
+		year: 3.55,
+		last12Months: 3.60,
+		lastMonth: 0.368
+	},{
+		date1: 198509,
+		date2: 1985,
+		cpi: 108.3,
+		year: 3.55,
+		last12Months: 3.69,
+		lastMonth: 0.277
+	},{
+		date1: 198508,
+		date2: 1985,
+		cpi: 108.0,
+		year: 3.55,
+		last12Months: 3.78,
+		lastMonth: 0.185
+	},{
+		date1: 198507,
+		date2: 1985,
+		cpi: 107.8,
+		year: 3.55,
+		last12Months: 3.86,
+		lastMonth: 0.186
+	},{
+		date1: 198506,
+		date2: 1985,
+		cpi: 107.6,
+		year: 3.55,
+		last12Months: 3.91,
+		lastMonth: 0.279
+	},{
+		date1: 198505,
+		date2: 1985,
+		cpi: 107.3,
+		year: 3.55,
+		last12Months: 3.95,
+		lastMonth: 0.373
+	},{
+		date1: 198504,
+		date2: 1985,
+		cpi: 106.9,
+		year: 3.55,
+		last12Months: 3.99,
+		lastMonth: 0.468
+	},{
+		date1: 198503,
+		date2: 1985,
+		cpi: 106.4,
+		year: 3.55,
+		last12Months: 4.06,
+		lastMonth: 0.376
+	},{
+		date1: 198502,
+		date2: 1985,
+		cpi: 106.0,
+		year: 3.55,
+		last12Months: 4.15,
+		lastMonth: 0.472
+	},{
+		date1: 198501,
+		date2: 1985,
+		cpi: 105.5,
+		year: 3.55,
+		last12Months: 4.24,
+		lastMonth: 0.190
+	},{
+		date1: 198412,
+		date2: 1984,
+		cpi: 105.3,
+		year: 4.30,
+		last12Months: 4.30,
+		lastMonth: 0
 	}
 ];
 

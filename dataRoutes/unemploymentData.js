@@ -54,4 +54,5 @@ for (let i = 0 ; i < (unemployment.length - 14) ; i++) {
 // 200305 to 200310
 // 200711 to 201005
 
+
 module.exports = { currentAverage, rateGap };

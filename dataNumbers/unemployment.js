@@ -1,6 +1,9 @@
 
 const unemployment = [
 	{
+		date: 201912,
+		rate: 3.5
+	},{
 		date: 201911,
 		rate: 3.5
 	},{
@@ -897,6 +900,369 @@ const unemployment = [
 	},{
 		date: 199501,
 		rate: 5.6
+	},{
+		date: 199412,
+		rate: 5.5
+	},{
+		date: 199411,
+		rate: 5.6
+	},{
+		date: 199410,
+		rate: 5.8
+	},{
+		date: 199409,
+		rate: 5.9
+	},{
+		date: 199408,
+		rate: 6.0
+	},{
+		date: 199407,
+		rate: 6.1
+	},{
+		date: 199406,
+		rate: 6.1
+	},{
+		date: 199405,
+		rate: 6.1
+	},{
+		date: 199404,
+		rate: 6.4
+	},{
+		date: 199403,
+		rate: 6.5
+	},{
+		date: 199402,
+		rate: 6.6
+	},{
+		date: 199401,
+		rate: 6.6
+	},{
+		date: 199312,
+		rate: 6.5
+	},{
+		date: 199311,
+		rate: 6.6
+	},{
+		date: 199310,
+		rate: 6.8
+	},{
+		date: 199309,
+		rate: 6.7
+	},{
+		date: 199308,
+		rate: 6.8
+	},{
+		date: 199307,
+		rate: 6.9
+	},{
+		date: 199306,
+		rate: 7.0
+	},{
+		date: 199305,
+		rate: 7.1
+	},{
+		date: 199304,
+		rate: 7.1
+	},{
+		date: 199303,
+		rate: 7.0
+	},{
+		date: 199302,
+		rate: 7.1
+	},{
+		date: 199301,
+		rate: 7.3
+	},{
+		date: 199212,
+		rate: 7.4
+	},{
+		date: 199211,
+		rate: 7.4
+	},{
+		date: 199210,
+		rate: 7.3
+	},{
+		date: 199209,
+		rate: 7.6
+	},{
+		date: 199208,
+		rate: 7.6
+	},{
+		date: 199207,
+		rate: 7.7
+	},{
+		date: 199206,
+		rate: 7.8
+	},{
+		date: 199205,
+		rate: 7.6
+	},{
+		date: 199204,
+		rate: 7.4
+	},{
+		date: 199203,
+		rate: 7.4
+	},{
+		date: 199202,
+		rate: 7.4
+	},{
+		date: 199201,
+		rate: 7.3
+	},{
+		date: 199112,
+		rate: 7.3
+	},{
+		date: 199111,
+		rate: 7.0
+	},{
+		date: 199110,
+		rate: 7.0
+	},{
+		date: 199109,
+		rate: 6.9
+	},{
+		date: 199108,
+		rate: 6.9
+	},{
+		date: 199107,
+		rate: 6.8
+	},{
+		date: 199106,
+		rate: 6.9
+	},{
+		date: 199105,
+		rate: 6.9
+	},{
+		date: 199104,
+		rate: 6.7
+	},{
+		date: 199103,
+		rate: 6.8
+	},{
+		date: 199102,
+		rate: 6.6
+	},{
+		date: 199101,
+		rate: 6.4
+	},{
+		date: 199012,
+		rate: 6.3
+	},{
+		date: 199011,
+		rate: 6.2
+	},{
+		date: 199010,
+		rate: 5.9
+	},{
+		date: 199009,
+		rate: 5.9
+	},{
+		date: 199008,
+		rate: 5.7
+	},{
+		date: 199007,
+		rate: 5.5
+	},{
+		date: 199006,
+		rate: 5.2
+	},{
+		date: 199005,
+		rate: 5.4
+	},{
+		date: 199004,
+		rate: 5.4
+	},{
+		date: 199003,
+		rate: 5.2
+	},{
+		date: 199002,
+		rate: 5.3
+	},{
+		date: 199001,
+		rate: 5.4
+	},{
+		date: 198912,
+		rate: 5.4
+	},{
+		date: 198911,
+		rate: 5.4
+	},{
+		date: 198910,
+		rate: 5.3
+	},{
+		date: 198909,
+		rate: 5.3
+	},{
+		date: 198908,
+		rate: 5.2
+	},{
+		date: 198907,
+		rate: 5.2
+	},{
+		date: 198906,
+		rate: 5.3
+	},{
+		date: 198905,
+		rate: 5.2
+	},{
+		date: 198904,
+		rate: 5.2
+	},{
+		date: 198903,
+		rate: 5.0
+	},{
+		date: 198902,
+		rate: 5.2
+	},{
+		date: 198901,
+		rate: 5.4
+	},{
+		date: 198812,
+		rate: 5.3
+	},{
+		date: 198811,
+		rate: 5.3
+	},{
+		date: 198810,
+		rate: 5.4
+	},{
+		date: 198809,
+		rate: 5.4
+	},{
+		date: 198808,
+		rate: 5.6
+	},{
+		date: 198807,
+		rate: 5.4
+	},{
+		date: 198806,
+		rate: 5.4
+	},{
+		date: 198805,
+		rate: 5.6
+	},{
+		date: 198804,
+		rate: 5.4
+	},{
+		date: 198803,
+		rate: 5.7
+	},{
+		date: 198802,
+		rate: 5.7
+	},{
+		date: 198801,
+		rate: 5.7
+	},{
+		date: 198712,
+		rate: 5.7
+	},{
+		date: 198711,
+		rate: 5.8
+	},{
+		date: 198710,
+		rate: 6.0
+	},{
+		date: 198709,
+		rate: 5.9
+	},{
+		date: 198708,
+		rate: 6.0
+	},{
+		date: 198707,
+		rate: 6.1
+	},{
+		date: 198706,
+		rate: 6.2
+	},{
+		date: 198705,
+		rate: 6.3
+	},{
+		date: 198704,
+		rate: 6.3
+	},{
+		date: 198703,
+		rate: 6.6
+	},{
+		date: 198702,
+		rate: 6.6
+	},{
+		date: 198701,
+		rate: 6.6
+	},{
+		date: 198612,
+		rate: 6.6
+	},{
+		date: 198611,
+		rate: 6.9
+	},{
+		date: 198610,
+		rate: 7.0
+	},{
+		date: 198609,
+		rate: 7.0
+	},{
+		date: 198608,
+		rate: 6.9
+	},{
+		date: 198607,
+		rate: 7.0
+	},{
+		date: 198606,
+		rate: 7.2
+	},{
+		date: 198605,
+		rate: 7.2
+	},{
+		date: 198604,
+		rate: 7.1
+	},{
+		date: 198603,
+		rate: 7.2
+	},{
+		date: 198602,
+		rate: 7.2
+	},{
+		date: 198601,
+		rate: 6.7
+	},{
+		date: 198512,
+		rate: 7.0
+	},{
+		date: 198511,
+		rate: 7.0
+	},{
+		date: 198510,
+		rate: 7.1
+	},{
+		date: 198509,
+		rate: 7.1
+	},{
+		date: 198508,
+		rate: 7.1
+	},{
+		date: 198507,
+		rate: 7.4
+	},{
+		date: 198506,
+		rate: 7.4
+	},{
+		date: 198505,
+		rate: 7.2
+	},{
+		date: 198504,
+		rate: 7.3
+	},{
+		date: 198503,
+		rate: 7.2
+	},{
+		date: 198502,
+		rate: 7.2
+	},{
+		date: 198501,
+		rate: 7.3
+	},{
+		date: 198412,
+		rate: 7.3
 	}
 ];
 
