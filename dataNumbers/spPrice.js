@@ -1263,6 +1263,39 @@ const spPrice = [
 	},{
 		date: 198412,
 		price: 167.24
+	},{
+		date: 198411,
+		price: 163.58
+	},{
+		date: 198410,
+		price: 166.09
+	},{
+		date: 198409,
+		price: 166.10
+	},{
+		date: 198408,
+		price: 166.68
+	},{
+		date: 198407,
+		price: 150.66
+	},{
+		date: 198406,
+		price: 153.18
+	},{
+		date: 198405,
+		price: 150.55
+	},{
+		date: 198404,
+		price: 160.05
+	},{
+		date: 198403,
+		price: 159.18
+	},{
+		date: 198402,
+		price: 157.06
+	},{
+		date: 198401,
+		price: 163.41
 	}
 ];
 

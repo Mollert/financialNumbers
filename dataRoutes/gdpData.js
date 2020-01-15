@@ -1,10 +1,11 @@
 
 //let gdp = require("../dataNumbers/gdp.js");
 
-// Calculation of quarterly GDP
 /*
-for (let i = 0 ; i < (gdp.length - 1) ; i++) {
-//for (let i = 0 ; i < 4 ; i++) {
+// Calculation of quarterly GDP
+
+//for (let i = 0 ; i < (gdp.length - 1) ; i++) {
+for (let i = 0 ; i < 4 ; i++) {
 
 	let ratio = 0;
 
@@ -16,12 +17,13 @@ for (let i = 0 ; i < (gdp.length - 1) ; i++) {
 
 	ratio = ratio.toFixed(1);
 
-//	console.log("The GDP for the " + gdp[i].quarter + " of " + gdp[i].year + " was " + ratio + ".");
+	console.log("The GDP for the " + gdp[i].quarter + " of " + gdp[i].year + " was " + ratio + ".");
 }
 */
 
-// Calculation GDP for one year
 /*
+// Calculation GDP for one year
+
 let ratio = 0;
 // More recent GPD figure divided by earlier GDP figure
 ratio = gdp[6].gdpCompile / gdp[10].gdpCompile;
@@ -36,8 +38,9 @@ ratio = ratio.toFixed(1);
 console.log("The yearly GDP starting the " + gdp[10].quarter + " quarter of " + gdp[10].year + " was " + ratio + ".");
 */
 
-// Calculation GDP for two years
 /*
+// Calculation GDP for two years
+
 //let ratio = 0;
 // More recent GPD figure divided by earlier GDP figure
 ratio = gdp[2].gdpCompile / gdp[10].gdpCompile;
@@ -52,4 +55,5 @@ ratio = ratio.toFixed(1);
 console.log("The yearly GDP starting the " + gdp[10].quarter + " quarter of " + gdp[10].year + " was " + ratio + ".");
 */
 
-//module.exports = ;
+//let settingUp = "Just for set-up";
+//module.exports = settingUp;

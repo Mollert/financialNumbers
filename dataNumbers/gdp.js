@@ -4,8 +4,8 @@ const gdp = [
 		date: 201909,
 		year: 2019,
 		quarter: "3rd",
-		gdpCompile: 118.000,
-		gdp: 1.9
+		gdpCompile: 118.053,
+		gdp: 2.1
 	},{
 		date: 201906,
 		year: 2019,
@@ -834,12 +834,19 @@ const gdp = [
 		quarter: "1st",
 		gdpCompile: 48.307,
 		gdp: 3.9
+	},{
+		date: 198412,
+		year: 1984,
+		quarter: "4th",
+		gdpCompile: 47.843,
+		gdp: 3.3
 	}
 ];
 
 // date is at the end of the month
 
-// https://apps.bea.gov/iTable/index_nipa.cfm
+// https://apps.bea.gov/iTable/index_nipa.cfm; table 1.1.3
+// gdp calculated on gdpData.js
 
 
 module.exports = gdp;

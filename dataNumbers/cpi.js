@@ -1,80 +1,87 @@
 
 const cpi = [
 	{
+		date1: 201912,
+		date2: 2019,
+		cpi: 256.974,
+		year: 1.81,
+		last12Months: 1.81,
+		lastMonth: -0.091
+	},{
 		date1: 201911,
 		date2: 2019,
 		cpi: 257.208,
-		year: 0,
+		year: 1.81,
 		last12Months: 1.78,
 		lastMonth: -0.054
 	},{
 		date1: 201910,
 		date2: 2019,
 		cpi: 257.346,
-		year: 0,
+		year: 1.81,
 		last12Months: 1.79,
 		lastMonth: 0.228
 	},{
 		date1: 201909,
 		date2: 2019,
 		cpi: 256.759,
-		year: 0,
+		year: 1.81,
 		last12Months: 1.85,
 		lastMonth: 0.078
 	},{
 		date1: 201908,
 		date2: 2019,
 		cpi: 256.558,
-		year: 0,
+		year: 1.81,
 		last12Months: 1.90,
 		lastMonth: -0.005
 	},{
 		date1: 201907,
 		date2: 2019,
 		cpi: 256.571,
-		year: 0,
+		year: 1.81,
 		last12Months: 1.98,
 		lastMonth: 0.167
 	},{
 		date1: 201906,
 		date2: 2019,
 		cpi: 256.143,
-		year: 0,
+		year: 1.81,
 		last12Months: 2.07,
 		lastMonth: 0.200
 	},{
 		date1: 201905,
 		date2: 2019,
 		cpi: 256.092,
-		year: 0,
+		year: 1.81,
 		last12Months: 2.17,
 		lastMonth: 0.213
 	},{
 		date1: 201904,
 		date2: 2019,
 		cpi: 255.548,
-		year: 0,
+		year: 1.81,
 		last12Months: 2.26,
 		lastMonth: 0.530
 	},{
 		date1: 201903,
 		date2: 2019,
 		cpi: 254.202,
-		year: 0,
+		year: 1.81,
 		last12Months: 2.30,
 		lastMonth: 0.564
 	},{
 		date1: 201902,
 		date2: 2019,
 		cpi: 252.776,
-		year: 0,
+		year: 1.81,
 		last12Months: 2.34,
 		lastMonth: 0.423
 	},{
 		date1: 201901,
 		date2: 2019,
 		cpi: 251.712,
-		year: 0,
+		year: 1.81,
 		last12Months: 2.40,
 		lastMonth: 0.191
 	},{

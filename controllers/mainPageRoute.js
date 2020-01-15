@@ -19,16 +19,19 @@ let confidenceData = require("../dataRoutes/confidenceData.js");
 let fedFundsData = require("../dataRoutes/fedFundsRateData.js");
 // For Yield Curve
 let inversions = require("../dataRoutes/yieldCurveData.js");
+// This was created in order to run the gdpData file.
+//let justForNumbers = require("../dataRoutes/gdpData.js");
+//console.log(justForNumbers);
 // For CPI
-let cpiArray = require("../dataNumbers/cpi.js");
+let cpiYearly = require("../dataRoutes/cpiData.js");
 // For Employment
 let unemployment = require("../dataNumbers/unemployment.js");
 let unemployData = require("../dataRoutes/unemploymentData.js");
 
 
 const spHigh = {
-	value: 3288.13,
-	date: "Monday, January 13th 2020"
+	value: 3289.29,
+	date: "Wednesday, January 15th 2020"
 }
 let latestClose = {
 	value: "",
@@ -73,13 +76,7 @@ router.get("/", (req, res) => {
 // For Yield Curve Pallet
 //		console.log(inversions);
 // For CPI Pallet
-		let cpiYearly = {
-			thisOne: cpiArray[0].last12Months.toFixed(2),
-			oneAgo: cpiArray[10].last12Months.toFixed(2),
-			twoAgo: cpiArray[22].last12Months.toFixed(2),
-			threeAgo: cpiArray[34].last12Months.toFixed(2)
-		}
-
+//		console.log(cpiYearly);
 // For Employment Pallet
 		let jobData = {
 			theRate: unemployment[0].rate,

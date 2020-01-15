@@ -1,5 +1,5 @@
 
-//let cpi = require("../dataNumbers/cpi.js");
+let cpi = require("../dataNumbers/cpi.js");
 
 /*
 // Generate last month percentage
@@ -14,7 +14,7 @@ for (let i = 0 ; i < 6 ; i++) {
 
 /*
 // Generate last 12 months percentage
-//for (let j = 0 ; j < 6 ; j++) {
+for (let j = 0 ; j < 6 ; j++) {
 
 	let lastMonthCpi = 0;
 	let previousMonthCpi = 0;
@@ -38,15 +38,13 @@ for (let i = 0 ; i < 6 ; i++) {
 */
 
 /*
-console.log(cpi[203].date1);
-
 // Generate yearly CPI percentage
 let totalCpiNew = 0;
 let totalCpiOld = 0;
 let theCpiDif = 0;
 let theCpi = 0;
 
-for (let i = 203 ; i < 420 ; i++) {
+for (let i = 0 ; i < 48 ; i++) {
 
 	totalCpiNew = 0;
 	totalCpiOld = 0;
@@ -72,5 +70,23 @@ for (let i = 203 ; i < 420 ; i++) {
 }
 */
 
+let perYear = {
+	thisOne: cpi[0].last12Months,
+	oneAgo: 0,
+	twoAgo: 0,
+	threeAgo: 0
+}
 
-//module.exports = cpiData;
+let usingDate = cpi[0].date2 - 1;
+
+for (let i = 0 ; i < 15 ; i++) {
+	if (cpi[i].date2 === usingDate) {
+		perYear.oneAgo = cpi[i].year;
+		perYear.twoAgo = cpi[i+12].year;
+		perYear.threeAgo = cpi[i+24].year;
+		i = 15;
+	}
+}
+
+
+module.exports = perYear;
