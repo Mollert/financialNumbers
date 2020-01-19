@@ -80,6 +80,7 @@ const prepareChartData = (values) => {
 		gapsPos.push(transfer);
 	}
 
+
 	overallSpan = posSide - negSide;
 // 1 (insurance) + 5 (in rem's neg barText) + overallSpan/16 + 5 (rem's pos barText) + 1 (insurance)
 	spPlacement.divWidth = 1 + 5 + (overallSpan / 16) + 5 + 1;

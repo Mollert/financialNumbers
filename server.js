@@ -25,6 +25,7 @@ const mainPage = require("./controllers/mainPageRoute.js");
 const spDataPage = require("./controllers/spDataPageRoute.js");
 const errorPage = require("./controllers/errorPageRoute.js");
 
+
 app.use("/", mainPage);
 app.use("/spData", spDataPage);
 app.use("/error", errorPage);

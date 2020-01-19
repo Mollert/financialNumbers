@@ -1,6 +1,10 @@
 
 let cpi = require("../dataNumbers/cpi.js");
 
+let modArrayLength = (cpi.length) - 12;
+//console.log(cpi.length); = 421
+
+
 /*
 // Generate last month percentage
 for (let i = 0 ; i < 6 ; i++) {
@@ -14,59 +18,29 @@ for (let i = 0 ; i < 6 ; i++) {
 
 /*
 // Generate last 12 months percentage
-for (let j = 0 ; j < 6 ; j++) {
 
-	let lastMonthCpi = 0;
-	let previousMonthCpi = 0;
-	let theMonthCpiDif = 0;
-	let theMonthCpi = 0;
+for (let j = 0 ; j < modArrayLength ; j++) {
 
-	for (let i = j ; i < (j + 12) ; i++) {
-		lastMonthCpi = lastMonthCpi + cpi[i].cpi;
-	}
+	let twelveMonthPercentage = ((cpi[j].cpi - cpi[j+12].cpi) / cpi[j+12].cpi) *100;
+	twelveMonthPercentage = twelveMonthPercentage.toFixed(2);
 
-	for (let i = (j + 12) ; i < (j + 24) ; i++) {
-		previousMonthCpi = previousMonthCpi + cpi[i].cpi;
-	}
-
-	theMonthCpiDif = lastMonthCpi - previousMonthCpi;
-	theMonthCpi = (theMonthCpiDif / previousMonthCpi) * 100;
-	theMonthCpi = theMonthCpi.toFixed(2);
-
-	console.log(cpi[j].date1 + " is the date and the CPI is " + theMonthCpi);
+	console.log(cpi[j].date1 + " is the date and the CPI is " + twelveMonthPercentage);
 }
 */
 
 /*
 // Generate yearly CPI percentage
-let totalCpiNew = 0;
-let totalCpiOld = 0;
-let theCpiDif = 0;
-let theCpi = 0;
 
-for (let i = 0 ; i < 48 ; i++) {
+for (let k = 0 ; k < modArrayLength ; k++) {
 
-	totalCpiNew = 0;
-	totalCpiOld = 0;
-	theCpiDif = 0;
-	theCpi = 0;
+	let gotYear = (cpi[k].date1 - 12) / 100;
 
-// 9 + 12 : 21 + 12
-	for (let j = i ; j < ( i + 12 ) ; j++) {		
-		totalCpiNew = totalCpiNew + cpi[j].cpi;
+	if (gotYear === cpi[k].date2) {
+		let yearPercentage = ((cpi[k].cpi - cpi[k+12].cpi) / cpi[k+12].cpi) *100;
+		yearPercentage = yearPercentage.toFixed(2);
+
+		console.log(yearPercentage + " is the year " + cpi[k].date2 + "'s CPI.");
 	}
-// 21 + 12 : 33 + 12
-	for (let k = ( i + 12 ) ; k < ( i + 24 ) ; k++) {
-		totalCpiOld = totalCpiOld + cpi[k].cpi;
-	}
-
-	theCpiDif = totalCpiNew - totalCpiOld;
-	theCpi = (theCpiDif / totalCpiOld) * 100;
-	theCpi = theCpi.toFixed(2);
-
-	console.log(theCpi + " is the year " + cpi[i].date2 + "'s CPI.");
-
-	i = i + 11;
 }
 */
 

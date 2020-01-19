@@ -10,7 +10,6 @@ let date = require("../dataRoutes/createDates.js");
 let today = date.today;
 // For S&P 500
 let spChartData = require("../dataRoutes/spChartData.js");
-let closes = [];
 // For S&P Earnings
 let spEarnings = require("../dataRoutes/earningsData.js");
 // For Consumer Confidence Index
@@ -29,14 +28,17 @@ let unemployment = require("../dataNumbers/unemployment.js");
 let unemployData = require("../dataRoutes/unemploymentData.js");
 
 
+let unUsableDate = "";
 const spHigh = {
-	value: 3289.29,
-	date: "Wednesday, January 15th 2020"
+	value: 3230.78,
+	date: "Tuesday, December 31st 2019"
 }
+
 let latestClose = {
 	value: "",
 	percentage: ""
 }
+
 
 const url = "https://api.stlouisfed.org/fred/";
 const criteria = "series/observations?series_id=SP500&";
@@ -54,19 +56,40 @@ router.get("/", (req, res) => {
 	.then( response => {
 		return response.json();
 	}).then( reply => {
-//		console.log(reply.observations);
-		latestClose.value = (reply.observations[reply.observations.length - 1].value);
-
+		// Capture closing array
+		let group = reply.observations;
+		// Find new high if there is one
+		for (let i = 0 ; i < group.length ; i++) {
+			if (group[i].value > spHigh.value) {
+				spHigh.value = group[i].value;
+				unUsableDate = group[i].date;
+			}
+		}
+		spHigh.date = date.toReadableTime(unUsableDate);
+		// Capture latest close and figure percentage from high
+		for (let i = group.length - 1 ; i >= 0  ; i--) {
+			if (group[i].value !== ".") {
+				latestClose.value = (group[i].value);
+				i = 0;			
+			}
+		}
 		latestClose.value = parseFloat(latestClose.value).toFixed(2);
 		spHigh.value = parseFloat(spHigh.value);
-
 		latestClose.percentage = (spHigh.value - latestClose.value) / spHigh.value;
 		latestClose.percentage = (latestClose.percentage * 100).toFixed(1);
-
-		for (let i = reply.observations.length - 1 ; i > (reply.observations.length - 7) ; i--) {
-			closes.push(reply.observations[i].value);
+		// Capture last six closes and package in array.  Six to find five differences
+		let closes = [];
+		let times = 0;
+		for (let i = group.length - 1 ; i >= 0  ; i--) {
+			if (group[i].value !== ".") {
+				closes.push(group[i].value);
+				times++;
+			}
+			if (times === 6) {
+				i = 0;
+			}
 		}
-
+	
 // For the S&P Earnings Pallet
 		let spPlacement = spChartData.prepareChartData(closes);
 // For Confidence Pallet
