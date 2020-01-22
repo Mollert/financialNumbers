@@ -39,7 +39,6 @@ let latestClose = {
 	percentage: ""
 }
 
-
 const url = "https://api.stlouisfed.org/fred/";
 const criteria = "series/observations?series_id=SP500&";
 const timePeriod = "observation_start=" + date.dateStart;
@@ -89,7 +88,7 @@ router.get("/", (req, res) => {
 				i = 0;
 			}
 		}
-	
+
 // For the S&P Earnings Pallet
 		let spPlacement = spChartData.prepareChartData(closes);
 // For Confidence Pallet

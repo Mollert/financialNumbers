@@ -44,10 +44,16 @@ earningsDisplay.fiveYearTTM = (earningsDisplay.fiveYearTTM / 4).toFixed(2);
 
 let extremePE = 84.30 + 122.41 + 116.31 + 60.70 + 37.02 + 46.45 + 46.50 + 36.77;
 // Removed eight quarters that where centered around an recession
-for (let i = 4 ; i < spEarnings.length ; i++) {
-	earningsDisplay.allYearTTM = earningsDisplay.allYearTTM + spEarnings[i].pe;
+let stopSign = 0;
+let since2000 = 0;
+for (let i = 0 ; i < spEarnings.length ; i++) {
+	stopSign = spEarnings[i].date1 - 200000;
+	if (stopSign > 0) {
+		earningsDisplay.allYearTTM = earningsDisplay.allYearTTM + spEarnings[i].pe;
+		since2000++;
+	}
 }
-earningsDisplay.allYearTTM = ((earningsDisplay.allYearTTM - extremePE) / (spEarnings.length - 4 - 8)).toFixed(2);
+earningsDisplay.allYearTTM = ((earningsDisplay.allYearTTM - extremePE) / (since2000 - 8)).toFixed(2);
 
 
 module.exports = earningsDisplay;

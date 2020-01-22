@@ -46,8 +46,11 @@ for (let k = 0 ; k < modArrayLength ; k++) {
 
 let perYear = {
 	thisOne: cpi[0].last12Months,
+	oneYear: 0,
 	oneAgo: 0,
+	twoYear: 0,
 	twoAgo: 0,
+	threeYear: 0,
 	threeAgo: 0
 }
 
@@ -55,9 +58,12 @@ let usingDate = cpi[0].date2 - 1;
 
 for (let i = 0 ; i < 15 ; i++) {
 	if (cpi[i].date2 === usingDate) {
+		perYear.oneYear = cpi[i].date2;
 		perYear.oneAgo = cpi[i].year;
+		perYear.twoYear = cpi[i+12].date2;
 		perYear.twoAgo = cpi[i+12].year;
-		perYear.threeAgo = cpi[i+24].year;
+		perYear.threeYear = cpi[i+24].date2;
+		perYear.threeAgo = cpi[i+24].year;		
 		i = 15;
 	}
 }
