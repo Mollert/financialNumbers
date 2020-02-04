@@ -3,6 +3,27 @@ const monthsOfYear = ["January", "February", "March", "April", "May", "June", "J
 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const decimalMonths = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 
+// Divides up date into array of year, month and month number
+const divideDate = (combined) => {
+	let dateCombo = [];
+	let theYear = "";
+	let theEnd = "";
+	let theMonth = "";
+
+	combined = combined.toString();
+	theYear = combined.slice(0, -2);
+
+	theEnd = combined.slice(-2);
+	theEnd = Number(theEnd);
+	theMonth = monthsOfYear[theEnd-1];
+
+	dateCombo.push(theYear);
+	dateCombo.push(theMonth);
+	dateCombo.push(theEnd);
+
+	return dateCombo;
+}
+
 // Selects day description due to number
 const tailEnd = (whatDay) => {
 	if (whatDay === 1 || whatDay === 21 || whatDay === 31) {
@@ -53,4 +74,4 @@ starting = new Date(starting);
 let dateStart = starting.getFullYear() + "-" + decimalMonths[starting.getMonth()] + "-" + addZero(starting.getDate());
 
 
-module.exports = { today, dateStart, toReadableTime };
+module.exports = { today, dateStart, divideDate, toReadableTime };

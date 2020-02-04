@@ -85,13 +85,24 @@
 				</div>
 			</div>
 		</div>
+
+<!-- Leading Economic Index -->
+		<div id="indexPallet" class="displayPallet flexColumn">
+			<div class="palletTitle">Leading Economic Index</div>
+			<div class="resultInfo">The Conference Boards Leading Economic Index</div>
+			<div class="resultInfo">{{economicIndex.lastMonth}}</div>
+			<div class="resultInfo">for the month of {{economicIndex.month}}.</div>
+			<div class="resultInfo space">The index has {{economicIndex.not}} increased {{economicIndex.up}} the last 4 months.</div>
+			<div class="finalWarning">The index has averaged a {{economicIndex.average}}% monthly {{economicIndex.averageDirection}} over the last {{economicIndex.totalTime}}+ years.</div>
+		</div>
+
 <!-- Consumer Confidence Index -->
-		<div id="confidencePallet" class="displayPallet flexColumn">
+		<div id="indexPallet" class="displayPallet flexColumn">
 			<div class="palletTitle">Consumer Confidence Index</div>
-			<div class="resultInfo">The Conference Board Consumer Confidence Index</div>
+			<div class="resultInfo">The Conference Boards Consumer Confidence Index</div>
 			<div class="resultInfo">- {{confidenceData.lastMonth}} -</div>
 			<div class="resultInfo">for the month of {{confidenceData.month}}.</div>
-			<div class="resultInfo space">It {{confidenceData.has}}{{confidenceData.lastMonth}} for the last {{confidenceData.times}} month{{confidenceData.multiple}}.</div>
+			<div class="resultInfo space">It {{confidenceData.has}}{{confidenceData.lastMonth}} in the last {{confidenceData.times}} month{{confidenceData.multiple}}.</div>
 			<div class="finalWarning">Year over year, there as been a {{confidenceData.changePercent}}% {{confidenceData.lastYear}} in that number.</div>
 			<div class="finalWarning">A drop of 15% or more usually signals a recession.</div>
 		</div>
