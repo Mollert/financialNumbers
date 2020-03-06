@@ -1,6 +1,12 @@
 
 const unemployment = [
 	{
+		date: 202002,
+		rate: 3.5
+	},{
+		date: 202001,
+		rate: 3.6
+	},{
 		date: 201912,
 		rate: 3.5
 	},{
@@ -1266,7 +1272,8 @@ const unemployment = [
 	}
 ];
 
-
+// www.bls.gov; first Friday in the month;
 // FRED unemplyment rate (UNRATE)
+
 
 module.exports = unemployment;

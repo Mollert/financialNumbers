@@ -23,7 +23,7 @@ if (leadingIndex[0].percentage > 0) {
 	economicIndex.lastMonth = "decreased " + changeSign + "%";
 }
 
-// Sperate out the month from the year, month, month number array
+// Separate out the month from the year, month, month number array
 let currentMonth = splitDate(leadingIndex[0].date);
 economicIndex.month = currentMonth[1];
 

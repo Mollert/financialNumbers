@@ -53,7 +53,7 @@ let preparedPrior = formatMonths(monthsPriorDif);
 let fedFundsData = {
 	moveDate: fedFundsRate[0].date2,
 	directionRecent: fedFundsRate[0].direction,
-	amountRecent: fedFundsRate[0].amount,
+	amountRecent: (fedFundsRate[0].amount).toFixed(2),
 	rateRecent: fedFundsRate[0].newRate,
 	directionLast: fedFundsRate[1].direction,
 	formattedLast: preparedLast,

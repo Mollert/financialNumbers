@@ -2,7 +2,7 @@
 let cpi = require("../dataNumbers/cpi.js");
 
 let modArrayLength = (cpi.length) - 12;
-//console.log(cpi.length); = 421
+//console.log(cpi.length); = 422
 
 
 /*
@@ -12,19 +12,20 @@ for (let i = 0 ; i < 6 ; i++) {
 	let theLastMonthsCpi = ((cpi[i].cpi - cpi[i+1].cpi) / cpi[i].cpi) * 100;
 	theLastMonthsCpi = theLastMonthsCpi.toFixed(3);
 
-	console.log(cpi[i].date1 + " had a CPI of " + theLastMonthsCpi);
+	console.log("the month of " + cpi[i].date1 + " had a CPI of " + theLastMonthsCpi);
 }
 */
 
 /*
 // Generate last 12 months percentage
-
-for (let j = 0 ; j < modArrayLength ; j++) {
+//for (let j = 0 ; j < modArrayLength ; j++) {
+// Use above for all 12 month periods
+for (let j = 0 ; j < 6 ; j++) {
 
 	let twelveMonthPercentage = ((cpi[j].cpi - cpi[j+12].cpi) / cpi[j+12].cpi) *100;
 	twelveMonthPercentage = twelveMonthPercentage.toFixed(2);
 
-	console.log(cpi[j].date1 + " is the date and the CPI is " + twelveMonthPercentage);
+	console.log("For the last twelve month period ending with " + cpi[j].date1 + ", the CPI was " + twelveMonthPercentage);
 }
 */
 
