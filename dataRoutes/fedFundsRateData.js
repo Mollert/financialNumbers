@@ -3,7 +3,9 @@ let fedFundsRate = require("../dataNumbers/fedFundsRate.js");
 
 // Changes months to years and months
 const formatMonths = (month) => {
-	if (month === 1) {
+	if (month === 0) {
+		return "this month";
+	} else if (month === 1) {
 		return month + " month";
 	} else if (month < 12) {
 		return month + " months";		
@@ -37,7 +39,10 @@ let monthsTotalLast = (yearLast * 12) + monthLast;
 let monthsDif = parseInt(monthsTotalRecent - monthsTotalLast);
 
 let preparedLast = formatMonths(monthsDif);
-
+// If not "this month" need to add " ago" to sentence
+if (monthsDif !== 0) {
+	preparedLast = preparedLast + " ago";
+}
 
 
 let monthPrior = fedFundsRate[2].date1 % 100;

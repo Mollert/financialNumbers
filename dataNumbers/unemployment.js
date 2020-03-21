@@ -1273,7 +1273,7 @@ const unemployment = [
 ];
 
 // www.bls.gov; first Friday in the month;
-// FRED unemplyment rate (UNRATE)
+// FRED unemployment rate (UNRATE)
 
 
 module.exports = unemployment;
