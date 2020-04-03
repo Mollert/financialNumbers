@@ -8,6 +8,7 @@ let fetchError = require("../dataRoutes/fetchError.js");
 
 let date = require("../dataRoutes/createDates.js");
 let today = date.today;
+let past = date.toWeekDay;
 // For S&P 500
 let spChartData = require("../dataRoutes/spChartData.js");
 // For S&P Earnings
@@ -30,13 +31,13 @@ let unemployment = require("../dataNumbers/unemployment.js");
 let unemployData = require("../dataRoutes/unemploymentData.js");
 
 
-let unUsableDate = "";
 const spHigh = {
 	value: 3386.15,
 	date: "Wednesday, February 19th 2020"
 }
 
 let latestClose = {
+	date: "",
 	value: "",
 	percentage: ""
 }
@@ -63,17 +64,18 @@ router.get("/", (req, res) => {
 		for (let i = 0 ; i < group.length ; i++) {
 			if (group[i].value >= spHigh.value) {
 				spHigh.value = group[i].value;
-				unUsableDate = group[i].date;
+				spHigh.date = date.toReadableTime(group[i].date);
 			}
 		}
-		spHigh.date = date.toReadableTime(unUsableDate);
 		// Capture latest close and figure percentage from high
 		for (let i = group.length - 1 ; i >= 0  ; i--) {
 			if (group[i].value !== ".") {
 				latestClose.value = (group[i].value);
-				i = 0;			
+				latestClose.date = (group[i].date);				
+				i = 0;
 			}
 		}
+		latestClose.date = past(latestClose.date);
 		latestClose.value = parseFloat(latestClose.value).toFixed(2);
 		spHigh.value = parseFloat(spHigh.value);
 		latestClose.percentage = (spHigh.value - latestClose.value) / spHigh.value;

@@ -60,6 +60,22 @@ const toReadableTime = (past) => {
 	let workingDate = new Date(recYear, recMonth, recDay);
 	return (daysOfWeek[workingDate.getDay()] + ", " + monthsOfYear[workingDate.getMonth()] + " " + removeZero(recDay) + tailEnd(removeZero(recDay)) + " " + recYear);
 }
+// Package the day of the week and the number day of the month together
+const toWeekDay = (entire) => {
+	let aWeekDay = "";
+	let allDate = "";
+	let dayOfWeek = "";
+	let day = "";
+
+	entire = entire.replace(/-/g, ", ");
+	allDate = new Date(entire);
+
+	dayOfWeek = daysOfWeek[allDate.getDay()];
+	day = allDate.getDate();
+
+	aWeekDay = dayOfWeek + " the " + day + tailEnd(day);
+	return aWeekDay;
+}
 
 
 let rightNow = new Date(Date.now());
@@ -74,4 +90,4 @@ starting = new Date(starting);
 let dateStart = starting.getFullYear() + "-" + decimalMonths[starting.getMonth()] + "-" + addZero(starting.getDate());
 
 
-module.exports = { today, dateStart, divideDate, toReadableTime };
+module.exports = { today, dateStart, divideDate, toReadableTime, toWeekDay };
