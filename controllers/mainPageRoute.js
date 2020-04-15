@@ -12,6 +12,8 @@ let past = date.toWeekDay;
 // For S&P 500
 let spChartData = require("../dataRoutes/spChartData.js");
 // For S&P Earnings
+let lowToCurrent = require("../dataRoutes/offHigh.js");
+// How far is S&P from YTD and off low
 let spEarnings = require("../dataRoutes/earningsData.js");
 // For Leading Economic Index
 let economicIndex = require("../dataRoutes/leadingIndexData.js");
@@ -95,6 +97,8 @@ router.get("/", (req, res) => {
 
 // For the S&P Earnings Pallet
 		let spPlacement = spChartData.prepareChartData(closes);
+// For S&P low to high Pallet
+		spFrom = lowToCurrent(latestClose.value);
 // For Economic Index Pallet
 //		console.log(economicIndex);	
 // For Confidence Pallet
@@ -112,7 +116,7 @@ router.get("/", (req, res) => {
 			theGap: unemployData.rateGap
 		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, jobData});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spFrom, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, jobData});
 
 	}).catch(error => {
 		res.render("errorPage", {error});

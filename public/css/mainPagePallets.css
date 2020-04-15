@@ -71,6 +71,16 @@
 }
 
 
+/*S&P low to high Pallet*/
+#lowHighPallet {
+	height: 14rem;
+}
+
+.lowToHigh {
+	font-size: 1.4rem;
+}
+
+
 /*Earnings Pallet*/
 #earningsPallet {
 	height: 19rem;	
