@@ -1,6 +1,15 @@
 
 const treasury10vs3 = [
 	{
+		date: 202004,
+		year: 2020,
+		month: 4,
+		quarter: "2nd",
+		three: 0.09,
+		ten: 0.66,
+		spread: 0.57
+	},
+	{
 		date: 202003,
 		year: 2020,
 		month: 3,
@@ -3392,6 +3401,94 @@ const treasury10vs3 = [
 		three: 8.12,
 		ten: 11.50,
 		spread: 3.38
+	},{
+		date: 198411,
+		year: 1984,
+		month: 11,
+		quarter: "4th",
+		three: 8.74,
+		ten: 11.57,
+		spread: 2.83
+	},{
+		date: 198410,
+		year: 1984,
+		month: 10,
+		quarter: "4th",
+		three: 9.35,
+		ten: 12.16,
+		spread: 2.81
+	},{
+		date: 198409,
+		year: 1984,
+		month: 9,
+		quarter: "3rd",
+		three: 10.63,
+		ten: 12.52,
+		spread: 1.89
+	},{
+		date: 198408,
+		year: 1984,
+		month: 8,
+		quarter: "3rd",
+		three: 11.06,
+		ten: 12.72,
+		spread: 1.66
+	},{
+		date: 198407,
+		year: 1984,
+		month: 7,
+		quarter: "3rd",
+		three: 10.83,
+		ten: 13.36,
+		spread: 2.53
+	},{
+		date: 198406,
+		year: 1984,
+		month: 6,
+		quarter: "2nd",
+		three: 10.31,
+		ten: 13.56,
+		spread: 3.25
+	},{
+		date: 198405,
+		year: 1984,
+		month: 5,
+		quarter: "2nd",
+		three: 10.13,
+		ten: 13.41,
+		spread: 3.28
+	},{
+		date: 198404,
+		year: 1984,
+		month: 4,
+		quarter: "2nd",
+		three: 10.10,
+		ten: 12.63,
+		spread: 2.53
+	},{
+		date: 198403,
+		year: 1984,
+		month: 3,
+		quarter: "1st",
+		three: 10.09,
+		ten: 12.32,
+		spread: 2.23
+	},{
+		date: 198402,
+		year: 1984,
+		month: 2,
+		quarter: "1st",
+		three: 9.49,
+		ten: 11.84,
+		spread: 2.35
+	},{
+		date: 198401,
+		year: 1984,
+		month: 1,
+		quarter: "1st",
+		three: 9.26,
+		ten: 11.67,
+		spread: 2.41
 	}
 ];
 

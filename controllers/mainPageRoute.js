@@ -31,6 +31,8 @@ let cpiYearly = require("../dataRoutes/cpiData.js");
 // For Employment
 let unemployment = require("../dataNumbers/unemployment.js");
 let unemployData = require("../dataRoutes/unemploymentData.js");
+// For Gold
+let displayGLD = require("../dataRoutes/gldData.js");
 
 
 const spHigh = {
@@ -116,7 +118,7 @@ router.get("/", (req, res) => {
 			theGap: unemployData.rateGap
 		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spFrom, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, jobData});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spFrom, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, jobData, displayGLD});
 
 	}).catch(error => {
 		res.render("errorPage", {error});

@@ -3,6 +3,14 @@ let leadingIndex = require("../dataNumbers/leadingIndex.js");
 let allDates = require("../dataRoutes/createDates.js");
 let splitDate = allDates.divideDate;
 
+/*
+// Calculating the "match" for the leadingIndex array
+for ( i = 10 ; i > -1 ; i-- ) {
+	let holder = (leadingIndex[i+1].mark * leadingIndex[i].percentage) + leadingIndex[i+1].mark;
+	holder = holder.toFixed(1);
+	console.log("The mark for " + leadingIndex[i].date + " is " + holder);
+}
+*/
 
 let economicIndex = {
 	lastMonth: "was unchanged",
