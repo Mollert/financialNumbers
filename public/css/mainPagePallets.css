@@ -1,9 +1,5 @@
 
 /*S&P 500 Pallet*/
-#spPallet {
-	height: 28rem;
-}
-
 .spCloses {
 	font-size: 1.4rem;
 }
@@ -72,20 +68,12 @@
 
 
 /*S&P low to high Pallet*/
-#lowHighPallet {
-	height: 14rem;
-}
-
 .lowToHigh {
 	font-size: 1.4rem;
 }
 
 
 /*Earnings Pallet*/
-#earningsPallet {
-	height: 19rem;	
-}
-
 .latestEarnings {
 	font-size: 1.4rem;
 }
@@ -111,10 +99,6 @@
 
 /*Confidence Index Pallet*/
 /*Leading Economic Index Pallet*/
-#indexPallet {
-	height: 18rem;
-}
-
 .resultInfo {
 	font-size: 1.4rem;
 }
@@ -129,10 +113,6 @@
 
 
 /*Fed Funds Rate Pallet*/
-#ffrPallet {
-	height: 15rem;
-}
-
 .presentRate {
 	font-size: 1.4rem;
 }
@@ -145,7 +125,6 @@
 
 /*Yield Curve Pallet*/
 #inversionPallet {
-	height: 33rem;
 	text-align: center;
 }
 		
@@ -185,10 +164,6 @@
 
 
 /*CPI Pallet*/
-#cpiPallet {
-	height: 12rem;
-}
-
 #cpiCurrent {
 	font-size: 1.4rem;	
 	padding: 0 0 0.4rem 0;
@@ -196,10 +171,6 @@
 
 
 /*Unemployment Pallet*/
-#employPallet {
-	height: 19rem;
-}
-
 #currentRate {
 	font-size: 1.4rem;
 }
@@ -220,4 +191,9 @@
 #currentGap {
 	font-size: 1.4rem;
 	padding: 0.4rem 0 0 0;
+}
+
+/*Gold Pallet*/
+#currentRatio {
+	font-size: 1.4rem;
 }

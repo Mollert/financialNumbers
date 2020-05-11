@@ -1,5 +1,5 @@
 
-	<div id="backdrop" class="flexColumn">
+	<div class="backdrop flexColumn">
 		<div id="introBody" class="flexRow">
 			<div class="endStrip"></div>
 			<div id="introPallet" class="flexColumn">
@@ -10,7 +10,7 @@
 			<div class="endStrip"></div>
 		</div>
 <!-- S&P Data -->
-		<div id="spPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">S&P 500</div>
 			<div class="spCloses">Record high of {{spHigh.value}} on {{spHigh.date}}.</div>
 			<div class="spCloses">A close of {{latestClose.value}} on {{latestClose.date}} was {{latestClose.percentage}}% off the high.</div>
@@ -58,19 +58,21 @@
 					<button type="submit" id="spButton">S&P Data</button>
 				</form>
 			</div>
+			<div class="palletBottom"></div>
 		</div>
 
 <!-- S&P low to high Data -->
-		<div id="lowHighPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">S&P off of low and YTD</div>
 			<div class="lowToHigh">With the S&P	at it recent close,</div>
 			<div class="lowToHigh">it has climbed {{spFrom.lowPercent}}% above its low on {{spFrom.lowDate}}.</div>
 			<div class="lowToHigh">As for the YTD, it is off {{spFrom.ytdPercent}}%.</div>
-			<div class="lowToHigh">This downturn had a "peak to trough" of 33.9%.</div>			
+			<div class="lowToHigh">This downturn had a "peak to trough" of 33.9%.</div>
+			<div class="palletBottom"></div>
 		</div>
 
 <!-- Earnings Data -->
-		<div id="earningsPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">S&P Earning</div>
 			<div class="latestEarnings">For the most recent quarter ending in {{spEarnings.recentDate}}.</div>	
 			<div class="latestEarnings">The S&P earnings were {{spEarnings.recentEarnings}}, a P/E of {{spEarnings.recentPE}}.</div>		
@@ -94,20 +96,22 @@
 					<div class="priorTitle">Since 2000</div>
 				</div>
 			</div>
+			<div class="palletBottom"></div>
 		</div>
 
 <!-- Leading Economic Index -->
-		<div id="indexPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">Leading Economic Index</div>
 			<div class="resultInfo">The Conference Boards Leading Economic Index</div>
 			<div class="resultInfo">{{economicIndex.lastMonth}}</div>
 			<div class="resultInfo">for the month of {{economicIndex.month}}.</div>
 			<div class="resultInfo space">The index has {{economicIndex.not}} increased {{economicIndex.up}} the last 4 months.</div>
 			<div class="finalWarning">The index has averaged a {{economicIndex.average}}% monthly {{economicIndex.averageDirection}} over the last {{economicIndex.totalTime}}+ years.</div>
+			<div class="palletBottom"></div>
 		</div>
 
 <!-- Consumer Confidence Index -->
-		<div id="indexPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">Consumer Confidence Index</div>
 			<div class="resultInfo">The Conference Boards Consumer Confidence Index</div>
 			<div class="resultInfo">- {{confidenceData.lastMonth}} -</div>
@@ -115,14 +119,16 @@
 			<div class="resultInfo space">It {{confidenceData.has}}{{confidenceData.lastMonth}} in the last {{confidenceData.times}} month{{confidenceData.multiple}}.</div>
 			<div class="finalWarning">Year over year, there as been a {{confidenceData.changePercent}}% {{confidenceData.lastYear}} in that number.</div>
 			<div class="finalWarning">A drop of 15% or more usually signals a recession.</div>
+			<div class="palletBottom"></div>
 		</div>
 <!-- Fed Funds Rate Change -->
-		<div id="ffrPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">Federal Funds Rate Movement</div>
 			<div class="presentRate">On {{fedFundsData.moveDate}} the Federal Funds Rate was {{fedFundsData.directionRecent}}</div>
 			<div class="presentRate">by {{fedFundsData.amountRecent}} points to {{fedFundsData.rateRecent}}.</div>
 			<div class="previousRate">It was last {{fedFundsData.directionLast}} {{fedFundsData.formattedLast}} by {{fedFundsData.amountLast}} points.</div>
 			<div class="previousRate">And then {{fedFundsData.formattedPrior}} prior from there it was {{fedFundsData.directionPrior}} by {{fedFundsData.amountPrior}} points.</div>
+			<div class="palletBottom"></div>
 		</div>
 <!-- Yield Curve Data -->
 		<div id="inversionPallet" class="displayPallet">
@@ -142,9 +148,10 @@
 					<div class="commanYear yearData flexRow">{{sp19}}{{gdp19}}</div>
 				</div>
 			{{/each}}
+			<div class="palletBottom"></div>
 		</div>
 <!-- CPI Data -->
-		<div id="cpiPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">Consumer Price Index</div>
 			<div id="cpiCurrent">The CPI for the last 12 months was {{cpiYearly.thisOne}}%.</div>
 			<div class="flexRow">
@@ -161,9 +168,10 @@
 					<div class="priorTitle">for year {{cpiYearly.threeYear}}</div>
 				</div>
 			</div>
+			<div class="palletBottom"></div>
 		</div>
 <!-- Unemployment Data -->
-		<div id="employPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">State of Employment</div>
 			<div id="currentRate">As of the first of the month, the unemployment rate is {{jobData.theRate}}%.</div>
 			<div id="averageRate">{{jobData.theAverage}}% is the 3 month rate average.</div>			
@@ -171,13 +179,17 @@
 			<div class="gapInfo">A gap of 0.3 from here to the previous 12 months low point,</div>
 			<div class="gapInfo">signals a possible recession.</div>
 			<div class="gapInfo">If it gets to 0.5 then a downturn probably has already begun.</div>
-			<div id="currentGap">The current rate gap is {{jobData.theGap}}</div>			
+			<div id="currentGap">The current rate gap is {{jobData.theGap}}</div>
+			<div class="palletBottom"></div>		
 		</div>
 <!-- Gold Data -->
-		<div id="goldPallet" class="displayPallet flexColumn">
+		<div class="displayPallet flexColumn">
 			<div class="palletTitle">Ratio of Gold to the S&P </div>
 			<div id="currentRatio">The ratio for {{displayGLD.month}} was {{displayGLD.ratio}}.</div>
 			<div id="currentRatio">For the last three years up to Feburary of this year</div>
-			<div id="currentRatio">the ratio has been in a 0.45 to 0.55 range.</div>					
+			<div id="currentRatio">the ratio has been in a 0.45 to 0.55 range.</div>
+			<div class="palletBottom"></div>					
 		</div>
+
+		<div id="clearBottom"></div>
 	</div>
