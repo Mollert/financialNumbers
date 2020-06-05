@@ -5,8 +5,9 @@ let splitDate = allDates.divideDate;
 
 /*
 // Calculating the "match" for the leadingIndex array
-for ( i = 10 ; i > -1 ; i-- ) {
-	let holder = (leadingIndex[i+1].mark * leadingIndex[i].percentage) + leadingIndex[i+1].mark;
+let holder = 0;
+for ( i = 0 ; i < 6 ; i++ ) {
+	holder = (leadingIndex[i+1].mark * leadingIndex[i].percentage) + leadingIndex[i+1].mark;
 	holder = holder.toFixed(1);
 	console.log("The mark for " + leadingIndex[i].date + " is " + holder);
 }
@@ -25,9 +26,9 @@ let economicIndex = {
 
 // Latest results increase or decrease
 if (leadingIndex[0].percentage > 0) {
-	economicIndex.lastMonth = "increased " + (leadingIndex[0].percentage * 100) + "%";
+	economicIndex.lastMonth = "increased " + (leadingIndex[0].percentage * 100).toFixed(1) + "%";
 } else if (leadingIndex[0].percentage < 0) {
-	let changeSign = leadingIndex[0].percentage * -100;
+	let changeSign = (leadingIndex[0].percentage * -100).toFixed(1);
 	economicIndex.lastMonth = "decreased " + changeSign + "%";
 }
 

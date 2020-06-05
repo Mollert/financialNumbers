@@ -1,11 +1,19 @@
 
+let spPrice = require("../dataNumbers/spPrice.js");
+let gldPrice = require("../dataNumbers/gldPrice.js");
 let gldSPratio = require("../dataNumbers/gldSPratio.js");
 
 const monthsOfYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+
 /*
-for( let i = 0 ; i < 50 ; i++ ) {	
-	console.log(gldSPratio[i].date + " the ratio was " + gldSPratio[i].ratio.toFixed(2));
+let gspRatio = 0;
+for( let i = 0 ; i < 6 ; i++ ) {
+	gspRatio = 	0;
+	if (spPrice[i].date === gldPrice[i].date) {
+		gspRatio = gldPrice[i].price / spPrice[i].price;
+		console.log(gldSPratio[i].date + " the ratio was " + gspRatio.toFixed(2));
+	}
 }
 */
 
