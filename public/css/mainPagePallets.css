@@ -1,19 +1,16 @@
 
-/*S&P 500 Pallet*/
-.spCloses {
-	font-size: 1.4rem;
-}
+.spaceTB { padding: 0.6rem 0; }
+.spaceTop { padding: 0.6rem 0 0 0; }
+.spaceBottom { padding: 0 0 0.6rem 0; }
 
-#barTitle {
-	font-size: 1.2rem;
-}
+
+/*S&P 500 Pallet*/
 
 #barChart {
 	height: 14rem;
 }
 
 #barFiveValue {
-	font-size: 1rem;
 	margin-top: 0.4rem;
 }
 
@@ -35,7 +32,7 @@
 
 .before {
 	justify-content: flex-end;
-	padding-right: 0.4rem;
+	padding: 0 0.4rem 0 0;
 }
 
 .bars {
@@ -43,16 +40,11 @@
 }
 
 .after {
-	padding-left: 0.4rem;
-}
-
-#barOneValue {
-	font-size: 1rem;
+	padding: 0 0 0 0.4rem;
 }
 
 #spMoreData {
 	align-self: flex-end;
-	font-size: 1.2rem;
 }
 
 #spButtonHolder {
@@ -60,26 +52,15 @@
 }
 
 #spButton {
-	font-size: 1.0rem;
 	font-weight: bold;
 	padding: 0.4rem 0.8rem;
 	background-color: chocolate;
 }
 
 
-/*S&P low to high Pallet*/
-.lowToHigh {
-	font-size: 1.4rem;
-}
-
-
 /*Earnings Pallet*/
-.latestEarnings {
-	font-size: 1.4rem;
-}
 
 #compareTitle {
-	font-size: 1.2rem;
 	padding: 1rem 0;
 }
 
@@ -88,63 +69,23 @@
 	height: 4rem;
 }
 
-.priorNumber {
-	font-size: 1.4rem;
-}
-
-.priorTitle {
-	font-size: 1.2rem;
-}
-
-
-/*Confidence Index Pallet*/
-/*Leading Economic Index Pallet*/
-.resultInfo {
-	font-size: 1.4rem;
-}
-
-.space {
-	padding: 0.6rem 0;
-}
-
-.finalWarning {
-	font-size: 1.2rem;
-}
-
-
-/*Fed Funds Rate Pallet*/
-.presentRate {
-	font-size: 1.4rem;
-}
-
-.previousRate {
-	font-size: 1.2rem;
-	padding: 0.6rem 0 0 0;
-}
-
 
 /*Yield Curve Pallet*/
+
 #inversionPallet {
 	text-align: center;
 }
 		
 #invertInfo {
-	font-size: 1.2rem;
 	padding: 0 4rem;
-}
-
-#chartTitle {
-	font-size: 1.4rem;
-	padding: 0.8rem 0;
 }
 
 .pushEnd {
 	justify-content: flex-end;
-	padding-right: 4rem;
+	padding: 0 4rem 0 0;
 }
 
 .commanYear {
-	font-size: 1.2rem;
 	width: 14rem;
 	height: 2rem;
 }
@@ -160,40 +101,4 @@
 
 .yearData {
 	justify-content: center;
-}
-
-
-/*CPI Pallet*/
-#cpiCurrent {
-	font-size: 1.4rem;	
-	padding: 0 0 0.4rem 0;
-}
-
-
-/*Unemployment Pallet*/
-#currentRate {
-	font-size: 1.4rem;
-}
-
-#averageRate {
-	font-size: 1.2rem;
-}
-
-#rateGapTitle {
-	font-size: 1.6rem;
-	padding: 0.4rem 0;
-}
-
-.gapInfo {
-	font-size: 1.2rem;
-}
-
-#currentGap {
-	font-size: 1.4rem;
-	padding: 0.4rem 0 0 0;
-}
-
-/*Gold Pallet*/
-#currentRatio {
-	font-size: 1.4rem;
 }

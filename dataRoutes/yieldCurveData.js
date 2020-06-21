@@ -138,7 +138,7 @@ let inversions = [
 		timePeriod: "Recession",
 		sp00: "6 months",
 		sp06: "15 months",
-		sp19: "-"
+		sp19: "5 months"
 	}
 ];
 

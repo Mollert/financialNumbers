@@ -7,6 +7,22 @@ html, body {
 	padding: 0;
 }
 
+.fSize4 { font-size: 4rem; }
+
+.fSize2-6 { font-size: 2.6rem; }
+
+.fSize2-2 { font-size: 2.2rem; }
+
+.fSize2 { font-size: 2rem; }
+
+.fSize1-6 { font-size: 1.6rem; }
+
+.fSize1-4 { font-size: 1.4rem; }
+
+.fSize1-2 { font-size: 1.2rem; }
+
+.fSize1 { font-size: 1rem; }
+
 .backdrop {
 	width: 100vw;
 	height: auto;
@@ -50,18 +66,6 @@ html, body {
 	justify-content: center;
 }
 
-#introSubject {
-	font-size: 4rem;
-}
-
-#introFor {
-	font-size: 2.2rem;
-}
-
-#introDate {
-	font-size: 2.6rem;
-}
-
 .displayPallet {
 	width: 70vw;
 	height: auto;
@@ -73,7 +77,6 @@ html, body {
 }
 
 .palletTitle {
-	font-size: 2.0rem;
 	text-decoration: underline;
 	padding: 1.4rem 0;
 }

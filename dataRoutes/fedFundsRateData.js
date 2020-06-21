@@ -1,10 +1,10 @@
 
 let fedFundsRate = require("../dataNumbers/fedFundsRate.js");
 
-// Changes months to years and months
+// Changes a number of months to years and months
 const formatMonths = (month) => {
 	if (month === 0) {
-		return "this month";
+		return "During the same month";
 	} else if (month === 1) {
 		return month + " month";
 	} else if (month < 12) {
@@ -16,6 +16,8 @@ const formatMonths = (month) => {
 			return yearPlus + " year";
 		} else if (yearPlus === 1 && monthPlus === 1) {
 			return "1 year 1 month";
+		} else if (yearPlus === 1 && monthPlus > 1) {
+			return "1 year " + monthPlus + " months";			
 		} else if (yearPlus > 1 && monthPlus === 0) {
 			return yearPlus + " years";
 		} else if (yearPlus > 1 && monthPlus === 1) {
@@ -26,6 +28,16 @@ const formatMonths = (month) => {
 	}
 };
 
+//  Handles the singular and plural forms
+const whatQty = (decimal) => {
+	if (decimal < 1) {
+		return "of a point";
+	} else if (decimal === 1) {
+		return "point";		
+	} else {
+		return "points";			
+	}
+}
 
 // Separate months from years
 let monthRecent = fedFundsRate[0].date1 % 100;
@@ -54,18 +66,20 @@ let monthsPriorDif = parseInt(monthsTotalLast - monthsTotalPrior);
 
 let preparedPrior = formatMonths(monthsPriorDif);
 
-
 let fedFundsData = {
 	moveDate: fedFundsRate[0].date2,
 	directionRecent: fedFundsRate[0].direction,
 	amountRecent: (fedFundsRate[0].amount).toFixed(2),
-	rateRecent: fedFundsRate[0].newRate,
-	directionLast: fedFundsRate[1].direction,
+	qtyRecent: whatQty(fedFundsRate[0].amount),
+	rateRecent: (fedFundsRate[0].newRate).toFixed(2),
 	formattedLast: preparedLast,
-	amountLast: fedFundsRate[1].amount,
+	directionLast: fedFundsRate[1].direction,
+	amountLast: (fedFundsRate[1].amount).toFixed(2),
+	qtyLast: whatQty(fedFundsRate[1].amount),
 	formattedPrior: preparedPrior,
 	directionPrior: fedFundsRate[2].direction,
-	amountPrior: fedFundsRate[2].amount
+	amountPrior: (fedFundsRate[2].amount).toFixed(2),
+	qtyPrior: whatQty(fedFundsRate[2].amount)
 };
 
 
