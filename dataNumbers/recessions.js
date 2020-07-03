@@ -19,8 +19,15 @@ const recessions = {
 		start: 200712,
 		end: 200906,
 		durationMonths: 18
+	},
+	rec2020: {
+		start: 202002,
+		end: 2020,
+		durationMonths: 0
 	}
 };
 
+
+// National Bureau of Economic Research
 
 //module.exports = ;
