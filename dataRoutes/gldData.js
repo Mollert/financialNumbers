@@ -26,7 +26,7 @@ theMonth = monthsOfYear[theEnd-1];
 
 displayGLD = {
 	month: theMonth,
-	ratio:  gldSPratio[0].ratio
+	ratio:  (gldSPratio[0].ratio).toFixed(2)
 }
 
 

@@ -1,6 +1,9 @@
 
 const gldPrice = [
 	{
+		date: 202007,
+		price: 1974.700
+	},{
 		date: 202006,
 		price: 1770.700
 	},{

@@ -1,6 +1,9 @@
 
 const gldSPratio = [
 	{
+		date: 202007,
+		ratio: 0.60
+	},{
 		date: 202006,
 		ratio: 0.57
 	},{

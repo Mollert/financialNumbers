@@ -1,131 +1,137 @@
 
 const gdp = [
 	{
+		date: 202006,
+		year: 2020,
+		quarter: "2nd",
+		gdpCompile: 106.228,
+		gdp: -32.9
+	},{
 		date: 202003,
 		year: 2020,
 		quarter: "1st",
-		gdpCompile: 117.231,
-		gdp: -4.8
+		gdpCompile: 117.373,
+		gdp: -5.0
 	},{
 		date: 201912,
 		year: 2019,
 		quarter: "4th",
-		gdpCompile: 118.676,
-		gdp: 2.1
+		gdpCompile: 118.874,
+		gdp: 2.4
 	},{
 		date: 201909,
 		year: 2019,
 		quarter: "3rd",
-		gdpCompile: 118.053,
-		gdp: 2.1
+		gdpCompile: 118.181,
+		gdp: 2.6
 	},{
 		date: 201906,
 		year: 2019,
 		quarter: "2nd",
-		gdpCompile: 117.441,
-		gdp: 2.0
+		gdpCompile: 117.433,
+		gdp: 1.5
 	},{
 		date: 201903,
 		year: 2019,
 		quarter: "1st",
-		gdpCompile: 116.857,
-		gdp: 3.1
+		gdpCompile: 116.999,
+		gdp: 2.9
 	},{
 		date: 201812,
 		year: 2018,
 		quarter: "4th",
-		gdpCompile: 115.969,
-		gdp: 1.1
+		gdpCompile: 116.157,
+		gdp: 1.3
 	},{
 		date: 201809,
 		year: 2018,
 		quarter: "3rd",
-		gdpCompile: 115.655,
-		gdp: 2.9
+		gdpCompile: 115.777,
+		gdp: 2.1
 	},{
 		date: 201806,
 		year: 2018,
 		quarter: "2nd",
-		gdpCompile: 114.825,
-		gdp: 3.5
+		gdpCompile: 115.172,
+		gdp: 2.7
 	},{
 		date: 201803,
 		year: 2018,
 		quarter: "1st",
-		gdpCompile: 113.837,
-		gdp: 2.5
+		gdpCompile: 114.407,
+		gdp: 3.8
 	},{
 		date: 201712,
 		year: 2017,
 		quarter: "4th",
-		gdpCompile: 113.123,
-		gdp: 3.5
+		gdpCompile: 113.351,
+		gdp: 3.9
 	},{
 		date: 201709,
 		year: 2017,
 		quarter: "3rd",
-		gdpCompile: 112.141,
-		gdp: 3.2
+		gdpCompile: 112.278,
+		gdp: 2.9
 	},{
 		date: 201706,
 		year: 2017,
 		quarter: "2nd",
-		gdpCompile: 111.262,
-		gdp: 2.2
+		gdpCompile: 111.465,
+		gdp: 1.7
 	},{
 		date: 201703,
 		year: 2017,
 		quarter: "1st",
-		gdpCompile: 110.670,
+		gdpCompile: 110.991,
 		gdp: 2.3
 	},{
 		date: 201612,
 		year: 2016,
 		quarter: "4th",
-		gdpCompile: 110.046,
-		gdp: 2.0
+		gdpCompile: 110.367,
+		gdp: 2.6
 	},{
 		date: 201609,
 		year: 2016,
 		quarter: "3rd",
-		gdpCompile: 109.496,
+		gdpCompile: 109.667,
 		gdp: 2.2
 	},{
 		date: 201606,
 		year: 2016,
 		quarter: "2nd",
-		gdpCompile: 108.905,
-		gdp: 1.9
+		gdpCompile: 109.083,
+		gdp: 1.3
 	},{
 		date: 201603,
 		year: 2016,
 		quarter: "1st",
-		gdpCompile: 108.396,
-		gdp: 2.0
+		gdpCompile: 108.744,
+		gdp: 2.3
 	},{
 		date: 201512,
 		year: 2015,
 		quarter: "4th",
-		gdpCompile: 107.853,
-		gdp: 0.1
+		gdpCompile: 108.131,
+		gdp: 0.6
 	},{
 		date: 201509,
 		year: 2015,
 		quarter: "3rd",
-		gdpCompile: 107.818,
-		gdp: 1.3
+		gdpCompile: 107.958,
+		gdp: 1.5
 	},{
 		date: 201506,
 		year: 2015,
 		quarter: "2nd",
-		gdpCompile: 107.462,
-		gdp: 3.0
+		gdpCompile: 107.568,
+		gdp: 2.7
 	},{
 		date: 201503,
 		year: 2015,
 		quarter: "1st",
-		gdpCompile: 106.671,
-		gdp: 3.2
+		gdpCompile: 106.845,
+		gdp: 3.8
 	},{
 		date: 201412,
 		year: 2014,
@@ -274,7 +280,7 @@ const gdp = [
 		date: 200812,
 		year: 2008,
 		quarter: "4th",
-		gdpCompile: 94635,
+		gdpCompile: 94.635,
 		gdp: -8.4
 	},{
 		date: 200809,
@@ -688,7 +694,7 @@ const gdp = [
 		date: 199109,
 		year: 1991,
 		quarter: "3rd",
-		gdpCompile: 27.967,
+		gdpCompile: 57.967,
 		gdp: 2.0
 	},{
 		date: 199106,

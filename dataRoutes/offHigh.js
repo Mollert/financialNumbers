@@ -11,6 +11,7 @@ const lowToCurrent = (recent) => {
 	let spFrom = {
 		lowPercent: 0,
 		lowDate: lowClose.date,
+		aboveBelow: "above",
 		ytdPercent: 0
 	}
 
@@ -20,6 +21,7 @@ const lowToCurrent = (recent) => {
 	spFrom.ytdPercent = ((recent - firstOfYearClose) / firstOfYearClose) * 100;
 	if (spFrom.ytdPercent < 0) {
 		spFrom.ytdPercent = spFrom.ytdPercent * -1;
+		spForm.aboveBelow = "below";
 	}
 	spFrom.ytdPercent = (spFrom.ytdPercent).toFixed(1);
 
