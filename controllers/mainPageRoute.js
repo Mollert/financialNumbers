@@ -36,8 +36,8 @@ let displayGLD = require("../dataRoutes/gldData.js");
 
 
 const spHigh = {
-	value: 3386.15,
-	date: "Wednesday, February 19th 2020"
+	value: 3580.84,
+	date: "Wednesday, September 2nd 2020"
 }
 
 let latestClose = {
@@ -66,7 +66,7 @@ router.get("/", (req, res) => {
 		let group = reply.observations;
 		// Find new high if there is one
 		for (let i = 0 ; i < group.length ; i++) {
-			if (group[i].value >= spHigh.value) {
+			if (group[i].value > spHigh.value) {
 				spHigh.value = group[i].value;
 				spHigh.date = date.toReadableTime(group[i].date);
 			}

@@ -1,6 +1,9 @@
 
 const spPrice = [
 	{
+		date: 202008,
+		price: 3504.25
+	},{
 		date: 202007,
 		price: 3271.12
 	},{

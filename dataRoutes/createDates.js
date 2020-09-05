@@ -56,9 +56,9 @@ const removeZero = (present) => {
 const toReadableTime = (past) => {
 	let recYear = past.slice(0, 4);
 	let recMonth = (past.slice(5, 7)) - 1;
-	let recDay = past.slice(-2);
+	let recDay = parseInt(past.slice(-2));
 	let workingDate = new Date(recYear, recMonth, recDay);
-	return (daysOfWeek[workingDate.getDay()] + ", " + monthsOfYear[workingDate.getMonth()] + " " + removeZero(recDay) + tailEnd(removeZero(recDay)) + " " + recYear);
+	return (daysOfWeek[workingDate.getDay()] + ", " + monthsOfYear[workingDate.getMonth()] + " " + recDay + tailEnd(recDay) + " " + recYear);
 }
 // Package the day of the week and the number day of the month together
 const toWeekDay = (entire) => {
