@@ -1,6 +1,13 @@
 
 const cpi = [
 	{
+		date1: 202008,
+		date2: 2020,
+		cpi: 259.918,
+		year: 0,
+		last12Months: 1.31,
+		lastMonth: 0.314
+	},{
 		date1: 202007,
 		date2: 2020,
 		cpi: 259.101,
