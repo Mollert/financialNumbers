@@ -1,11 +1,17 @@
 
 const gdp = [
 	{
+		date: 202009,
+		year: 2020,
+		quarter: "3rd",
+		gdpCompile: 114.737,
+		gdp: 33.1
+	},{
 		date: 202006,
 		year: 2020,
 		quarter: "2nd",
-		gdpCompile: 106.228,
-		gdp: -32.9
+		gdpCompile: 106.825,
+		gdp: -31.4
 	},{
 		date: 202003,
 		year: 2020,

@@ -18,7 +18,6 @@ for( let i = 0 ; i < 6 ; i++ ) {
 */
 
 let theEnd = "";
-let currentMonth = "";
 
 theEnd = (gldSPratio[0].date).toString().slice(-2);
 theEnd = Number(theEnd);

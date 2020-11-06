@@ -31,7 +31,6 @@ for (let j = 0 ; j < 6 ; j++) {
 
 /*
 // Generate yearly CPI percentage
-
 for (let k = 0 ; k < modArrayLength ; k++) {
 
 	let gotYear = (cpi[k].date1 - 12) / 100;

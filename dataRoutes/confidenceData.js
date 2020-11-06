@@ -4,11 +4,10 @@ let consumerConfidence = require("../dataNumbers/consumerConfidence.js");
 let confidenceData = {
 	lastMonth: "was unchanged",
 	month: consumerConfidence[0].month,
-	has: "has ",
+	months: "increases",
 	times: 1,
 	changePercent: 0,
 	lastYear: "change",
-	multiple: "s"
 }
 
 // Captures the latest and one year prior with three month rolling average
@@ -29,6 +28,7 @@ if (consumerConfidence[0].index > consumerConfidence[1].index) {
 	confidenceData.lastMonth = "increased";
 } else if (consumerConfidence[0].index < consumerConfidence[1].index) {
 	confidenceData.lastMonth = "decreased";
+	confidenceData.months = "decreases";	
 }
 
 // Talleys up the number of times index either increased, decreased or was unchanged
@@ -46,13 +46,6 @@ for (let i = 1 ; i < 50 ; i++) {
 	} else {
 		i = 50;
 	}
-}
-
-// If index changed for single month, text needs to represent single month
-if (confidenceData.times === 1) {
-	confidenceData.times = "";
-	confidenceData.has = "";	
-	confidenceData.multiple = "";
 }
 
 
