@@ -1,6 +1,9 @@
 
 const unemployment = [
 	{
+		date: 202011,
+		rate: 6.7
+	},{
 		date: 202010,
 		rate: 6.9
 	},{
