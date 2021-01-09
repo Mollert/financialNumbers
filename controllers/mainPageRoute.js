@@ -12,7 +12,7 @@ let past = date.toWeekDay;
 // For S&P 500
 let spChartData = require("../dataRoutes/spChartData.js");
 // For S&P Earnings
-let lowToCurrent = require("../dataRoutes/offHigh.js");
+//let lowToCurrent = require("../dataRoutes/offHigh.js");
 // How far is S&P from YTD and off low
 let spEarnings = require("../dataRoutes/earningsData.js");
 // For Leading Economic Index
@@ -38,8 +38,8 @@ let yuan = require("../dataRoutes/yuanData.js");
 
 
 const spHigh = {
-	value: 3699.12,
-	date: "Friday, December 4th 2020"
+	value: 3756.07,
+	date: "Thursday, December 31st 2020"
 }
 
 let latestClose = {
@@ -102,7 +102,7 @@ router.get("/", (req, res) => {
 // For the S&P Earnings Pallet
 		let spPlacement = spChartData.prepareChartData(closes);
 // For S&P low to high Pallet
-		spFrom = lowToCurrent(latestClose.value);
+//		spFrom = lowToCurrent(latestClose.value);
 // For Economic Index Pallet
 //		console.log(economicIndex);	
 // For Confidence Pallet
@@ -120,7 +120,7 @@ router.get("/", (req, res) => {
 			theGap: unemployData.rateGap
 		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spFrom, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, jobData, displayGLD, yuan});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, /*spFrom,*/ spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, jobData, displayGLD, yuan});
 
 	}).catch(error => {
 		res.render("errorPage", {error});
