@@ -34,15 +34,15 @@ yuan.whatPercent = (yuan.whatPercent).toFixed(2);
 
 if (usdTOcny[0].rate > usdTOcny[1].rate) {
 	if (usdTOcny[1].rate > usdTOcny[2].rate) {
-		yuan.direction = "more Yuan's needed";
+		yuan.direction = "toward a decrease in";
 	} else {
-		yuan.direction = "mixed";
+		yuan.direction = "mixed as to";
 	}
 } else {
 	if (usdTOcny[1].rate < usdTOcny[2].rate) {
-		yuan.direction = "less Yuan's needed";
+		yuan.direction = "toward an increase in";
 	} else {
-		yuan.direction = "mixed";
+		yuan.direction = "mixed as to";
 	}			
 }
 

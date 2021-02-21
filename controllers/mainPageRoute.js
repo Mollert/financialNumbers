@@ -12,8 +12,6 @@ let past = date.toWeekDay;
 // For S&P 500
 let spChartData = require("../dataRoutes/spChartData.js");
 // For S&P Earnings
-//let lowToCurrent = require("../dataRoutes/offHigh.js");
-// How far is S&P from YTD and off low
 let spEarnings = require("../dataRoutes/earningsData.js");
 // For Leading Economic Index
 let economicIndex = require("../dataRoutes/leadingIndexData.js");
@@ -23,9 +21,8 @@ let confidenceData = require("../dataRoutes/confidenceData.js");
 let fedFundsData = require("../dataRoutes/fedFundsRateData.js");
 // For Yield Curve
 let inversions = require("../dataRoutes/yieldCurveData.js");
-// This was created in order to run the gdpData file.
-//let justForNumbers = require("../dataRoutes/gdpData.js");
-//console.log(justForNumbers);
+// For GDP
+let gdpResults = require("../dataRoutes/gdpData.js");
 // For CPI
 let cpiYearly = require("../dataRoutes/cpiData.js");
 // For Employment
@@ -35,11 +32,14 @@ let unemployData = require("../dataRoutes/unemploymentData.js");
 let displayGLD = require("../dataRoutes/gldData.js");
 // For Dollar/Yuan
 let yuan = require("../dataRoutes/yuanData.js");
+// For RetailSales
+//let calculateSales = require("../dataRoutes/retailSalesData.js");
+
 
 
 const spHigh = {
-	value: 3756.07,
-	date: "Thursday, December 31st 2020"
+	value: 3934.83,
+	date: "Friday, February 12th 2021"
 }
 
 let latestClose = {
@@ -101,8 +101,6 @@ router.get("/", (req, res) => {
 
 // For the S&P Earnings Pallet
 		let spPlacement = spChartData.prepareChartData(closes);
-// For S&P low to high Pallet
-//		spFrom = lowToCurrent(latestClose.value);
 // For Economic Index Pallet
 //		console.log(economicIndex);	
 // For Confidence Pallet
@@ -113,6 +111,8 @@ router.get("/", (req, res) => {
 //		console.log(inversions);
 // For CPI Pallet
 //		console.log(cpiYearly);
+// For GDP Pallet
+//		console.log(gdpResults);
 // For Employment Pallet
 		let jobData = {
 			theRate: unemployment[0].rate,
@@ -120,7 +120,7 @@ router.get("/", (req, res) => {
 			theGap: unemployData.rateGap
 		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, /*spFrom,*/ spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, jobData, displayGLD, yuan});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, gdpResults, jobData, displayGLD, yuan});
 
 	}).catch(error => {
 		res.render("errorPage", {error});
