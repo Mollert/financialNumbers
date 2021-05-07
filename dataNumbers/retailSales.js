@@ -1,9 +1,13 @@
 
 const retailSales = [
 	{
+		date: 202103,
+		sales: 619100,
+		change: 9.80
+	},{
 		date: 202102,
-		sales: 561700,
-		change: -3.00
+		sales: 563700,
+		change: -2.70
 	},{
 		date: 202101,
 		sales: 579100,
