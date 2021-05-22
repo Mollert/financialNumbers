@@ -1,0 +1,22 @@
+{
+  "short_name": "Financial Numbers",
+  "name": "Finacial Numbers",
+  "description": "A listing of financial numbers",
+  "icons": [
+    {
+      "src": "./assets/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://financial-numbers.herokuapp.com",
+  "background_color": "#3366CC",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3366CC"
+}
