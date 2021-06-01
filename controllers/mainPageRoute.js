@@ -38,8 +38,8 @@ let yuan = require("../dataRoutes/yuanData.js");
 
 
 const spHigh = {
-	value: 4211.47,
-	date: "Thursday, April 29th 2021"
+	value: 4232.60,
+	date: "Friday, May 7th 2021"
 }
 
 let latestClose = {

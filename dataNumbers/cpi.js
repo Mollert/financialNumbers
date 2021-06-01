@@ -1,6 +1,21 @@
 
 const cpi = [
 	{
+		date1: 202104,
+		date2: 2021,
+		seasonalAdj: {
+			cpi: 266.832,
+			year: 0,
+			last12Months: 4.15,
+			lastMonth: 0.764
+		},
+		seasonalAdjNo: {
+			cpi: 267.054,
+			year: 0,
+			last12Months: 4.16,
+			lastMonth: 0.815
+		}
+	},{
 		date1: 202103,
 		date2: 2021,
 		seasonalAdj: {
