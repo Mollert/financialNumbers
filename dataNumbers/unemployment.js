@@ -1,6 +1,12 @@
 
 const unemployment = [
 	{
+		date: 202106,
+		rate: 5.9
+	},{
+		date: 202105,
+		rate: 5.8
+	},{
 		date: 202104,
 		rate: 6.1
 	},{
