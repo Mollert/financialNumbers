@@ -1,29 +1,33 @@
 
 const retailSales = [
 	{
+		date: 202107,
+		sales: 617700,
+		change: -1.12
+	},{
 		date: 202106,
-		sales: 621300,
-		change: 0.6
+		sales: 624700,
+		change: 1.10
 	},{
 		date: 202105,
 		sales: 617900,
-		change: -1.7
+		change: -1.71
 	},{
 		date: 202104,
 		sales: 628678,
-		change: 0.02
+		change: 0.89
 	},{
 		date: 202103,
 		sales: 623119,
-		change: 9.95
+		change: 11.28
 	},{
 		date: 202102,
 		sales: 559970,
-		change: -2.66
+		change: -2.86
 	},{
 		date: 202101,
 		sales: 576466,
-		change: 7.31
+		change: 6.82
 	},{
 		date: 202012,
 		sales: 539670,

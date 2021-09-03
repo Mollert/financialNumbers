@@ -1,6 +1,9 @@
 
 const usdTOcny = [
 	{
+		date: 202108,
+		rate: 6.4607
+	},{
 		date: 202107,
 		rate: 6.4609
 	},{

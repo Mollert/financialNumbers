@@ -1,6 +1,14 @@
 
 const treasury10vs3 = [
 	{
+		date: 202108,
+		year: 2021,
+		month: 8,
+		quarter: "3rd",
+		three: 0.04,
+		ten: 1.28,
+		spread: 1.24
+	},{
 		date: 202107,
 		year: 2021,
 		month: 7,
@@ -128,8 +136,7 @@ const treasury10vs3 = [
 		three: 0.09,
 		ten: 0.66,
 		spread: 0.57
-	},
-	{
+	},{
 		date: 202003,
 		year: 2020,
 		month: 3,
@@ -2346,7 +2353,7 @@ const treasury10vs3 = [
 		ten: 6.69,
 		spread: 1.34
 	},{
-		date: 1997,
+		date: 199702,
 		year: 1997,
 		month: 2,
 		quarter: "1st",
@@ -3609,6 +3616,230 @@ const treasury10vs3 = [
 		three: 9.26,
 		ten: 11.67,
 		spread: 2.41
+	},{
+		date: 198312,
+		year: 1983,
+		month: 12,
+		quarter: "4th",
+		three: 9.33,
+		ten: 11.83,
+		spread: 2.50
+	},{
+		date: 198311,
+		year: 1983,
+		month: 11,
+		quarter: "4th",
+		three: 9.24,
+		ten: 11.69,
+		spread: 2.45
+	},{
+		date: 198310,
+		year: 1983,
+		month: 10,
+		quarter: "4th",
+		three: 8.83,
+		ten: 11.54,
+		spread: 2.71
+	},{
+		date: 198309,
+		year: 1983,
+		month: 9,
+		quarter: "3rd",
+		three: 9.04,
+		ten: 11.65,
+		spread: 2.61
+	},{
+		date: 198308,
+		year: 1983,
+		month: 8,
+		quarter: "3rd",
+		three: 9.64,
+		ten: 11.85,
+		spread: 2.21
+	},{
+		date: 198307,
+		year: 1983,
+		month: 7,
+		quarter: "3rd",
+		three: 9.59,
+		ten: 11.38,
+		spread: 1.79
+	},{
+		date: 198306,
+		year: 1983,
+		month: 6,
+		quarter: "2nd",
+		three: 9.15,
+		ten: 10.85,
+		spread: 1.70
+	},{
+		date: 198305,
+		year: 1983,
+		month: 5,
+		quarter: "2nd",
+		three: 8.97,
+		ten: 10.38,
+		spread: 1.41
+	},{
+		date: 198304,
+		year: 1983,
+		month: 4,
+		quarter: "2nd",
+		three: 8.38,
+		ten: 10.40,
+		spread: 2.02
+	},{
+		date: 198303,
+		year: 1983,
+		month: 3,
+		quarter: "1st",
+		three: 8.96,
+		ten: 10.51,
+		spread: 1.55
+	},{
+		date: 198302,
+		year: 1983,
+		month: 2,
+		quarter: "1st",
+		three: 8.21,
+		ten: 10.72,
+		spread: 2.51
+	},{
+		date: 198301,
+		year: 1983,
+		month: 1,
+		quarter: "1st",
+		three: 8.36,
+		ten: 10.46,
+		spread: 2.10
+	},{
+		date: 198212,
+		year: 1982,
+		month: 12,
+		quarter: "4th",
+		three: 8.20,
+		ten: 10.54,
+		spread: 2.34
+	},{
+		date: 198211,
+		year: 1982,
+		month: 11,
+		quarter: "4th",
+		three: 8.56,
+		ten: 10.56,
+		spread: 2.00
+	},{
+		date: 198210,
+		year: 1982,
+		month: 10,
+		quarter: "4th",
+		three: 8.17,
+		ten: 10.91,
+		spread: 2.74
+	},{
+		date: 198209,
+		year: 1982,
+		month: 9,
+		quarter: "3rd",
+		three: 7.88,
+		ten: 12.34,
+		spread: 4.46
+	},{
+		date: 198208,
+		year: 1982,
+		month: 8,
+		quarter: "3rd",
+		three: 8.72,
+		ten: 13.06,
+		spread: 4.34
+	},{
+		date: 198207,
+		year: 1982,
+		month: 7,
+		quarter: "3rd",
+		three: 10.57,
+		ten: 13.95,
+		spread: 3.38
+	},{
+		date: 198206,
+		year: 1982,
+		month: 6,
+		quarter: "2nd",
+		three: 13.36,
+		ten: 14.30,
+		spread: 0.94
+	},{
+		date: 198205,
+		year: 1982,
+		month: 5,
+		quarter: "2nd",
+		three: 11.97,
+		ten: 13.62,
+		spread: 1.65
+	},{
+		date: 198204,
+		year: 1982,
+		month: 4,
+		quarter: "2nd",
+		three: 13.15,
+		ten: 13.87,
+		spread: 0.72
+	},{
+		date: 198203,
+		year: 1982,
+		month: 3,
+		quarter: "1st",
+		three: 13.99,
+		ten: 13.86,
+		spread: -0.13
+	},{
+		date: 198202,
+		year: 1982,
+		month: 2,
+		quarter: "1st",
+		three: 13.00,
+		ten: 14.43,
+		spread: 1.43
+	},{
+		date: 198201,
+		year: 1982,
+		month: 1,
+		quarter: "1st",
+		three: 13.08,
+		ten: 14.59,
+		spread: 1.51
+	},{
+		date: 198112,
+		year: 1981,
+		month: 12,
+		quarter: "4th",
+		three: 11.54,
+		ten: 13.72,
+		spread: 2.18
+	},{
+		date: 198111,
+		year: 1981,
+		month: 11,
+		quarter: "4th",
+		three: 10.78,
+		ten: 13.39,
+		spread: 2.61
+	},{
+		date: 198110,
+		year: 1981,
+		month: 10,
+		quarter: "4th",
+		three: 13.33,
+		ten: 15.15,
+		spread: 1.82
+	},{
+		date: 198109,
+		year: 1981,
+		month: 9,
+		quarter: "3rd",
+		three: 15.05,
+		ten: 15.32,
+		spread: 0.27
 	}
 ];
 
@@ -3617,4 +3848,4 @@ const treasury10vs3 = [
 // FRED 3 month treasury constant maturity rate (DGS3MO); monthly, end of period
 // FRED 10-year treasury constant maturity rate (GS10)
 
-module.exports = treasury10vs3;
+//module.exports = treasury10vs3;

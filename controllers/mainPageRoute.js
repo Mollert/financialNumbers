@@ -36,9 +36,10 @@ let yuan = require("../dataRoutes/yuanData.js");
 //let calculateSales = require("../dataRoutes/retailSalesData.js");
 
 
+
 const spHigh = {
-	value: 4436.52,
-	date: "Friday, August 6th 2021"
+	value: 4528.79,
+	date: "Monday, August 30th 2021"
 }
 
 let latestClose = {
