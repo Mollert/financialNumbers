@@ -1,1336 +1,1370 @@
 
-const unemployment = [
+const dollarIndex = [
 	{
 		date: 202109,
-		rate: 4.8
+		price: 94.24
 	},{
 		date: 202108,
-		rate: 5.2
+		price: 92.63
 	},{
 		date: 202107,
-		rate: 5.4
+		price: 92.17
 	},{
 		date: 202106,
-		rate: 5.9
+		price: 92.44
 	},{
 		date: 202105,
-		rate: 5.8
+		price: 90.03
 	},{
 		date: 202104,
-		rate: 6.1
+		price: 91.28
 	},{
 		date: 202103,
-		rate: 6.0
+		price: 93.23
 	},{
 		date: 202102,
-		rate: 6.2
+		price: 90.88
 	},{
 		date: 202101,
-		rate: 6.3
+		price: 90.58
 	},{
 		date: 202012,
-		rate: 6.7
+		price: 89.94
 	},{
 		date: 202011,
-		rate: 6.7
+		price: 91.87
 	},{
 		date: 202010,
-		rate: 6.9
+		price: 94.04
 	},{
 		date: 202009,
-		rate: 7.9
+		price: 93.89
 	},{
 		date: 202008,
-		rate: 8.4
+		price: 92.14
 	},{
 		date: 202007,
-		rate: 10.2
+		price: 93.35
 	},{
 		date: 202006,
-		rate: 11.1
+		price: 97.39
 	},{
 		date: 202005,
-		rate: 13.3
+		price: 98.34
 	},{
 		date: 202004,
-		rate: 14.7
+		price: 99.02
 	},{
 		date: 202003,
-		rate: 4.4
+		price: 99.05
 	},{
 		date: 202002,
-		rate: 3.5
+		price: 98.13
 	},{
 		date: 202001,
-		rate: 3.6
+		price: 97.39
 	},{
 		date: 201912,
-		rate: 3.5
+		price: 96.39
 	},{
 		date: 201911,
-		rate: 3.5
+		price: 98.27
 	},{
 		date: 201910,
-		rate: 3.6
+		price: 97.35
 	},{
 		date: 201909,
-		rate: 3.5
+		price: 99.38
 	},{
 		date: 201908,
-		rate: 3.7
+		price: 98.92
 	},{
 		date: 201907,
-		rate: 3.7
+		price: 98.52
 	},{
 		date: 201906,
-		rate: 3.7
+		price: 96.13
 	},{
 		date: 201905,
-		rate: 3.6
+		price: 97.75
 	},{
 		date: 201904,
-		rate: 3.6
+		price: 97.48
 	},{
 		date: 201903,
-		rate: 3.8
+		price: 97.28
 	},{
 		date: 201902,
-		rate: 3.8
+		price: 96.16
 	},{
 		date: 201901,
-		rate: 4.0
+		price: 95.58
 	},{
 		date: 201812,
-		rate: 3.9
+		price: 96.17
 	},{
 		date: 201811,
-		rate: 3.7
+		price: 97.27
 	},{
 		date: 201810,
-		rate: 3.8
+		price: 97.13
 	},{
 		date: 201809,
-		rate: 3.7
+		price: 95.13
 	},{
 		date: 201808,
-		rate: 3.8
+		price: 95.14
 	},{
 		date: 201807,
-		rate: 3.9
+		price: 94.49
 	},{
 		date: 201806,
-		rate: 4.0
+		price: 94.64
 	},{
 		date: 201805,
-		rate: 3.8
+		price: 93.98
 	},{
 		date: 201804,
-		rate: 3.9
+		price: 91.84
 	},{
 		date: 201803,
-		rate: 4.0
+		price: 89.97
 	},{
 		date: 201802,
-		rate: 4.1
+		price: 90.61
 	},{
 		date: 201801,
-		rate: 4.1
+		price: 89.13
 	},{
 		date: 201712,
-		rate: 4.1
+		price: 92.12
 	},{
 		date: 201711,
-		rate: 4.2
+		price: 93.05
 	},{
 		date: 201710,
-		rate: 4.1
+		price: 94.55
 	},{
 		date: 201709,
-		rate: 4.2
+		price: 93.08
 	},{
 		date: 201708,
-		rate: 4.4
+		price: 92.67
 	},{
 		date: 201707,
-		rate: 4.3
+		price: 92.86
 	},{
 		date: 201706,
-		rate: 4.3
+		price: 95.63
 	},{
 		date: 201705,
-		rate: 4.4
+		price: 96.92
 	},{
 		date: 201704,
-		rate: 4.4
+		price: 99.05
 	},{
 		date: 201703,
-		rate: 4.4
+		price: 100.35
 	},{
 		date: 201702,
-		rate: 4.7
+		price: 101.12
 	},{
 		date: 201701,
-		rate: 4.7
+		price: 99.51
 	},{
 		date: 201612,
-		rate: 4.7
+		price: 102.21
 	},{
 		date: 201611,
-		rate: 4.7
+		price: 101.50
 	},{
 		date: 201610,
-		rate: 4.9
+		price: 98.44
 	},{
 		date: 201609,
-		rate: 5.0
+		price: 95.46
 	},{
 		date: 201608,
-		rate: 4.9
+		price: 96.02
 	},{
 		date: 201607,
-		rate: 4.8
+		price: 95.53
 	},{
 		date: 201606,
-		rate: 4.9
+		price: 96.14
 	},{
 		date: 201605,
-		rate: 4.8
+		price: 95.89
 	},{
 		date: 201604,
-		rate: 5.0
+		price: 93.08
 	},{
 		date: 201603,
-		rate: 5.0
+		price: 94.59
 	},{
 		date: 201602,
-		rate: 4.9
+		price: 98.21
 	},{
 		date: 201601,
-		rate: 4.9
+		price: 99.61
 	},{
 		date: 201512,
-		rate: 5.0
+		price: 98.63
 	},{
 		date: 201511,
-		rate: 5.1
+		price: 100.17
 	},{
 		date: 201510,
-		rate: 5.0
+		price: 96.95
 	},{
 		date: 201509,
-		rate: 5.0
+		price: 96.35
 	},{
 		date: 201508,
-		rate: 5.1
+		price: 95.82
 	},{
 		date: 201507,
-		rate: 5.2
+		price: 97.34
 	},{
 		date: 201506,
-		rate: 5.3
+		price: 95.48
 	},{
 		date: 201505,
-		rate: 5.6
+		price: 96.91
 	},{
 		date: 201504,
-		rate: 5.4
+		price: 94.60
 	},{
 		date: 201503,
-		rate: 5.4
+		price: 98.36
 	},{
 		date: 201502,
-		rate: 5.5
+		price: 95.32
 	},{
 		date: 201501,
-		rate: 5.7
+		price: 94.80
 	},{
 		date: 201412,
-		rate: 5.6
+		price: 90.27
 	},{
 		date: 201411,
-		rate: 5.8
+		price: 88.36
 	},{
 		date: 201410,
-		rate: 5.7
+		price: 86.92
 	},{
 		date: 201409,
-		rate: 5.9
+		price: 85.94
 	},{
 		date: 201408,
-		rate: 6.1
+		price: 82.75
 	},{
 		date: 201407,
-		rate: 6.2
+		price: 81.46
 	},{
 		date: 201406,
-		rate: 6.1
+		price: 79.78
 	},{
 		date: 201405,
-		rate: 6.3
+		price: 80.37
 	},{
 		date: 201404,
-		rate: 6.2
+		price: 79.47
 	},{
 		date: 201403,
-		rate: 6.7
+		price: 80.10
 	},{
 		date: 201402,
-		rate: 6.7
+		price: 79.69
 	},{
 		date: 201401,
-		rate: 6.6
+		price: 81.31
 	},{
 		date: 201312,
-		rate: 6.7
+		price: 80.03
 	},{
 		date: 201311,
-		rate: 6.9
+		price: 80.68
 	},{
 		date: 201310,
-		rate: 7.2
+		price: 80.19
 	},{
 		date: 201309,
-		rate: 7.2
+		price: 80.22
 	},{
 		date: 201308,
-		rate: 7.2
+		price: 82.09
 	},{
 		date: 201307,
-		rate: 7.3
+		price: 83.45
 	},{
 		date: 201306,
-		rate: 7.5
+		price: 83.14
 	},{
 		date: 201305,
-		rate: 7.5
+		price: 83.26
 	},{
 		date: 201304,
-		rate: 7.6
+		price: 81.75
 	},{
 		date: 201303,
-		rate: 7.5
+		price: 83.22
 	},{
 		date: 201302,
-		rate: 7.7
+		price: 81.95
 	},{
 		date: 201301,
-		rate: 8.0
+		price: 79.21
 	},{
 		date: 201212,
-		rate: 7.9
+		price: 79.77
 	},{
 		date: 201211,
-		rate: 7.7
+		price: 80.15
 	},{
 		date: 201210,
-		rate: 7.8
+		price: 79.92
 	},{
 		date: 201209,
-		rate: 7.8
+		price: 79.94
 	},{
 		date: 201208,
-		rate: 8.1
+		price: 81.21
 	},{
 		date: 201207,
-		rate: 8.2
+		price: 82.64
 	},{
 		date: 201206,
-		rate: 8.2
+		price: 81.63
 	},{
 		date: 201205,
-		rate: 8.2
+		price: 83.04
 	},{
 		date: 201204,
-		rate: 8.2
+		price: 78.78
 	},{
 		date: 201203,
-		rate: 8.2
+		price: 79.00
 	},{
 		date: 201202,
-		rate: 8.3
+		price: 78.74
 	},{
 		date: 201201,
-		rate: 8.3
+		price: 79.29
 	},{
 		date: 201112,
-		rate: 8.5
+		price: 80.18
 	},{
 		date: 201111,
-		rate: 8.6
+		price: 78.38
 	},{
 		date: 201110,
-		rate: 8.8
+		price: 76.17
 	},{
 		date: 201109,
-		rate: 9.0
+		price: 78.55
 	},{
 		date: 201108,
-		rate: 9.0
+		price: 74.12
 	},{
 		date: 201107,
-		rate: 9.0
+		price: 73.90
 	},{
 		date: 201106,
-		rate: 9.1
+		price: 74.30
 	},{
 		date: 201105,
-		rate: 9.0
+		price: 74.64
 	},{
 		date: 201104,
-		rate: 9.1
+		price: 72.93
 	},{
 		date: 201103,
-		rate: 9.0
+		price: 75.86
 	},{
 		date: 201102,
-		rate: 9.0
+		price: 76.89
 	},{
 		date: 201101,
-		rate: 9.1
+		price: 77.73
 	},{
 		date: 201012,
-		rate: 9.3
+		price: 79.03
 	},{
 		date: 201011,
-		rate: 9.8
+		price: 81.19
 	},{
 		date: 201010,
-		rate: 9.4
+		price: 77.27
 	},{
 		date: 201009,
-		rate: 9.5
+		price: 78.72
 	},{
 		date: 201008,
-		rate: 9.5
+		price: 83.20
 	},{
 		date: 201007,
-		rate: 9.4
+		price: 81.54
 	},{
 		date: 201006,
-		rate: 9.4
+		price: 86.02
 	},{
 		date: 201005,
-		rate: 9.6
+		price: 86.59
 	},{
 		date: 201004,
-		rate: 9.9
+		price: 81.87
 	},{
 		date: 201003,
-		rate: 9.9
+		price: 81.07
 	},{
 		date: 201002,
-		rate: 9.8
+		price: 80.36
 	},{
 		date: 201001,
-		rate: 9.8
+		price: 79.46
 	},{
 		date: 200912,
-		rate: 9.9
+		price: 77.86
 	},{
 		date: 200911,
-		rate: 9.9
+		price: 74.78
 	},{
 		date: 200910,
-		rate: 10.0
+		price: 76.30
 	},{
 		date: 200909,
-		rate: 9.8
+		price: 76.65
 	},{
 		date: 200908,
-		rate: 9.6
+		price: 78.17
 	},{
 		date: 200907,
-		rate: 9.5
+		price: 78.35
 	},{
 		date: 200906,
-		rate: 9.5
+		price: 80.16
 	},{
 		date: 200905,
-		rate: 9.4
+		price: 79.23
 	},{
 		date: 200904,
-		rate: 9.0
+		price: 84.82
 	},{
 		date: 200903,
-		rate: 8.7
+		price: 85.51
 	},{
 		date: 200902,
-		rate: 8.3
+		price: 88.17
 	},{
 		date: 200901,
-		rate: 7.8
+		price: 85.83
 	},{
 		date: 200812,
-		rate: 7.3
+		price: 81.15
 	},{
 		date: 200811,
-		rate: 6.8
+		price: 86.52
 	},{
 		date: 200810,
-		rate: 6.5
+		price: 85.63
 	},{
 		date: 200809,
-		rate: 6.1
+		price: 79.45
 	},{
 		date: 200808,
-		rate: 6.1
+		price: 77.38
 	},{
 		date: 200807,
-		rate: 5.8
+		price: 73.23
 	},{
 		date: 200806,
-		rate: 5.6
+		price: 72.46
 	},{
 		date: 200805,
-		rate: 5.4
+		price: 72.88
 	},{
 		date: 200804,
-		rate: 5.0
+		price: 72.51
 	},{
 		date: 200803,
-		rate: 5.1
+		price: 71.80
 	},{
 		date: 200802,
-		rate: 4.9
+		price: 73.71
 	},{
 		date: 200801,
-		rate: 5.0
+		price: 75.18
 	},{
 		date: 200712,
-		rate: 5.0
+		price: 76.69
 	},{
 		date: 200711,
-		rate: 4.7
+		price: 76.15
 	},{
 		date: 200710,
-		rate: 4.7
+		price: 76.48
 	},{
 		date: 200709,
-		rate: 4.7
+		price: 77.72
 	},{
 		date: 200708,
-		rate: 4.6
+		price: 80.79
 	},{
 		date: 200707,
-		rate: 4.7
+		price: 80.77
 	},{
 		date: 200706,
-		rate: 4.6
+		price: 81.92
 	},{
 		date: 200705,
-		rate: 4.4
+		price: 82.30
 	},{
 		date: 200704,
-		rate: 4.5
+		price: 81.45
 	},{
 		date: 200703,
-		rate: 4.4
+		price: 82.93
 	},{
 		date: 200702,
-		rate: 4.5
+		price: 83.57
 	},{
 		date: 200701,
-		rate: 4.6
+		price: 84.61
 	},{
 		date: 200612,
-		rate: 4.4
+		price: 83.72
 	},{
 		date: 200611,
-		rate: 4.5
+		price: 82.92
 	},{
 		date: 200610,
-		rate: 4.4
+		price: 85.32
 	},{
 		date: 200609,
-		rate: 4.5
+		price: 85.97
 	},{
 		date: 200608,
-		rate: 4.7
+		price: 85.05
 	},{
 		date: 200607,
-		rate: 4.7
+		price: 85.30
 	},{
 		date: 200606,
-		rate: 4.6
+		price: 85.22
 	},{
 		date: 200605,
-		rate: 4.6
+		price: 84.72
 	},{
 		date: 200604,
-		rate: 4.7
+		price: 86.11
 	},{
 		date: 200603,
-		rate: 4.7
+		price: 89.73
 	},{
 		date: 200602,
-		rate: 4.8
+		price: 90.11
 	},{
 		date: 200601,
-		rate: 4.7
+		price: 88.96
 	},{
 		date: 200512,
-		rate: 4.9
+		price: 91.17
 	},{
 		date: 200511,
-		rate: 5.0
+		price: 91.57
 	},{
 		date: 200510,
-		rate: 5.0
+		price: 90.07
 	},{
 		date: 200509,
-		rate: 5.0
+		price: 89.52
 	},{
 		date: 200508,
-		rate: 4.9
+		price: 87.58
 	},{
 		date: 200507,
-		rate: 5.0
+		price: 89.35
 	},{
 		date: 200506,
-		rate: 5.0
+		price: 89.11
 	},{
 		date: 200505,
-		rate: 5.1
+		price: 87.76
 	},{
 		date: 200504,
-		rate: 5.2
+		price: 84.43
 	},{
 		date: 200503,
-		rate: 5.2
+		price: 84.06
 	},{
 		date: 200502,
-		rate: 5.4
+		price: 82.51
 	},{
 		date: 200501,
-		rate: 5.3
+		price: 83.60
 	},{
 		date: 200412,
-		rate: 5.4
+		price: 80.85
 	},{
 		date: 200411,
-		rate: 5.4
+		price: 81.82
 	},{
 		date: 200410,
-		rate: 5.5
+		price: 84.91
 	},{
 		date: 200409,
-		rate: 5.4
+		price: 87.36
 	},{
 		date: 200408,
-		rate: 5.4
+		price: 88.94
 	},{
 		date: 200407,
-		rate: 5.5
+		price: 89.96
 	},{
 		date: 200406,
-		rate: 5.6
+		price: 88.80
 	},{
 		date: 200405,
-		rate: 5.6
+		price: 88.95
 	},{
 		date: 200404,
-		rate: 5.6
+		price: 90.48
 	},{
 		date: 200403,
-		rate: 5.8
+		price: 87.61
 	},{
 		date: 200402,
-		rate: 5.6
+		price: 87.31
 	},{
 		date: 200401,
-		rate: 5.7
+		price: 87.20
 	},{
 		date: 200312,
-		rate: 5.7
+		price: 86.92
 	},{
 		date: 200311,
-		rate: 5.8
+		price: 90.21
 	},{
 		date: 200310,
-		rate: 6.0
+		price: 92.73
 	},{
 		date: 200309,
-		rate: 6.1
+		price: 92.85
 	},{
 		date: 200308,
-		rate: 6.1
+		price: 98.10
 	},{
 		date: 200307,
-		rate: 6.2
+		price: 96.89
 	},{
 		date: 200306,
-		rate: 6.3
+		price: 94.73
 	},{
 		date: 200305,
-		rate: 6.1
+		price: 93.27
 	},{
 		date: 200304,
-		rate: 6.0
+		price: 97.19
 	},{
 		date: 200303,
-		rate: 5.9
+		price: 99.06
 	},{
 		date: 200302,
-		rate: 5.9
+		price: 99.71
 	},{
 		date: 200301,
-		rate: 5.8
+		price: 99.91
 	},{
 		date: 200212,
-		rate: 6.0
+		price: 101.85
 	},{
 		date: 200211,
-		rate: 5.9
+		price: 106.41
 	},{
 		date: 200210,
-		rate: 5.7
+		price: 106.64
 	},{
 		date: 200209,
-		rate: 5.7
+		price: 106.87
 	},{
 		date: 200208,
-		rate: 5.7
+		price: 106.98
 	},{
 		date: 200207,
-		rate: 5.8
+		price: 107.41
 	},{
 		date: 200206,
-		rate: 5.8
+		price: 106.11
 	},{
 		date: 200205,
-		rate: 5.8
+		price: 111.81
 	},{
 		date: 200204,
-		rate: 5.9
+		price: 115.19
 	},{
 		date: 200203,
-		rate: 5.7
+		price: 118.62
 	},{
 		date: 200202,
-		rate: 5.7
+		price: 119.16
 	},{
 		date: 200201,
-		rate: 5.7
+		price: 120.24
 	},{
 		date: 200112,
-		rate: 5.7
+		price: 116.75
 	},{
 		date: 200111,
-		rate: 5.5
+		price: 116.13
 	},{
 		date: 200110,
-		rate: 5.3
+		price: 114.86
 	},{
 		date: 200109,
-		rate: 5.0
+		price: 113.48
 	},{
 		date: 200108,
-		rate: 4.9
+		price: 113.42
 	},{
 		date: 200107,
-		rate: 4.6
+		price: 117.18
 	},{
 		date: 200106,
-		rate: 4.5
+		price: 119.43
 	},{
 		date: 200105,
-		rate: 4.3
+		price: 119.07
 	},{
 		date: 200104,
-		rate: 4.4
+		price: 115.85
 	},{
 		date: 200103,
-		rate: 4.3
+		price: 117.37
 	},{
 		date: 200102,
-		rate: 4.2
+		price: 112.01
 	},{
 		date: 200101,
-		rate: 4.2
+		price: 110.52
 	},{
 		date: 200012,
-		rate: 3.9
+		price: 109.56
 	},{
 		date: 200011,
-		rate: 3.9
+		price: 115.24
 	},{
 		date: 200010,
-		rate: 3.9
+		price: 116.65
 	},{
 		date: 200009,
-		rate: 3.9
+		price: 113.25
 	},{
 		date: 200008,
-		rate: 4.1
+		price: 112.60
 	},{
 		date: 200007,
-		rate: 4.0
+		price: 109.57
 	},{
 		date: 200006,
-		rate: 4.0
+		price: 106.84
 	},{
 		date: 200005,
-		rate: 4.0
+		price: 108.74
 	},{
 		date: 200004,
-		rate: 3.8
+		price: 110.14
 	},{
 		date: 200003,
-		rate: 4.0
+		price: 105.44
 	},{
 		date: 200002,
-		rate: 4.1
+		price: 105.92
 	},{
 		date: 200001,
-		rate: 4.0
+		price: 105.13
 	},{
 		date: 199912,
-		rate: 4.0
+		price: 101.87
 	},{
 		date: 199911,
-		rate: 4.1
+		price: 101.99
 	},{
 		date: 199910,
-		rate: 4.1
+		price: 99.06
 	},{
 		date: 199909,
-		rate: 4.2
+		price: 98.54
 	},{
 		date: 199908,
-		rate: 4.2
+		price: 99.95
 	},{
 		date: 199907,
-		rate: 4.3
+		price: 99.75
 	},{
 		date: 199906,
-		rate: 4.3
+		price: 102.85
 	},{
 		date: 199905,
-		rate: 4.2
+		price: 102.51
 	},{
 		date: 199904,
-		rate: 4.3
+		price: 101.00
 	},{
 		date: 199903,
-		rate: 4.2
+		price: 100.10
 	},{
 		date: 199902,
-		rate: 4.4
+		price: 98.68
 	},{
 		date: 199901,
-		rate: 4.3
+		price: 96.08
 	},{
 		date: 199812,
-		rate: 4.4
+		price: 94.17
 	},{
 		date: 199811,
-		rate: 4.4
+		price: 96.20
 	},{
 		date: 199810,
-		rate: 4.5
+		price: 93.73
 	},{
 		date: 199809,
-		rate: 4.6
+		price: 96.17
 	},{
 		date: 199808,
-		rate: 4.5
+		price: 100.20
 	},{
 		date: 199807,
-		rate: 4.5
+		price: 101.20
 	},{
 		date: 199806,
-		rate: 4.5
+		price: 101.17
 	},{
 		date: 199805,
-		rate: 4.4
+		price: 100.45
 	},{
 		date: 199804,
-		rate: 4.3
+		price: 99.71
 	},{
 		date: 199803,
-		rate: 4.7
+		price: 101.50
 	},{
 		date: 199802,
-		rate: 4.6
+		price: 99.82
 	},{
 		date: 199801,
-		rate: 4.6
+		price: 100.79
 	},{
 		date: 199712,
-		rate: 4.7
+		price: 99.65
 	},{
 		date: 199711,
-		rate: 4.6
+		price: 97.79
 	},{
 		date: 199710,
-		rate: 4.7
+		price: 95.64
 	},{
 		date: 199709,
-		rate: 4.9
+		price: 97.11
 	},{
 		date: 199708,
-		rate: 4.8
+		price: 99.00
 	},{
 		date: 199707,
-		rate: 4.9
+		price: 99.64
 	},{
 		date: 199706,
-		rate: 5.0
+		price: 95.67
 	},{
 		date: 199705,
-		rate: 4.9
+		price: 94.85
 	},{
 		date: 199704,
-		rate: 5.1
+		price: 97.18
 	},{
 		date: 199703,
-		rate: 5.2
+		price: 94.72
 	},{
 		date: 199702,
-		rate: 5.2
+		price: 94.89
 	},{
 		date: 199701,
-		rate: 5.3
+		price: 93.04
 	},{
 		date: 199612,
-		rate: 5.4
+		price: 88.18
 	},{
 		date: 199611,
-		rate: 5.4
+		price: 87.92
 	},{
 		date: 199610,
-		rate: 5.2
+		price: 87.43
 	},{
 		date: 199609,
-		rate: 5.2
+		price: 87.94
 	},{
 		date: 199608,
-		rate: 5.1
+		price: 86.36
 	},{
 		date: 199607,
-		rate: 5.5
+		price: 85.90
 	},{
 		date: 199606,
-		rate: 5.3
+		price: 87.82
 	},{
 		date: 199605,
-		rate: 5.6
+		price: 87.78
 	},{
 		date: 199604,
-		rate: 5.6
+		price: 88.02
 	},{
 		date: 199603,
-		rate: 5.5
+		price: 86.52
 	},{
 		date: 199602,
-		rate: 5.5
+		price: 86.29
 	},{
 		date: 199601,
-		rate: 5.6
-	},{
+		price: 87.38
+	},{		
 		date: 199512,
-		rate: 5.6
+		price: 84.76
 	},{
 		date: 199511,
-		rate: 5.6
+		price: 85.26
 	},{
 		date: 199510,
-		rate: 5.5
+		price: 83.66
 	},{
 		date: 199509,
-		rate: 5.6
+		price: 84.29
 	},{
 		date: 199508,
-		rate: 5.7
+		price: 85.57
 	},{
 		date: 199507,
-		rate: 5.7
+		price: 81.57
 	},{
 		date: 199506,
-		rate: 5.6
+		price: 81.58
 	},{
 		date: 199505,
-		rate: 5.6
+		price: 82.57
 	},{
 		date: 199504,
-		rate: 5.8
+		price: 81.80
 	},{
 		date: 199503,
-		rate: 5.4
+		price: 81.90
 	},{
 		date: 199502,
-		rate: 5.4
+		price: 85.93
 	},{
 		date: 199501,
-		rate: 5.6
+		price: 87.99
 	},{
 		date: 199412,
-		rate: 5.5
+		price: 88.73
 	},{
 		date: 199411,
-		rate: 5.6
+		price: 89.13
 	},{
 		date: 199410,
-		rate: 5.8
+		price: 85.69
 	},{
 		date: 199409,
-		rate: 5.9
+		price: 87.88
 	},{
 		date: 199408,
-		rate: 6.0
+		price: 89.67
 	},{
 		date: 199407,
-		rate: 6.1
+		price: 89.87
 	},{
 		date: 199406,
-		rate: 6.1
+		price: 89.62
 	},{
 		date: 199405,
-		rate: 6.1
+		price: 92.52
 	},{
 		date: 199404,
-		rate: 6.4
+		price: 92.12
 	},{
 		date: 199403,
-		rate: 6.5
+		price: 93.06
 	},{
 		date: 199402,
-		rate: 6.6
+		price: 94.55
 	},{
 		date: 199401,
-		rate: 6.6
+		price: 95.59
 	},{
 		date: 199312,
-		rate: 6.5
+		price: 96.84
 	},{
 		date: 199311,
-		rate: 6.6
+		price: 96.21
 	},{
 		date: 199310,
-		rate: 6.8
+		price: 95.08
 	},{
 		date: 199309,
-		rate: 6.7
+		price: 92.82
 	},{
 		date: 199308,
-		rate: 6.8
+		price: 93.95
 	},{
 		date: 199307,
-		rate: 6.9
+		price: 95.37
 	},{
 		date: 199306,
-		rate: 7.0
+		price: 93.63
 	},{
 		date: 199305,
-		rate: 7.1
+		price: 89.08
 	},{
 		date: 199304,
-		rate: 7.1
+		price: 89.49
 	},{
 		date: 199303,
-		rate: 7.0
+		price: 91.87
 	},{
 		date: 199302,
-		rate: 7.1
+		price: 94.05
 	},{
 		date: 199301,
-		rate: 7.3
+		price: 92.46
 	},{
 		date: 199212,
-		rate: 7.4
+		price: 92.36
 	},{
 		date: 199211,
-		rate: 7.4
+		price: 90.84
 	},{
 		date: 199210,
-		rate: 7.3
+		price: 87.63
 	},{
 		date: 199209,
-		rate: 7.6
+		price: 81.10
 	},{
 		date: 199208,
-		rate: 7.6
+		price: 78.88
 	},{
 		date: 199207,
-		rate: 7.7
+		price: 81.91
 	},{
 		date: 199206,
-		rate: 7.8
+		price: 83.72
 	},{
 		date: 199205,
-		rate: 7.6
+		price: 87.22
 	},{
 		date: 199204,
-		rate: 7.4
+		price: 89.62
 	},{
 		date: 199203,
-		rate: 7.4
+		price: 89.65
 	},{
 		date: 199202,
-		rate: 7.4
+		price: 88.99
 	},{
 		date: 199201,
-		rate: 7.3
+		price: 87.49
 	},{
 		date: 199112,
-		rate: 7.3
+		price: 83.52
 	},{
 		date: 199111,
-		rate: 7.0
+		price: 88.19
 	},{
 		date: 199110,
-		rate: 7.0
+		price: 89.93
 	},{
 		date: 199109,
-		rate: 6.9
+		price: 89.90
 	},{
 		date: 199108,
-		rate: 6.9
+		price: 93.49
 	},{
 		date: 199107,
-		rate: 6.8
+		price: 93.49
 	},{
 		date: 199106,
-		rate: 6.9
+		price: 96.06
 	},{
 		date: 199105,
-		rate: 6.9
+		price: 93.13
 	},{
 		date: 199104,
-		rate: 6.7
+		price: 91.54
 	},{
 		date: 199103,
-		rate: 6.8
+		price: 92.02
 	},{
 		date: 199102,
-		rate: 6.6
+		price: 84.08
 	},{
 		date: 199101,
-		rate: 6.4
+		price: 82.00
 	},{
 		date: 199012,
-		rate: 6.3
+		price: 83.07
 	},{
 		date: 199011,
-		rate: 6.2
+		price: 82.93
 	},{
 		date: 199010,
-		rate: 5.9
+		price: 83.28
 	},{
 		date: 199009,
-		rate: 5.9
+		price: 86.00
 	},{
 		date: 199008,
-		rate: 5.7
+		price: 86.56
 	},{
 		date: 199007,
-		rate: 5.5
+		price: 87.17
 	},{
 		date: 199006,
-		rate: 5.2
+		price: 91.15
 	},{
 		date: 199005,
-		rate: 5.4
+		price: 92.98
 	},{
 		date: 199004,
-		rate: 5.4
+		price: 93.07
 	},{
 		date: 199003,
-		rate: 5.2
+		price: 93.69
 	},{
 		date: 199002,
-		rate: 5.3
+		price: 93.29
 	},{
 		date: 199001,
-		rate: 5.4
+		price: 92.41
 	},{
 		date: 198912,
-		rate: 5.4
+		price: 93.21
 	},{
 		date: 198911,
-		rate: 5.4
+		price: 96.27
 	},{
 		date: 198910,
-		rate: 5.3
+		price: 98.07
 	},{
 		date: 198909,
-		rate: 5.3
+		price: 98.47
 	},{
 		date: 198908,
-		rate: 5.2
+		price: 102.28
 	},{
 		date: 198907,
-		rate: 5.2
+		price: 97.39
 	},{
 		date: 198906,
-		rate: 5.3
+		price: 102.02
 	},{
 		date: 198905,
-		rate: 5.2
+		price: 102.98
 	},{
 		date: 198904,
-		rate: 5.2
+		price: 97.71
 	},{
 		date: 198903,
-		rate: 5.0
+		price: 98.14
 	},{
 		date: 198902,
-		rate: 5.2
+		price: 94.90
 	},{
 		date: 198901,
-		rate: 5.4
+		price: 96.77
 	},{
 		date: 198812,
-		rate: 5.3
+		price: 92.50
 	},{
 		date: 198811,
-		rate: 5.3
+		price: 90.53
 	},{
 		date: 198810,
-		rate: 5.4
+		price: 93.76
 	},{
 		date: 198809,
-		rate: 5.4
+		price: 97.69
 	},{
 		date: 198808,
-		rate: 5.6
+		price: 98.42
 	},{
 		date: 198807,
-		rate: 5.4
+		price: 97.53
 	},{
 		date: 198806,
-		rate: 5.4
+		price: 95.41
 	},{
 		date: 198805,
-		rate: 5.6
+		price: 91.09
 	},{
 		date: 198804,
-		rate: 5.4
+		price: 89.16
 	},{
 		date: 198803,
-		rate: 5.7
+		price: 88.30
 	},{
 		date: 198802,
-		rate: 5.7
+		price: 90.53
 	},{
 		date: 198801,
-		rate: 5.7
+		price: 90.34
 	},{
 		date: 198712,
-		rate: 5.7
+		price: 85.42
 	},{
 		date: 198711,
-		rate: 5.8
+		price: 89.15
 	},{
 		date: 198710,
-		rate: 6.0
+		price: 93.65
 	},{
 		date: 198709,
-		rate: 5.9
+		price: 98.57
 	},{
 		date: 198708,
-		rate: 6.0
+		price: 97.32
 	},{
 		date: 198707,
-		rate: 6.1
+		price: 99.79
 	},{
 		date: 198706,
-		rate: 6.2
+		price: 98.13
 	},{
 		date: 198705,
-		rate: 6.3
+		price: 97.77
 	},{
 		date: 198704,
-		rate: 6.3
+		price: 95.94
 	},{
 		date: 198703,
-		rate: 6.6
+		price: 97.11
 	},{
 		date: 198702,
-		rate: 6.6
+		price: 99.26
 	},{
 		date: 198701,
-		rate: 6.6
+		price: 99.86
 	},{
 		date: 198612,
-		rate: 6.6
+		price: 103.58
 	},{
 		date: 198611,
-		rate: 6.9
+		price: 105.92
 	},{
 		date: 198610,
-		rate: 7.0
+		price: 109.27
 	},{
 		date: 198609,
-		rate: 7.0
+		price: 106.74
 	},{
 		date: 198608,
-		rate: 6.9
+		price: 106.43
 	},{
 		date: 198607,
-		rate: 7.0
+		price: 108.04
 	},{
 		date: 198606,
-		rate: 7.2
+		price: 111.61
 	},{
 		date: 198605,
-		rate: 7.2
+		price: 117.51
 	},{
 		date: 198604,
-		rate: 7.1
+		price: 111.77
 	},{
 		date: 198603,
-		rate: 7.2
+		price: 117.92
 	},{
 		date: 198602,
-		rate: 7.2
+		price: 115.08
 	},{
 		date: 198601,
-		rate: 6.7
+		price: 121.52
 	},{
 		date: 198512,
-		rate: 7.0
+		price: 123.46
 	},{
 		date: 198511,
-		rate: 7.0
+		price: 124.99
 	},{
 		date: 198510,
-		rate: 7.1
+		price: 129.39
 	},{
 		date: 198509,
-		rate: 7.1
+		price: 132.12
 	},{
 		date: 198508,
-		rate: 7.1
+		price: 138.20
 	},{
 		date: 198507,
-		rate: 7.4
+		price: 137.26
 	},{
 		date: 198506,
-		rate: 7.4
+		price: 146.12
 	},{
 		date: 198505,
-		rate: 7.2
+		price: 147.86
 	},{
 		date: 198504,
-		rate: 7.3
+		price: 149.70
 	},{
 		date: 198503,
-		rate: 7.2
+		price: 149.18
 	},{
 		date: 198502,
-		rate: 7.2
+		price: 160.41
 	},{
 		date: 198501,
-		rate: 7.3
+		price: 152.72
 	},{
 		date: 198412,
-		rate: 7.3
+		price: 151.47
+	},{
+		date: 198411,
+		price: 149.21
+	},{
+		date: 198410,
+		price: 146.39
+	},{
+		date: 198409,
+		price: 147.55
+	},{
+		date: 198408,
+		price: 140.33
+	},{
+		date: 198407,
+		price: 141.29
+	},{
+		date: 198406,
+		price: 136.26
+	},{
+		date: 198405,
+		price: 133.69
+	},{
+		date: 198404,
+		price: 132.64
+	},{
+		date: 198403,
+		price: 128.22
+	},{
+		date: 198402,
+		price: 128.25
+	},{
+		date: 198401,
+		price: 135.51
 	}
 ];
 
-// www.bls.gov; first Friday in the month;
-// FRED unemployment rate (UNRATE)
+// date is at the end of the month
+
+// https://www.investing.com/indices/usdollar
 
 
-module.exports = unemployment;
+module.exports = dollarIndex;

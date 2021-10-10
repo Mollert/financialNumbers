@@ -181,14 +181,26 @@
 			<div class="fSize1-4 spaceTop">The current rate gap is {{jobData.theGap}}</div>
 			<div class="palletBottom"></div>		
 		</div>
-<!-- Gold Data -->
+<!-- Dollar Index Data -->
 		<div class="displayPallet flexColumn">
-			<div class="palletTitle fSize2">Ratio of Gold to the S&amp;P</div>
-			<div class="fSize1-4 spaceBottom">The ratio for {{displayGLD.month}} was {{displayGLD.ratio}}.</div>
-			<div class="fSize1-4 spaceBottom">The ratio averaged {{displayGLD.half}} for the last six months.</div>
-			<div class="fSize1-2">Ratios from the year {{displayGLD.startYear}} to date,</div>
-			<div class="fSize1-2">A high of {{displayGLD.highs}} in {{displayGLD.highsDates}},</div>
-			<div class="fSize1-2">and a low of {{displayGLD.lows}} in {{displayGLD.lowsDates}}.</div>
+			<div class="palletTitle fSize2">Dollar Index</div>
+			<div class="fSize1-4">For the month of {{dollarIndex.dollarMonth}} the index was priced at {{dollarIndex.dollarPrice}}</div>
+			<div class="fSize1-2">At the beinning of the year it was {{dollarIndex.yearFirst}}.</div>
+			<div class="fSize1-2 spaceBottom">Listed are yearly averages from years past.</div>
+			<div class="flexRow">
+				<div class="comparisons flexColumn">
+					<div class="fSize1-4">{{dollarIndex.average1}}</div>
+					<div class="fSize1-2">for year {{dollarIndex.year1}}</div>
+				</div>
+				<div class="comparisons flexColumn">
+					<div class="fSize1-4">{{dollarIndex.average2}}</div>
+					<div class="fSize1-2">for year {{dollarIndex.year2}}</div>
+				</div>
+				<div class="comparisons flexColumn">
+					<div class="fSize1-4">{{dollarIndex.average3}}</div>
+					<div class="fSize1-2">for year {{dollarIndex.year3}}</div>
+				</div>
+			</div>
 			<div class="palletBottom"></div>
 		</div>
 <!-- Yuan to Dollar Data -->
@@ -200,6 +212,16 @@
 			<div class="fSize1-2 spaceBottom">its currently in the {{yuan.whatPercent}} percentile of that range.</div>
 			<div class="fSize1-2">For the last three months the Yuan's direction has been</div>
 			<div class="fSize1-2">{{yuan.direction}} it's value against the dollar.</div>
+			<div class="palletBottom"></div>
+		</div>
+<!-- Gold Data -->
+		<div class="displayPallet flexColumn">
+			<div class="palletTitle fSize2">Ratio of Gold to the S&amp;P</div>
+			<div class="fSize1-4 spaceBottom">The ratio for {{displayGLD.month}} was {{displayGLD.ratio}}.</div>
+			<div class="fSize1-4 spaceBottom">The ratio averaged {{displayGLD.half}} for the last six months.</div>
+			<div class="fSize1-2">Ratios from the year {{displayGLD.startYear}} to date,</div>
+			<div class="fSize1-2">A high of {{displayGLD.highs}} in {{displayGLD.highsDates}},</div>
+			<div class="fSize1-2">and a low of {{displayGLD.lows}} in {{displayGLD.lowsDates}}.</div>
 			<div class="palletBottom"></div>
 		</div>
 

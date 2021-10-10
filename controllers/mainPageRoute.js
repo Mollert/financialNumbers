@@ -28,18 +28,18 @@ let cpiYearly = require("../dataRoutes/cpiData.js");
 // For Employment
 let unemployment = require("../dataNumbers/unemployment.js");
 let unemployData = require("../dataRoutes/unemploymentData.js");
-// For Gold
-let displayGLD = require("../dataRoutes/gldData.js");
+// For Dollar Index
+let dollarIndex = require("../dataRoutes/dollarData.js");
 // For Dollar/Yuan
 let yuan = require("../dataRoutes/yuanData.js");
+// For Gold
+let displayGLD = require("../dataRoutes/gldData.js");
 // For RetailSales
 //let calculateSales = require("../dataRoutes/retailSalesData.js");
 
-
-
 const spHigh = {
-	value: 4528.79,
-	date: "Monday, August 30th 2021"
+	value: 4536.95,
+	date: "Thursday, September 2nd 2021"
 }
 
 let latestClose = {
@@ -120,7 +120,7 @@ router.get("/", (req, res) => {
 			theGap: unemployData.rateGap
 		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, gdpResults, jobData, displayGLD, yuan});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, gdpResults, jobData, dollarIndex, yuan, displayGLD});
 
 	}).catch(error => {
 		res.render("errorPage", {error});
