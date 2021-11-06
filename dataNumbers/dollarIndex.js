@@ -1,6 +1,9 @@
 
 const dollarIndex = [
 	{
+		date: 202110,
+		price: 94.13
+	},{
 		date: 202109,
 		price: 94.24
 	},{

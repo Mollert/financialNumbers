@@ -1,50 +1,105 @@
 
 let usdTOcny = require("../dataNumbers/dollarToYuan.js");
+let dollarIndex = require("../dataNumbers/dollarIndex.js");
+
+const toMonth = (allDate) => {
+	let month = allDate.toString().slice(-2);
+	month = Number(month);
+	return monthsOfYear[month-1];	
+}
+
+const toMonthYear = (fullDate) => {
+	stringMonth = toMonth(fullDate).toString();
+	return stringMonth + ", " + fullDate.toString().slice(0, 4);	
+}
 
 const monthsOfYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+let last = "";
+let lessDate = 0;
+let moreDate = 0;
+
 let yuan = {
-	thisMonth: "",
+	thisMonth: toMonth(usdTOcny[0].date),
 	current: (usdTOcny[0].rate).toFixed(2),
-	whatPercent: 0,
+	dollarHigh: 0,
+	dollarHighDate: "",
+	yuanAtHigh: "",
+	yuanHigh: "",
+	dollarLow: 100,
+	dollarLowDate: "",	
+	yuanAtLow: "",
+	yuanLow: "",	
 	direction: ""
 	}
-let last = "";
-let less = 8;
-let more = 0;
-let workingRange = 0;
 
 
-last = (usdTOcny[0].date).toString().slice(-2);
-last = Number(last);
-yuan.thisMonth = monthsOfYear[last-1];
-
-usdTOcny.forEach((listing) => {
-	if (listing.rate < less) {
-		less = listing.rate;
-	} else if (listing.rate > more) {
-		more = listing.rate;
+for (let i = 0 ; i < 99 ; i++) {
+	if (dollarIndex[i].price < yuan.dollarLow) {
+		yuan.dollarLow = dollarIndex[i].price;
+		lessDate = dollarIndex[i].date;
+	} else if (dollarIndex[i].price > yuan.dollarHigh) {
+		yuan.dollarHigh = dollarIndex[i].price;
+		moreDate = dollarIndex[i].date;
 	}
-});
-//	console.log(less + " is the low, and " + more + " is the high");
-	
-workingRange = more - less;
-yuan.whatPercent = (usdTOcny[0].rate - less) / workingRange;
-yuan.whatPercent = (yuan.whatPercent).toFixed(2);
+	if (dollarIndex[i].date === 201701) {
+		i = 100;
+	}
+}
+
+	yuan.dollarHighDate = toMonthYear(moreDate);
+	yuan.dollarLowDate = toMonthYear(lessDate);
+
+//	console.log(yuan.dollarLow + " is the low on " + lessDate + ", and " + yuan.dollarHigh + " is the high on " + moreDate);
+
+for (let i = 0 ; i < 99 ; i++) {
+	if (usdTOcny[i].date === lessDate) {
+		yuan.yuanAtLow = (usdTOcny[i].rate).toFixed(2);
+		i = 100;
+	}
+}
+
+for (let i = 0 ; i < 99 ; i++) {
+	if (usdTOcny[i].date === moreDate) {
+		yuan.yuanAtHigh = (usdTOcny[i].rate).toFixed(2);
+		i = 100;
+	}
+}
+
+//	console.log(yuan.yuanAtLow + " is the low, and " + yuan.yuanAtHigh + " is the high");
+
+let lowest = 10;
+let highest = 0;
+
+for ( let i = 0 ; i < usdTOcny.length ; i++ ) {
+	if (usdTOcny[i].rate < lowest) {
+		lowest = usdTOcny[i].rate;
+	}
+	if (usdTOcny[i].rate > highest) {
+		highest = usdTOcny[i].rate;
+	}
+}
+
+yuan.yuanLow = lowest.toFixed(2);
+yuan.yuanHigh = highest.toFixed(2);
+
+//	console.log(yuan.yuanLow + " is the lowest rate and " + yuan.yuanHigh + " is the highest.");
 
 if (usdTOcny[0].rate > usdTOcny[1].rate) {
 	if (usdTOcny[1].rate > usdTOcny[2].rate) {
-		yuan.direction = "toward a decrease in";
+		yuan.direction = "toward a weaker";
 	} else {
-		yuan.direction = "mixed as to";
+		yuan.direction = "a mixed";
 	}
 } else {
 	if (usdTOcny[1].rate < usdTOcny[2].rate) {
-		yuan.direction = "toward an increase in";
+		yuan.direction = "toward a stronger";
 	} else {
-		yuan.direction = "mixed as to";
+		yuan.direction = "a mixed";
 	}			
 }
+
+//	console.log(yuan);
 
 
 module.exports = yuan;
