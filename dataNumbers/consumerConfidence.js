@@ -1,20 +1,24 @@
 
 const consumerConfidence = [
 	{
+		date: 202111,
+		month: "November",
+		index: 109.5
+	},{
 		date: 202110,
-		month: "September",
-		index: 113.8
+		month: "October",
+		index: 111.6
 	},{
 		date: 202109,
-		month: "August",
+		month: "September",
 		index: 109.8
 	},{
 		date: 202108,
-		month: "July",
+		month: "August",
 		index: 115.2
 	},{
 		date: 202107,
-		month: "June",
+		month: "July",
 		index: 125.1
 	},{
 		date: 202106,
@@ -1779,7 +1783,6 @@ const consumerConfidence = [
 // 1985 = 100
 
 // https://www.investing.com/economic-calendar/cb-consumer-confidence-48
-
 
 
 module.exports = consumerConfidence;

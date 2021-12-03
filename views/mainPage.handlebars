@@ -137,6 +137,20 @@
 			{{/each}}
 			<div class="palletBottom"></div>
 		</div>
+<!-- 10vs2 Treasury Data -->
+		<div class="displayPallet flexColumn">
+			<div class="palletTitle fSize2">10 vs 2 year Treasury</div>
+			<div class="fSize1-4">{{tenVsTwo.theMonth}}'s spread was {{tenVsTwo.recentSpread}}.</div>
+			<div class="fSize1-4">Two months ago the spread was {{tenVsTwo.twoSpread}},</div>
+			<div class="fSize1-4 spaceBottom">and four months ago the spread was {{tenVsTwo.fourSpread}}.</div>
+			<div class="fSize1-2">From 1981, the spread turned negative or very close to it</div>
+			<div class="fSize1-2">prior to every recession and once it turned ngeative,</div>
+			<div class="fSize1-2 spaceBottom"> the recession started X months later.</div>
+			<div class="fSize1-2">1981: 11 months; 1990: 20 months; 2001: 14 months; 2007: 24 months,</div>
+			<div class="fSize1-2">and for the recession of 2020, the spread got as low as 0.07</div>
+			<div class="fSize1-2">five months before the recession started.</div>
+			<div class="palletBottom"></div>
+		</div>
 <!-- CPI Data -->
 		<div class="displayPallet flexColumn">
 			<div class="palletTitle fSize2">Consumer Price Index</div>
@@ -208,7 +222,7 @@
 			<div class="palletTitle fSize2">Ratio of Chinese Yuan's to the Dollar</div>
 			<div class="fSize1-4">At the end of {{yuan.thisMonth}}, it took {{yuan.current}} Chinese Yuan's</div>
 			<div class="fSize1-4 spaceBottom">to equal one US dollar.</div>			
-			<div class="fSize1-2">From 2017 to date,</div>
+			<div class="fSize1-2">From January, 2017 to date,</div>
 			<div class="fSize1-2">With a strong dollar reading of {{yuan.dollarHigh}} on {{yuan.dollarHighDate}},</div>
 			<div class="fSize1-2">it took {{yuan.yuanAtHigh}} Yuan.  {{yuan.yuanHigh}} has been the most Yuan needed.</div>			
 			<div class="fSize1-2">With a weak dollar reading of {{yuan.dollarLow}} on {{yuan.dollarLowDate}},</div>

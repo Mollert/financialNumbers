@@ -21,6 +21,8 @@ let confidenceData = require("../dataRoutes/confidenceData.js");
 let fedFundsData = require("../dataRoutes/fedFundsRateData.js");
 // For Yield Curve
 let inversions = require("../dataRoutes/yieldCurveData.js");
+// For 10 vs 2 Treasury
+let tenVsTwo = require("../dataRoutes/tenAndTwoData.js");
 // For GDP
 let gdpResults = require("../dataRoutes/gdpData.js");
 // For CPI
@@ -38,8 +40,8 @@ let displayGLD = require("../dataRoutes/gldData.js");
 //let calculateSales = require("../dataRoutes/retailSalesData.js");
 
 const spHigh = {
-	value: 4697.53,
-	date: "Friday, November 5th 2021"
+	value: 4704.54,
+	date: "Thursday, November 18th 2021"
 }
 
 let latestClose = {
@@ -120,7 +122,7 @@ router.get("/", (req, res) => {
 			theGap: unemployData.rateGap
 		}
 
- 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, cpiYearly, gdpResults, jobData, dollarIndex, yuan, displayGLD});
+ 		res.render("mainPage", {today, spHigh, latestClose, spPlacement, spEarnings, economicIndex, confidenceData, fedFundsData, inversions, tenVsTwo, cpiYearly, gdpResults, jobData, dollarIndex, yuan, displayGLD});
 
 	}).catch(error => {
 		res.render("errorPage", {error});

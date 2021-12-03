@@ -1,13 +1,17 @@
 
 const leadingIndex = [
 	{
+		date: 202110,
+		mark: 171.3,
+		percentage: 0.009
+	},{
 		date: 202109,
-		mark: 170.0,
-		percentage: 0.002
+		mark: 169.8,
+		percentage: 0.001
 	},{
 		date: 202108,
-		mark: 169.7,
-		percentage: 0.008
+		mark: 169.6,
+		percentage: 0.007
 	},{
 		date: 202107,
 		mark: 168.4,
