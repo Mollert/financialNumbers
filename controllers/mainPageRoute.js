@@ -40,8 +40,8 @@ let displayGLD = require("../dataRoutes/gldData.js");
 //let calculateSales = require("../dataRoutes/retailSalesData.js");
 
 const spHigh = {
-	value: 4704.54,
-	date: "Thursday, November 18th 2021"
+	value: 4796.56,
+	date: "Monday, January 3rd 2022"
 }
 
 let latestClose = {

@@ -1,17 +1,47 @@
 
 const cpi = [
 	{
+		date1: 202112,
+		date2: 2021,
+		seasonalAdj: {
+			cpi: 280.192,
+			year: 7.12,
+			last12Months: 7.12,
+			lastMonth: 0.468
+		},
+		seasonalAdjNo: {
+			cpi: 278.802,
+			year: 7.04,
+			last12Months: 7.04,
+			lastMonth: 0.306
+		}
+	},{
+		date1: 202111,
+		date2: 2021,
+		seasonalAdj: {
+			cpi: 278.880,
+			year: 7.12,
+			last12Months: 6.88,
+			lastMonth: 0.773
+		},
+		seasonalAdjNo: {
+			cpi: 277.948,
+			year: 7.04,
+			last12Months: 6.81,
+			lastMonth: 0.489
+		}
+	},{
 		date1: 202110,
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 276.724,
-			year: 0,
+			year: 7.12,
 			last12Months: 6.24,
 			lastMonth: .935
 		},
 		seasonalAdjNo: {
 			cpi: 276.589,
-			year: 0,
+			year: 7.04,
 			last12Months: 6.22,
 			lastMonth: 0.824
 		}
@@ -20,13 +50,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 274.138,
-			year: 0,
+			year: 7.12,
 			last12Months: 5.38,
 			lastMonth: .411
 		},
 		seasonalAdjNo: {
 			cpi: 274.310,
-			year: 0,
+			year: 7.04,
 			last12Months: 5.39,
 			lastMonth: 0.271
 		}
@@ -35,13 +65,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 273.012,
-			year: 0,
+			year: 7.12,
 			last12Months: 5.20,
 			lastMonth: 0.274
 		},
 		seasonalAdjNo: {
 			cpi: 273.567,
-			year: 0,
+			year: 7.04,
 			last12Months: 5.25,
 			lastMonth: 0.206
 		}
@@ -50,13 +80,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 272.265,
-			year: 0,
+			year: 7.12,
 			last12Months: 5.28,
 			lastMonth: 0.472
 		},
 		seasonalAdjNo: {
 			cpi: 273.003,
-			year: 0,
+			year: 7.04,
 			last12Months: 5.37,
 			lastMonth: 0.479
 		}
@@ -65,13 +95,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 270.981,
-			year: 0,
+			year: 7.12,
 			last12Months: 5.32,
 			lastMonth: 0.897
 		},
 		seasonalAdjNo: {
 			cpi: 271.696,
-			year: 0,
+			year: 7.04,
 			last12Months: 5.39,
 			lastMonth: 0.921
 		}
@@ -80,13 +110,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 268.551,
-			year: 0,
+			year: 7.12,
 			last12Months: 4.93,
 			lastMonth: 0.640
 		},
 		seasonalAdjNo: {
 			cpi: 269.195,
-			year: 0,
+			year: 7.04,
 			last12Months: 4.99,
 			lastMonth: 0.795
 		}
@@ -95,13 +125,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 266.832,
-			year: 0,
+			year: 7.12,
 			last12Months: 4.15,
 			lastMonth: 0.764
 		},
 		seasonalAdjNo: {
 			cpi: 267.054,
-			year: 0,
+			year: 7.04,
 			last12Months: 4.16,
 			lastMonth: 0.815
 		}
@@ -110,13 +140,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 264.793,
-			year: 0,
+			year: 7.12,
 			last12Months: 2.64,
 			lastMonth: 0.616
 		},
 		seasonalAdjNo: {
 			cpi: 264.877,
-			year: 0,
+			year: 7.04,
 			last12Months: 2.62,
 			lastMonth: 0.703
 		}
@@ -125,13 +155,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 263.161,
-			year: 0,
+			year: 7.12,
 			last12Months: 1.68,
 			lastMonth: 0.353
 		},
 		seasonalAdjNo: {
 			cpi: 263.014,
-			year: 0,
+			year: 7.04,
 			last12Months: 1.68,
 			lastMonth: 0.544
 		}
@@ -140,13 +170,13 @@ const cpi = [
 		date2: 2021,
 		seasonalAdj: {
 			cpi: 262.231,
-			year: 0,
+			year: 7.12,
 			last12Months: 1.37,
 			lastMonth: 0.256
 		},
 		seasonalAdjNo: {
 			cpi: 261.582,
-			year: 0,
+			year: 7.04,
 			last12Months: 1.40,
 			lastMonth: 0.424
 		}
