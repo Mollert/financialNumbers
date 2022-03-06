@@ -1,6 +1,13 @@
 
 const spEarnings = [
 	{
+		date1: 202109,
+		date2: "September 30th, 2021",
+		earnings: 49.59,
+		trailing: 175.37,
+		price: 4307.54,
+		pe: 24.56
+	},{
 		date1: 202106,
 		date2: "June 30th, 2021",
 		earnings: 48.39,

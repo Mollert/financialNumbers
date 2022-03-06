@@ -1,6 +1,14 @@
 
 const gldPrice = [
 	{
+		date: 202202,
+		price: 1907.90
+	},{
+		date: 202201,
+		price: 1796.47
+	},
+// FRED discontiuned posting London prices due to LIBOR	
+	{
 		date: 202112,
 		price: 1820.100
 	},{
@@ -1373,6 +1381,7 @@ const gldPrice = [
 
 // date is at the end of the month
 
+// https://www.investing.com/currencies/xau-usd-historical-data
 // FRED Gold Fixing Price 10:30 AM (London time) in London Bullion Market, based in U.S. Dollars; monthly, end of period
 
 
