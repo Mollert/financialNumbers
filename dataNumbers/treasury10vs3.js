@@ -1,6 +1,14 @@
 
 const treasury10vs3 = [
 	{
+		date: 202204,
+		year: 2022,
+		month: 4,
+		quarter: "2nd",
+		three: 0.85,
+		ten: 2.75,
+		spread: 1.90
+	},{
 		date: 202203,
 		year: 2022,
 		month: 3,
