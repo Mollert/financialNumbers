@@ -9,7 +9,7 @@ let modArrayLength = (cpi.length) - 12;
 // Generate last month percentage
 for (let i = 0 ; i < 6 ; i++) {
 
-	let theLastMonthsCpi = ((cpi[i].seasonalAdjNo.cpi - cpi[i+1].seasonalAdjNo.cpi) / cpi[i].seasonalAdjNo.cpi) * 100;
+	let theLastMonthsCpi = ((cpi[i].seasonalAdj.cpi - cpi[i+1].seasonalAdj.cpi) / cpi[i].seasonalAdj.cpi) * 100;
 	theLastMonthsCpi = theLastMonthsCpi.toFixed(3);
 
 	console.log("the month of " + cpi[i].date1 + " had a CPI of " + theLastMonthsCpi);
@@ -22,7 +22,7 @@ for (let i = 0 ; i < 6 ; i++) {
 // Use above for all 12 month periods
 for (let j = 0 ; j < 6 ; j++) {
 
-	let twelveMonthPercentage = ((cpi[j].seasonalAdjNo.cpi - cpi[j+12].seasonalAdjNo.cpi) / cpi[j+12].seasonalAdjNo.cpi) *100;
+	let twelveMonthPercentage = ((cpi[j].seasonalAdj.cpi - cpi[j+12].seasonalAdj.cpi) / cpi[j+12].seasonalAdj.cpi) *100;
 	twelveMonthPercentage = twelveMonthPercentage.toFixed(2);
 
 	console.log("For the last twelve month period ending with " + cpi[j].date1 + ", the CPI was " + twelveMonthPercentage);

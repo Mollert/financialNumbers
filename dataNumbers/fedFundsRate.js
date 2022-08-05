@@ -1,6 +1,18 @@
 
 const fedFundsRate = [
 	{
+		date1: 202207,
+		date2: "July 27th, 2022",
+		direction: "raised",
+		amount: 0.75,
+		newRate: 2.375
+	},{
+		date1: 202206,
+		date2: "June 15th, 2022",
+		direction: "raised",
+		amount: 0.75,
+		newRate: 1.625
+	},{
 		date1: 202205,
 		date2: "May 4th, 2022",
 		direction: "raised",
@@ -12,7 +24,7 @@ const fedFundsRate = [
 		direction: "raised",
 		amount: 0.25,
 		newRate: 0.375
-	},{
+	},	{
 		date1: 202003,
 		date2: "March 16th, 2020",
 		direction: "lowered",

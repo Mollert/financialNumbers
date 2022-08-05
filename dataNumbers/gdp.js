@@ -1,11 +1,17 @@
 
 const gdp = [
 	{
+		date: 202206,
+		year: 2022,
+		quarter: "2nd",
+		gdpCompile: 121.088,
+		gdp: -0.9
+	},{
 		date: 202203,
 		year: 2022,
 		quarter: "1st",
-		gdpCompile: 121.393,
-		gdp: 0
+		gdpCompile: 121.373,
+		gdp: -1.6
 	},{
 		date: 202112,
 		year: 2021,
