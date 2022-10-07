@@ -45,7 +45,7 @@ for (let k = 0 ; k < modArrayLength ; k++) {
 */
 
 let perYear = {
-	thisOne: cpi[0].seasonalAdj.last12Months,
+	thisOne: (cpi[0].seasonalAdj.last12Months).toFixed(1),
 	oneYear: 0,
 	oneAgo: 0,
 	twoYear: 0,
@@ -66,11 +66,11 @@ if (usingDate === 12) {
 for (let i = 0 ; i < 15 ; i++) {
 	if (cpi[i].date2 === usingDate) {
 		perYear.oneYear = cpi[i].date2;
-		perYear.oneAgo = cpi[i].seasonalAdj.year;
+		perYear.oneAgo = (cpi[i].seasonalAdj.year).toFixed(1);
 		perYear.twoYear = cpi[i+12].date2;
-		perYear.twoAgo = cpi[i+12].seasonalAdj.year;
+		perYear.twoAgo = (cpi[i+12].seasonalAdj.year).toFixed(1);
 		perYear.threeYear = cpi[i+24].date2;
-		perYear.threeAgo = cpi[i+24].seasonalAdj.year;		
+		perYear.threeAgo = (cpi[i+24].seasonalAdj.year).toFixed(1);		
 		i = 15;
 	}
 }

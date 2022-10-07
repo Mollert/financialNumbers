@@ -119,6 +119,7 @@ router.get("/", (req, res) => {
 		let jobData = {
 			theRate: unemployment[0].rate,
 			theAverage: unemployData.currentAverage,
+			twelveMonthAverage: unemployData.twelveMonthAverage,
 			theGap: unemployData.rateGap
 		}
 

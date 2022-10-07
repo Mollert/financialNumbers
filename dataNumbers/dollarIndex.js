@@ -1,8 +1,14 @@
 
 const dollarIndex = [
 	{
+		date: 202209,
+		price: 112.12
+	},{
+		date: 202208,
+		price: 108.85
+	},{
 		date: 202207,
-		price: 105.83
+		price: 106.00
 	},{
 		date: 202206,
 		price: 104.68

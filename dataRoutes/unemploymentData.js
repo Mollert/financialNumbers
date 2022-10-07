@@ -4,6 +4,8 @@ let unemployment = require("../dataNumbers/unemployment.js");
 let currentAverage = (unemployment[0].rate + unemployment[1].rate + unemployment[2].rate) / 3;
 let monthlyLow = 10;
 let rateGap = 0;
+let allRates = 0;
+let twelveMonthAverage = 0;
 
 for (let i = 0 ; i < 12 ; i++) {
 	let runingAverage = (unemployment[i].rate + unemployment[i + 1].rate + unemployment[i + 2].rate) / 3;
@@ -19,7 +21,13 @@ if (rateGap < 0) {
 currentAverage = currentAverage.toFixed(2);
 //console.log(rateGap);
 
+for (let i = 0 ; i < 12 ; i++) {
+	allRates = allRates + unemployment[i].rate;
+}
+twelveMonthAverage = allRates / 12;
+twelveMonthAverage = twelveMonthAverage.toFixed(1);
 
+/*
 let highGapYears = [];
 
 for (let i = 0 ; i < (unemployment.length - 14) ; i++) {
@@ -46,7 +54,7 @@ for (let i = 0 ; i < (unemployment.length - 14) ; i++) {
 		highGapYears.push(unemployment[i].date);
 	}
 }
-
+*/
 //console.log(highGapYears);
 
 // Years segment gap was greater than or equal to 0.3
@@ -55,4 +63,4 @@ for (let i = 0 ; i < (unemployment.length - 14) ; i++) {
 // 200711 to 201005
 
 
-module.exports = { currentAverage, rateGap };
+module.exports = { currentAverage, twelveMonthAverage, rateGap };

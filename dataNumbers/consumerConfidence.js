@@ -1,9 +1,17 @@
 
 const consumerConfidence = [
 	{
+		date: 202209,
+		month: "September",
+		index: 108.0
+	},{
+		date: 202208,
+		month: "August",
+		index: 103.6
+	},{
 		date: 202207,
 		month: "July",
-		index: 95.7
+		index: 95.3
 	},{
 		date: 202206,
 		month: "June",

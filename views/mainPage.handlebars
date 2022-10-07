@@ -188,7 +188,11 @@
 		<div class="displayPallet flexColumn">
 			<div class="palletTitle fSize2">State of Employment</div>
 			<div class="fSize1-4">As of the first of the month, the unemployment rate is {{jobData.theRate}}%.</div>
-			<div class="fSize1-2">{{jobData.theAverage}}% is the 3 month rate average.</div>			
+			<div class="fSize1-2">{{jobData.theAverage}}% is the 3 month rate average.</div>
+
+			<div class="fSize1-2 spaceTop">{{jobData.twelveMonthAverage}}% is average of the last 12 months.</div>
+			<div class="fSize1-2">If rate moves above 12 month average it may predict recession.</div>
+
 			<div class="fSize1-6 spaceTB">Rate gap explaination</div>
 			<div class="fSize1-2">A gap of 0.3 from here to the previous 12 months low point,</div>
 			<div class="fSize1-2">signals a possible recession.</div>
